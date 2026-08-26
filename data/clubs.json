@@ -1,0 +1,6318 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-26T16:24:17.110318Z",
+  "competitions": [
+    {
+      "scope": "premier-league",
+      "name": "Premier League",
+      "code": "PL",
+      "season": "2026/2027"
+    },
+    {
+      "scope": "bundesliga",
+      "name": "Bundesliga",
+      "code": "BL1",
+      "season": "2026/2027"
+    },
+    {
+      "scope": "la-liga",
+      "name": "La Liga",
+      "code": "PD",
+      "season": "2026/2027"
+    },
+    {
+      "scope": "primeira-liga",
+      "name": "Primeira Liga",
+      "code": "PPL",
+      "season": "2026/2027"
+    },
+    {
+      "scope": "ligue-1",
+      "name": "Ligue 1",
+      "code": "FL1",
+      "season": "2026/2027"
+    },
+    {
+      "scope": "serie-a",
+      "name": "Serie A",
+      "code": "SA",
+      "season": "2026/2027"
+    },
+    {
+      "scope": "eredivisie",
+      "name": "Eredivisie",
+      "code": "DED",
+      "season": "2026/2027"
+    }
+  ],
+  "clubs": [
+    {
+      "id": "club_7949cf3eba070ab35eb9caed",
+      "provider_id": 1,
+      "name": "1. FC Köln",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1.png",
+      "crest": "crests/23a0f1c44694b0174e5e908ec9915e2e.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.57,
+          "width": 0.48,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.25,
+          "y": 0.76,
+          "width": 0.35,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/93cd84e9bf0f8fdd00c7ea40b6a6834c.png"
+    },
+    {
+      "id": "club_a366fa9783c3f68a3ad17a96",
+      "provider_id": 28,
+      "name": "1. FC Union Berlin",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/28.png",
+      "crest": "crests/dcdde925cf11dc32c295c5d40984d28b.png",
+      "theme_colors": {
+        "primary": "#E4041C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.03,
+          "y": 0.32,
+          "width": 0.31,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.24,
+          "y": 0.32,
+          "width": 0.25,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.56,
+          "y": 0.42,
+          "width": 0.41,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/6466bd642dc189b75a8633a591d6c6d3.png"
+    },
+    {
+      "id": "club_4691cbe665b008fc0547c61f",
+      "provider_id": 15,
+      "name": "1. FSV Mainz 05",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/15.png",
+      "crest": "crests/f367fbcd7d23f6bd0e8c21c9d135b9af.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#C4141C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.08,
+          "width": 0.7,
+          "height": 0.84,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/c8bf26cd45f9b0323cbda76aa79a873f.png"
+    },
+    {
+      "id": "club_cd274fc7d1a6c05509933f19",
+      "provider_id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/3.png",
+      "crest": "crests/7a1d09b526ae0f34c90ac923e7f5e135.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#E4041C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.36,
+          "y": 0.15,
+          "width": 0.29,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.29,
+          "width": 0.32,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.71,
+          "width": 0.65,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/44ba10227a712665d177ba1f7536ba00.png"
+    },
+    {
+      "id": "club_9aaefc864b1d655cd504ccc7",
+      "provider_id": 4,
+      "name": "Borussia Dortmund",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/4.png",
+      "crest": "crests/914140cc529d144193b2747f48c74c81.png",
+      "theme_colors": {
+        "primary": "#FCE404",
+        "secondary": "#1C141C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.04
+            },
+            {
+              "x": 0.92,
+              "y": 0.04
+            },
+            {
+              "x": 0.92,
+              "y": 0.96
+            },
+            {
+              "x": 0.08,
+              "y": 0.96
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/c1c1fd5f771bcb1cf0cbebaa817c2c9a.png"
+    },
+    {
+      "id": "club_3dbb188a7bf7ba78955e18dd",
+      "provider_id": 18,
+      "name": "Borussia Mönchengladbach",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/18.png",
+      "crest": "crests/cca7d18219bccc254948f1cc27c06594.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.38,
+          "y": 0.32,
+          "width": 0.28,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/27ae1c6fa202c4c85b83828343d2e25e.png"
+    },
+    {
+      "id": "club_a2cb863fc2c983c4ce690647",
+      "provider_id": 19,
+      "name": "Eintracht Frankfurt",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/19.png",
+      "crest": "crests/62e25b0afe9a43d67ac5774502c4bcda.png",
+      "theme_colors": {
+        "primary": "#E40414",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.47,
+          "y": 0.43,
+          "width": 0.1,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/e0cc98955bb810a1d449fe3c74ded071.png"
+    },
+    {
+      "id": "club_49437098154eec1f172506d3",
+      "provider_id": 16,
+      "name": "FC Augsburg",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/16.png",
+      "crest": "crests/63850fe875530d6ec8b4b5556b04ce2e.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#BC3434"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.26,
+          "y": 0.08,
+          "width": 0.49,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.81,
+          "width": 0.23,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/7c7c8468e9d2630babe036b76094fd88.png"
+    },
+    {
+      "id": "club_1bf3409fb8539fd12960d4d2",
+      "provider_id": 5,
+      "name": "FC Bayern München",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5.png",
+      "crest": "crests/b260681fa58dd8559a4cda277b75807e.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#DC042C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.09,
+              "y": 0.46
+            },
+            {
+              "x": 0.12,
+              "y": 0.27
+            },
+            {
+              "x": 0.24,
+              "y": 0.12
+            },
+            {
+              "x": 0.41,
+              "y": 0.06
+            },
+            {
+              "x": 0.59,
+              "y": 0.06
+            },
+            {
+              "x": 0.76,
+              "y": 0.12
+            },
+            {
+              "x": 0.88,
+              "y": 0.27
+            },
+            {
+              "x": 0.91,
+              "y": 0.46
+            },
+            {
+              "x": 0.78,
+              "y": 0.43
+            },
+            {
+              "x": 0.74,
+              "y": 0.31
+            },
+            {
+              "x": 0.65,
+              "y": 0.22
+            },
+            {
+              "x": 0.55,
+              "y": 0.18
+            },
+            {
+              "x": 0.45,
+              "y": 0.18
+            },
+            {
+              "x": 0.35,
+              "y": 0.22
+            },
+            {
+              "x": 0.26,
+              "y": 0.31
+            },
+            {
+              "x": 0.22,
+              "y": 0.43
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.09,
+              "y": 0.54
+            },
+            {
+              "x": 0.12,
+              "y": 0.73
+            },
+            {
+              "x": 0.24,
+              "y": 0.88
+            },
+            {
+              "x": 0.41,
+              "y": 0.94
+            },
+            {
+              "x": 0.59,
+              "y": 0.94
+            },
+            {
+              "x": 0.76,
+              "y": 0.88
+            },
+            {
+              "x": 0.88,
+              "y": 0.73
+            },
+            {
+              "x": 0.91,
+              "y": 0.54
+            },
+            {
+              "x": 0.78,
+              "y": 0.57
+            },
+            {
+              "x": 0.74,
+              "y": 0.69
+            },
+            {
+              "x": 0.65,
+              "y": 0.78
+            },
+            {
+              "x": 0.55,
+              "y": 0.82
+            },
+            {
+              "x": 0.45,
+              "y": 0.82
+            },
+            {
+              "x": 0.35,
+              "y": 0.78
+            },
+            {
+              "x": 0.26,
+              "y": 0.69
+            },
+            {
+              "x": 0.22,
+              "y": 0.57
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/6086ae3bed254eff83328a214c734510.png"
+    },
+    {
+      "id": "club_a0fc6858c2653f45a20e691e",
+      "provider_id": 6,
+      "name": "FC Schalke 04",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/6.png",
+      "crest": "crests/bf15d1b1ea41abcc085a5abf28eaf3f0.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#044C9C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.29,
+          "y": 0.14,
+          "width": 0.38,
+          "height": 0.72,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/6f4321b25cd68e23ba8435024fda2e08.png"
+    },
+    {
+      "id": "club_ecadf4ff6a9e497782e3ded0",
+      "provider_id": 7,
+      "name": "Hamburger SV",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/7.png",
+      "crest": "crests/923633fd8f13ff91ee0520028983333f.png",
+      "theme_colors": {
+        "primary": "#0C3C84",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "not_required",
+      "cover_regions": [],
+      "covered_crest": "covered-crests/1005f30b7d70b980271f877533645f3c.png"
+    },
+    {
+      "id": "club_88b8d5e21017d5859ef72481",
+      "provider_id": 721,
+      "name": "RB Leipzig",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/721.png",
+      "crest": "crests/fd7f6c8823dc36c2648ad44a84f4d258.png",
+      "theme_colors": {
+        "primary": "#DC043C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.29,
+          "y": 0.61,
+          "width": 0.43,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/3dc2d13afae2919e81854b2da3b7e91d.png"
+    },
+    {
+      "id": "club_9738c6ddcbc139b4dd2483c4",
+      "provider_id": 17,
+      "name": "SC Freiburg",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/17.png",
+      "crest": "crests/502ada8d5f3748a31100a5d27006704f.png",
+      "theme_colors": {
+        "primary": "#1C141C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.49,
+          "y": 0.57,
+          "width": 0.34,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/61c5ead328674b90647ea13819d42722.png"
+    },
+    {
+      "id": "club_919a1db11af5d29f96065666",
+      "provider_id": 29,
+      "name": "SC Paderborn 07",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/29.png",
+      "crest": "crests/60270f7f30ab709f180db845bfeae756.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#3464A4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.42,
+          "y": 0.18,
+          "width": 0.2,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.0,
+          "y": 0.34,
+          "width": 0.93,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.42,
+          "y": 0.67,
+          "width": 0.19,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/4a7b816e219e3526b05df1ea729fd36c.png"
+    },
+    {
+      "id": "club_a565990176c446854ff38529",
+      "provider_id": 719,
+      "name": "SV 07 Elversberg",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/719.png",
+      "crest": "crests/4b1a258c2809d141228a3104a56c5a63.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.15,
+              "y": 0.42
+            },
+            {
+              "x": 0.2,
+              "y": 0.24
+            },
+            {
+              "x": 0.35,
+              "y": 0.13
+            },
+            {
+              "x": 0.52,
+              "y": 0.1
+            },
+            {
+              "x": 0.69,
+              "y": 0.15
+            },
+            {
+              "x": 0.81,
+              "y": 0.29
+            },
+            {
+              "x": 0.84,
+              "y": 0.43
+            },
+            {
+              "x": 0.7,
+              "y": 0.39
+            },
+            {
+              "x": 0.66,
+              "y": 0.3
+            },
+            {
+              "x": 0.56,
+              "y": 0.25
+            },
+            {
+              "x": 0.43,
+              "y": 0.24
+            },
+            {
+              "x": 0.32,
+              "y": 0.29
+            },
+            {
+              "x": 0.28,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "x": 0.29,
+          "y": 0.32,
+          "width": 0.46,
+          "height": 0.37,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.15,
+              "y": 0.57
+            },
+            {
+              "x": 0.19,
+              "y": 0.74
+            },
+            {
+              "x": 0.34,
+              "y": 0.87
+            },
+            {
+              "x": 0.51,
+              "y": 0.91
+            },
+            {
+              "x": 0.68,
+              "y": 0.86
+            },
+            {
+              "x": 0.81,
+              "y": 0.72
+            },
+            {
+              "x": 0.84,
+              "y": 0.57
+            },
+            {
+              "x": 0.7,
+              "y": 0.61
+            },
+            {
+              "x": 0.66,
+              "y": 0.7
+            },
+            {
+              "x": 0.56,
+              "y": 0.76
+            },
+            {
+              "x": 0.43,
+              "y": 0.76
+            },
+            {
+              "x": 0.32,
+              "y": 0.7
+            },
+            {
+              "x": 0.28,
+              "y": 0.6
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/f67859cad7b2ff1c0e58078451e82a67.png"
+    },
+    {
+      "id": "club_e2442e6567a386c0f13cf83a",
+      "provider_id": 12,
+      "name": "SV Werder Bremen",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/12.png",
+      "crest": "crests/36752be4250458e0980406a2918e9968.png",
+      "theme_colors": {
+        "primary": "#049C84",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.27,
+          "y": 0.25,
+          "width": 0.47,
+          "height": 0.51,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/c98f5a488664f3cd19fc860f0aff24db.png"
+    },
+    {
+      "id": "club_84d080c5580874e03e8785ba",
+      "provider_id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/2.png",
+      "crest": "crests/13c13457da71cca9a254e4a2a232f47d.png",
+      "theme_colors": {
+        "primary": "#045CAC",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.56
+            },
+            {
+              "x": 0.67,
+              "y": 0.17
+            },
+            {
+              "x": 0.91,
+              "y": 0.4
+            },
+            {
+              "x": 0.28,
+              "y": 0.84
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/b440cfefead98a0e74cb94fcacc47eb7.png"
+    },
+    {
+      "id": "club_12ca68fbefa96f8d30be1a7e",
+      "provider_id": 10,
+      "name": "VfB Stuttgart",
+      "scope": "bundesliga",
+      "league": "Bundesliga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/10.png",
+      "crest": "crests/34f6ffc53e74d304e71e96dd8f3aee99.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#EC0404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.13,
+          "y": 0.08,
+          "width": 0.74,
+          "height": 0.48,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.3,
+          "y": 0.47,
+          "width": 0.4,
+          "height": 0.1,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/8635b0782569ad555461ec7d67cd1888.png"
+    },
+    {
+      "id": "club_7253de52cc10ce915213cf8b",
+      "provider_id": 680,
+      "name": "ADO Den Haag",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/680.png",
+      "crest": "crests/c28299eddc2a6b57509068d3811c40e3.png",
+      "theme_colors": {
+        "primary": "#046C2C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.25,
+          "y": 0.55,
+          "width": 0.52,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/f5cb9b8dae77fd3540e3f227b5b76c69.png"
+    },
+    {
+      "id": "club_5ea9e319f3232fb4a5883376",
+      "provider_id": 678,
+      "name": "AFC Ajax",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/678.png",
+      "crest": "crests/f626937aab86f39abb2fbb8891912205.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#1C1414"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.04,
+              "y": 0.42
+            },
+            {
+              "x": 0.1,
+              "y": 0.23
+            },
+            {
+              "x": 0.28,
+              "y": 0.06
+            },
+            {
+              "x": 0.52,
+              "y": 0.02
+            },
+            {
+              "x": 0.51,
+              "y": 0.15
+            },
+            {
+              "x": 0.34,
+              "y": 0.19
+            },
+            {
+              "x": 0.21,
+              "y": 0.31
+            },
+            {
+              "x": 0.16,
+              "y": 0.46
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.49,
+              "y": 0.84
+            },
+            {
+              "x": 0.66,
+              "y": 0.8
+            },
+            {
+              "x": 0.79,
+              "y": 0.69
+            },
+            {
+              "x": 0.85,
+              "y": 0.54
+            },
+            {
+              "x": 0.97,
+              "y": 0.58
+            },
+            {
+              "x": 0.91,
+              "y": 0.77
+            },
+            {
+              "x": 0.73,
+              "y": 0.94
+            },
+            {
+              "x": 0.49,
+              "y": 0.98
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/25f06ba69ffd0ae758c9a4f0a622dd7e.png"
+    },
+    {
+      "id": "club_be341ca257b3b03503b6cfe8",
+      "provider_id": 682,
+      "name": "AZ",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/682.png",
+      "crest": "crests/d0318b231ca3441c745da7e24fc5b971.png",
+      "theme_colors": {
+        "primary": "#DC0424",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.16,
+          "y": 0.35,
+          "width": 0.69,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/31e6922f9d055bce9ffdb01a39c8f97a.png"
+    },
+    {
+      "id": "club_68b4d230b1f1a9fb9b69c082",
+      "provider_id": 677,
+      "name": "FC Groningen",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/677.png",
+      "crest": "crests/cd43791070734c88173806d09b0af865.png",
+      "theme_colors": {
+        "primary": "#04744C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.06,
+              "y": 0.71
+            },
+            {
+              "x": 0.18,
+              "y": 0.85
+            },
+            {
+              "x": 0.36,
+              "y": 0.94
+            },
+            {
+              "x": 0.64,
+              "y": 0.94
+            },
+            {
+              "x": 0.82,
+              "y": 0.85
+            },
+            {
+              "x": 0.94,
+              "y": 0.71
+            },
+            {
+              "x": 0.83,
+              "y": 0.66
+            },
+            {
+              "x": 0.72,
+              "y": 0.77
+            },
+            {
+              "x": 0.59,
+              "y": 0.82
+            },
+            {
+              "x": 0.41,
+              "y": 0.82
+            },
+            {
+              "x": 0.28,
+              "y": 0.77
+            },
+            {
+              "x": 0.17,
+              "y": 0.66
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/86dfaa2d4e138620d9c85fb34ec53436.png"
+    },
+    {
+      "id": "club_972ae6cfdb4d8a2bcee877bf",
+      "provider_id": 666,
+      "name": "FC Twente '65",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/666.png",
+      "crest": "crests/61b681375a7a6b90cf444cb3f97ad1f2.png",
+      "theme_colors": {
+        "primary": "#E40C24",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.08,
+          "width": 0.66,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.38,
+          "y": 0.78,
+          "width": 0.25,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/a75313a79c7d492b34177d89b40aa58e.png"
+    },
+    {
+      "id": "club_6ffc4961f24279c3f3c99e7e",
+      "provider_id": 676,
+      "name": "FC Utrecht",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/676.png",
+      "crest": "crests/06901009d578f6bc13e88f3da307882b.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#044484"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.25,
+          "y": 0.23,
+          "width": 0.18,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.17,
+              "y": 0.69
+            },
+            {
+              "x": 0.69,
+              "y": 0.27
+            },
+            {
+              "x": 0.81,
+              "y": 0.39
+            },
+            {
+              "x": 0.29,
+              "y": 0.81
+            }
+          ]
+        },
+        {
+          "x": 0.65,
+          "y": 0.58,
+          "width": 0.2,
+          "height": 0.26,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/e23ca70b4359eb294b68ef0d80572430.png"
+    },
+    {
+      "id": "club_ec41a45ac12b8d9744de3577",
+      "provider_id": 675,
+      "name": "Feyenoord Rotterdam",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/675.png",
+      "crest": "crests/048c0e5ad8127517f0119162111a284b.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.05,
+              "y": 0.44
+            },
+            {
+              "x": 0.11,
+              "y": 0.23
+            },
+            {
+              "x": 0.28,
+              "y": 0.08
+            },
+            {
+              "x": 0.5,
+              "y": 0.03
+            },
+            {
+              "x": 0.72,
+              "y": 0.08
+            },
+            {
+              "x": 0.89,
+              "y": 0.23
+            },
+            {
+              "x": 0.95,
+              "y": 0.44
+            },
+            {
+              "x": 0.81,
+              "y": 0.42
+            },
+            {
+              "x": 0.75,
+              "y": 0.29
+            },
+            {
+              "x": 0.64,
+              "y": 0.2
+            },
+            {
+              "x": 0.5,
+              "y": 0.17
+            },
+            {
+              "x": 0.36,
+              "y": 0.2
+            },
+            {
+              "x": 0.25,
+              "y": 0.29
+            },
+            {
+              "x": 0.19,
+              "y": 0.42
+            }
+          ]
+        },
+        {
+          "x": 0.31,
+          "y": 0.27,
+          "width": 0.38,
+          "height": 0.46,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.05,
+              "y": 0.56
+            },
+            {
+              "x": 0.11,
+              "y": 0.77
+            },
+            {
+              "x": 0.28,
+              "y": 0.92
+            },
+            {
+              "x": 0.5,
+              "y": 0.97
+            },
+            {
+              "x": 0.72,
+              "y": 0.92
+            },
+            {
+              "x": 0.89,
+              "y": 0.77
+            },
+            {
+              "x": 0.95,
+              "y": 0.56
+            },
+            {
+              "x": 0.81,
+              "y": 0.58
+            },
+            {
+              "x": 0.75,
+              "y": 0.71
+            },
+            {
+              "x": 0.64,
+              "y": 0.8
+            },
+            {
+              "x": 0.5,
+              "y": 0.83
+            },
+            {
+              "x": 0.36,
+              "y": 0.8
+            },
+            {
+              "x": 0.25,
+              "y": 0.71
+            },
+            {
+              "x": 0.19,
+              "y": 0.58
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/6bc1d577802d296576aa53df88a00a23.png"
+    },
+    {
+      "id": "club_d81325744ce45dd6f47a6466",
+      "provider_id": 1920,
+      "name": "Fortuna Sittard",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1920.png",
+      "crest": "crests/fec863e45cdc4cc510fa4e911c290e2f.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.02,
+              "y": 0.52
+            },
+            {
+              "x": 0.08,
+              "y": 0.78
+            },
+            {
+              "x": 0.31,
+              "y": 0.96
+            },
+            {
+              "x": 0.63,
+              "y": 0.99
+            },
+            {
+              "x": 0.91,
+              "y": 0.82
+            },
+            {
+              "x": 0.99,
+              "y": 0.54
+            },
+            {
+              "x": 0.78,
+              "y": 0.57
+            },
+            {
+              "x": 0.73,
+              "y": 0.7
+            },
+            {
+              "x": 0.57,
+              "y": 0.79
+            },
+            {
+              "x": 0.4,
+              "y": 0.77
+            },
+            {
+              "x": 0.25,
+              "y": 0.67
+            },
+            {
+              "x": 0.21,
+              "y": 0.55
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/fcd1f5a0525df3b70a657de473d01bf5.png"
+    },
+    {
+      "id": "club_be6c265dc6fe199499a2cad0",
+      "provider_id": 718,
+      "name": "Go Ahead Eagles",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/718.png",
+      "crest": "crests/28dfed724c158e6ce2cc86d77d8c5b86.png",
+      "theme_colors": {
+        "primary": "#FCCC04",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.16,
+          "y": 0.19,
+          "width": 0.7,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.25,
+          "y": 0.73,
+          "width": 0.51,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/ef7218d283782b93f36f0ea305330e20.png"
+    },
+    {
+      "id": "club_6aac794d68bb59e167596270",
+      "provider_id": 1915,
+      "name": "NEC",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1915.png",
+      "crest": "crests/3f99af03b711c50dce3edaf24e44bd33.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.12,
+          "y": 0.32,
+          "width": 0.76,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.21,
+          "y": 0.73,
+          "width": 0.59,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/3bb7e77ad149f286bcb1d1862ab3dd15.png"
+    },
+    {
+      "id": "club_e9aa13fb165fe65c8a393dfd",
+      "provider_id": 684,
+      "name": "PEC Zwolle",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/684.png",
+      "crest": "crests/57030334b87ef36d4712bfbe18a643df.png",
+      "theme_colors": {
+        "primary": "#6CC4EC",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.11,
+          "y": 0.16,
+          "width": 0.78,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/3a4145adf95f33df8f045440b9d7077d.png"
+    },
+    {
+      "id": "club_13cfa7883d8a10371546f998",
+      "provider_id": 674,
+      "name": "PSV",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/674.png",
+      "crest": "crests/84385d553524515c42105155e56f080d.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#E4041C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.31,
+          "y": 0.35,
+          "width": 0.39,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/36b77fb6c42fa86e94821c0daed404bc.png"
+    },
+    {
+      "id": "club_1d2e3a5c6b8aefffc3af78b9",
+      "provider_id": 670,
+      "name": "SBV Excelsior",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/670.png",
+      "crest": "crests/cedd6d49c98b70e2135c454017bbdc0c.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.14,
+              "y": 0.42
+            },
+            {
+              "x": 0.2,
+              "y": 0.24
+            },
+            {
+              "x": 0.35,
+              "y": 0.13
+            },
+            {
+              "x": 0.5,
+              "y": 0.1
+            },
+            {
+              "x": 0.65,
+              "y": 0.13
+            },
+            {
+              "x": 0.8,
+              "y": 0.24
+            },
+            {
+              "x": 0.86,
+              "y": 0.42
+            },
+            {
+              "x": 0.71,
+              "y": 0.39
+            },
+            {
+              "x": 0.65,
+              "y": 0.29
+            },
+            {
+              "x": 0.56,
+              "y": 0.24
+            },
+            {
+              "x": 0.44,
+              "y": 0.24
+            },
+            {
+              "x": 0.35,
+              "y": 0.29
+            },
+            {
+              "x": 0.29,
+              "y": 0.39
+            }
+          ]
+        },
+        {
+          "x": 0.08,
+          "y": 0.48,
+          "width": 0.12,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.8,
+          "y": 0.48,
+          "width": 0.12,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.14,
+              "y": 0.58
+            },
+            {
+              "x": 0.2,
+              "y": 0.76
+            },
+            {
+              "x": 0.35,
+              "y": 0.87
+            },
+            {
+              "x": 0.5,
+              "y": 0.9
+            },
+            {
+              "x": 0.65,
+              "y": 0.87
+            },
+            {
+              "x": 0.8,
+              "y": 0.76
+            },
+            {
+              "x": 0.86,
+              "y": 0.58
+            },
+            {
+              "x": 0.71,
+              "y": 0.61
+            },
+            {
+              "x": 0.65,
+              "y": 0.71
+            },
+            {
+              "x": 0.56,
+              "y": 0.76
+            },
+            {
+              "x": 0.44,
+              "y": 0.76
+            },
+            {
+              "x": 0.35,
+              "y": 0.71
+            },
+            {
+              "x": 0.29,
+              "y": 0.61
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/32696b302f5d258ab8fce2864bd46753.png"
+    },
+    {
+      "id": "club_dcafc79591499acb98f9d440",
+      "provider_id": 1909,
+      "name": "SC Cambuur-Leeuwarden",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1909.png",
+      "crest": "crests/6fe6495ab1d8b20f6cfce0d1e24cd89c.png",
+      "theme_colors": {
+        "primary": "#FCE414",
+        "secondary": "#1C141C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.05,
+          "width": 0.71,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/3982264c296588dfc6723bfbde4edb1f.png"
+    },
+    {
+      "id": "club_66ab4b1a173bf2abece77f98",
+      "provider_id": 673,
+      "name": "SC Heerenveen",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/673.png",
+      "crest": "crests/83f33ddda5ae517ea0a09f68c4f05ad3.png",
+      "theme_colors": {
+        "primary": "#04549C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.13,
+              "y": 0.48
+            },
+            {
+              "x": 0.73,
+              "y": 0.27
+            },
+            {
+              "x": 0.82,
+              "y": 0.43
+            },
+            {
+              "x": 0.22,
+              "y": 0.64
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/880833dc340c23c69a2035a9d928dc64.png"
+    },
+    {
+      "id": "club_643d9a3197ff6e031d4f3583",
+      "provider_id": 6806,
+      "name": "Sparta Rotterdam",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/6806.png",
+      "crest": "crests/2b56e91308804909c0e2e1960df4c780.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#AC8C1C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.12,
+              "y": 0.64
+            },
+            {
+              "x": 0.28,
+              "y": 0.74
+            },
+            {
+              "x": 0.49,
+              "y": 0.79
+            },
+            {
+              "x": 0.74,
+              "y": 0.7
+            },
+            {
+              "x": 0.87,
+              "y": 0.58
+            },
+            {
+              "x": 0.9,
+              "y": 0.76
+            },
+            {
+              "x": 0.76,
+              "y": 0.88
+            },
+            {
+              "x": 0.5,
+              "y": 0.93
+            },
+            {
+              "x": 0.26,
+              "y": 0.86
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/7350560160eb438c2b6855fa72f3a192.png"
+    },
+    {
+      "id": "club_d715c782b0da98bc367ddbb3",
+      "provider_id": 1912,
+      "name": "Telstar 1963",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1912.png",
+      "crest": "crests/646805d70120b074ed1df836b8fc8652.png",
+      "theme_colors": {
+        "primary": "#E41C24",
+        "secondary": "#F4C404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.25,
+          "y": 0.39,
+          "width": 0.51,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.28,
+          "y": 0.72,
+          "width": 0.44,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/ef517c67066d9331b96d8eb972bd4a4b.png"
+    },
+    {
+      "id": "club_ecc86654441fb83446229105",
+      "provider_id": 672,
+      "name": "Willem II Tilburg",
+      "scope": "eredivisie",
+      "league": "Eredivisie",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/672.png",
+      "crest": "crests/5294d241b50798354d8b51845fe85a5a.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#041C44"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.04,
+          "y": 0.35,
+          "width": 0.92,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.28,
+          "y": 0.65,
+          "width": 0.13,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.61,
+          "y": 0.65,
+          "width": 0.13,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.24,
+          "y": 0.8,
+          "width": 0.53,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/39015ee531e68a49bdcd1179980866de.png"
+    },
+    {
+      "id": "club_fad39b30cef01979dd59fb20",
+      "provider_id": 77,
+      "name": "Athletic Club",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/77.png",
+      "crest": "crests/794787b890f0c09b0e8582bb79e7a1ce.png",
+      "theme_colors": {
+        "primary": "#E4041C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.11,
+          "y": 0.01,
+          "width": 0.78,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.07,
+          "y": 0.27,
+          "width": 0.12,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.81,
+          "y": 0.27,
+          "width": 0.12,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.27,
+          "y": 0.68,
+          "width": 0.47,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/6153871aefb0e139b5dcc488503b7449.png"
+    },
+    {
+      "id": "club_cce66c13202f38f1d052164c",
+      "provider_id": 79,
+      "name": "CA Osasuna",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/79.png",
+      "crest": "crests/5e222a83193cb6966c8d1696245d807b.png",
+      "theme_colors": {
+        "primary": "#DC1C24",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.14,
+          "y": 0.3,
+          "width": 0.14,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.73,
+          "y": 0.3,
+          "width": 0.14,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.43,
+          "y": 0.7,
+          "width": 0.15,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/c9facfe47cf371700738bfeb7d2157ba.png"
+    },
+    {
+      "id": "club_ba415c6f09ffb15a0079f307",
+      "provider_id": 78,
+      "name": "Club Atlético de Madrid",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/78.png",
+      "crest": "crests/38e7fee760c66039c6bf0d997e7f4aa3.png",
+      "theme_colors": {
+        "primary": "#2C2C6C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "not_required",
+      "cover_regions": [],
+      "covered_crest": "covered-crests/5e44e41727f827617828f0e802fc9e2a.png"
+    },
+    {
+      "id": "club_50a7fe4dea63f1fc8a4d84b9",
+      "provider_id": 263,
+      "name": "Deportivo Alavés",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/263.png",
+      "crest": "crests/080be069158cdf91a8718cfca35108a7.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#042C94"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.43
+            },
+            {
+              "x": 0.14,
+              "y": 0.24
+            },
+            {
+              "x": 0.29,
+              "y": 0.11
+            },
+            {
+              "x": 0.5,
+              "y": 0.07
+            },
+            {
+              "x": 0.71,
+              "y": 0.11
+            },
+            {
+              "x": 0.86,
+              "y": 0.24
+            },
+            {
+              "x": 0.92,
+              "y": 0.43
+            },
+            {
+              "x": 0.78,
+              "y": 0.4
+            },
+            {
+              "x": 0.71,
+              "y": 0.29
+            },
+            {
+              "x": 0.61,
+              "y": 0.23
+            },
+            {
+              "x": 0.5,
+              "y": 0.21
+            },
+            {
+              "x": 0.39,
+              "y": 0.23
+            },
+            {
+              "x": 0.29,
+              "y": 0.29
+            },
+            {
+              "x": 0.22,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "x": 0.3,
+          "y": 0.37,
+          "width": 0.27,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.05,
+          "y": 0.47,
+          "width": 0.12,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.83,
+          "y": 0.47,
+          "width": 0.12,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.57
+            },
+            {
+              "x": 0.14,
+              "y": 0.76
+            },
+            {
+              "x": 0.29,
+              "y": 0.89
+            },
+            {
+              "x": 0.5,
+              "y": 0.93
+            },
+            {
+              "x": 0.71,
+              "y": 0.89
+            },
+            {
+              "x": 0.86,
+              "y": 0.76
+            },
+            {
+              "x": 0.92,
+              "y": 0.57
+            },
+            {
+              "x": 0.78,
+              "y": 0.6
+            },
+            {
+              "x": 0.71,
+              "y": 0.71
+            },
+            {
+              "x": 0.61,
+              "y": 0.77
+            },
+            {
+              "x": 0.5,
+              "y": 0.79
+            },
+            {
+              "x": 0.39,
+              "y": 0.77
+            },
+            {
+              "x": 0.29,
+              "y": 0.71
+            },
+            {
+              "x": 0.22,
+              "y": 0.6
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/7c25f89ed4e29de14fb4b0f435561d9c.png"
+    },
+    {
+      "id": "club_6462a2db30eb5661907e7ea2",
+      "provider_id": 285,
+      "name": "Elche CF",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/285.png",
+      "crest": "crests/c6647da29d7e849de2f4c759a35db57c.png",
+      "theme_colors": {
+        "primary": "#E4C474",
+        "secondary": "#C4142C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.13,
+          "y": 0.26,
+          "width": 0.18,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.3,
+          "width": 0.34,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.71,
+          "y": 0.26,
+          "width": 0.17,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.65,
+          "width": 0.61,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/dd610b07224b332447cea376cf7437f6.png"
+    },
+    {
+      "id": "club_94c7a26d544bbcd69a35bcdc",
+      "provider_id": 81,
+      "name": "FC Barcelona",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/81.png",
+      "crest": "crests/686ce7d305afe26ace61f19eb65b794f.png",
+      "theme_colors": {
+        "primary": "#E4BC04",
+        "secondary": "#044C94"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.31,
+          "y": 0.42,
+          "width": 0.39,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/2fabd2007fc4bbcded23574241d4ab9d.png"
+    },
+    {
+      "id": "club_b0fdf09f7c090aa1fc26e622",
+      "provider_id": 82,
+      "name": "Getafe CF",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/82.png",
+      "crest": "crests/ad77c10845db62cc73cf638719186391.png",
+      "theme_colors": {
+        "primary": "#04549C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.01,
+              "y": 0.34
+            },
+            {
+              "x": 0.04,
+              "y": 0.7
+            },
+            {
+              "x": 0.2,
+              "y": 0.9
+            },
+            {
+              "x": 0.5,
+              "y": 0.98
+            },
+            {
+              "x": 0.8,
+              "y": 0.9
+            },
+            {
+              "x": 0.96,
+              "y": 0.7
+            },
+            {
+              "x": 0.99,
+              "y": 0.34
+            },
+            {
+              "x": 0.82,
+              "y": 0.42
+            },
+            {
+              "x": 0.79,
+              "y": 0.67
+            },
+            {
+              "x": 0.65,
+              "y": 0.78
+            },
+            {
+              "x": 0.5,
+              "y": 0.82
+            },
+            {
+              "x": 0.35,
+              "y": 0.78
+            },
+            {
+              "x": 0.21,
+              "y": 0.67
+            },
+            {
+              "x": 0.18,
+              "y": 0.42
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/eb634b0dcba692b8b21ff33c6d703c32.png"
+    },
+    {
+      "id": "club_24492c34c3bde418ae41b8c1",
+      "provider_id": 88,
+      "name": "Levante UD",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/88.png",
+      "crest": "crests/d534f3ddd14ccf8a356ebcfcf55e85db.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#B4043C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.17,
+              "y": 0.48
+            },
+            {
+              "x": 0.8,
+              "y": 0.34
+            },
+            {
+              "x": 0.84,
+              "y": 0.49
+            },
+            {
+              "x": 0.21,
+              "y": 0.64
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/62f361d2acf1900549c5af65f8b5bfc1.png"
+    },
+    {
+      "id": "club_b3cdc7610e11d87857e108db",
+      "provider_id": 84,
+      "name": "Málaga CF",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/84.png",
+      "crest": "crests/08266b902d296bd5c51ff6ac6002697c.png",
+      "theme_colors": {
+        "primary": "#C49404",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.2,
+              "y": 0.59
+            },
+            {
+              "x": 0.67,
+              "y": 0.26
+            },
+            {
+              "x": 0.8,
+              "y": 0.38
+            },
+            {
+              "x": 0.33,
+              "y": 0.71
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/cec5dcdd3a8d33595132159a88e3d32d.png"
+    },
+    {
+      "id": "club_2463bec29e2e4f4b601cb884",
+      "provider_id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/87.png",
+      "crest": "crests/7b3a626b89c44d1dffb4cdc742d07441.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.61,
+          "y": 0.27,
+          "width": 0.29,
+          "height": 0.47,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/33113beec43d0c1d9f8156e82172e317.png"
+    },
+    {
+      "id": "club_8c935ff27c9d7622f0cf9598",
+      "provider_id": 558,
+      "name": "RC Celta de Vigo",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/558.png",
+      "crest": "crests/d79687165ae83ffea9b29af2165c097e.png",
+      "theme_colors": {
+        "primary": "#E4244C",
+        "secondary": "#8CC4EC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.39,
+          "y": 0.34,
+          "width": 0.23,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/d7b11296e3a01827192cc57ec958b194.png"
+    },
+    {
+      "id": "club_ff8282f12cf5996bb74b8aa3",
+      "provider_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/560.png",
+      "crest": "crests/570d2ae61870ce2582975037b36f8325.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#7C1C74"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.13,
+              "y": 0.46
+            },
+            {
+              "x": 0.2,
+              "y": 0.29
+            },
+            {
+              "x": 0.35,
+              "y": 0.18
+            },
+            {
+              "x": 0.52,
+              "y": 0.15
+            },
+            {
+              "x": 0.7,
+              "y": 0.2
+            },
+            {
+              "x": 0.83,
+              "y": 0.33
+            },
+            {
+              "x": 0.88,
+              "y": 0.48
+            },
+            {
+              "x": 0.73,
+              "y": 0.45
+            },
+            {
+              "x": 0.66,
+              "y": 0.34
+            },
+            {
+              "x": 0.55,
+              "y": 0.29
+            },
+            {
+              "x": 0.43,
+              "y": 0.29
+            },
+            {
+              "x": 0.32,
+              "y": 0.34
+            },
+            {
+              "x": 0.27,
+              "y": 0.45
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.13,
+              "y": 0.55
+            },
+            {
+              "x": 0.2,
+              "y": 0.73
+            },
+            {
+              "x": 0.35,
+              "y": 0.84
+            },
+            {
+              "x": 0.52,
+              "y": 0.87
+            },
+            {
+              "x": 0.7,
+              "y": 0.82
+            },
+            {
+              "x": 0.83,
+              "y": 0.69
+            },
+            {
+              "x": 0.88,
+              "y": 0.54
+            },
+            {
+              "x": 0.73,
+              "y": 0.57
+            },
+            {
+              "x": 0.66,
+              "y": 0.68
+            },
+            {
+              "x": 0.55,
+              "y": 0.73
+            },
+            {
+              "x": 0.43,
+              "y": 0.73
+            },
+            {
+              "x": 0.32,
+              "y": 0.68
+            },
+            {
+              "x": 0.27,
+              "y": 0.57
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/46e9a82212946840b6fad5fde10f5c9d.png"
+    },
+    {
+      "id": "club_44889c92e4386abec6318be2",
+      "provider_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/80.png",
+      "crest": "crests/dd0a9042394d6fd90e8e9b408bb1eeb3.png",
+      "theme_colors": {
+        "primary": "#E4042C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.16,
+              "y": 0.46
+            },
+            {
+              "x": 0.2,
+              "y": 0.3
+            },
+            {
+              "x": 0.34,
+              "y": 0.18
+            },
+            {
+              "x": 0.5,
+              "y": 0.14
+            },
+            {
+              "x": 0.66,
+              "y": 0.18
+            },
+            {
+              "x": 0.8,
+              "y": 0.3
+            },
+            {
+              "x": 0.84,
+              "y": 0.46
+            },
+            {
+              "x": 0.7,
+              "y": 0.43
+            },
+            {
+              "x": 0.65,
+              "y": 0.34
+            },
+            {
+              "x": 0.57,
+              "y": 0.29
+            },
+            {
+              "x": 0.43,
+              "y": 0.29
+            },
+            {
+              "x": 0.35,
+              "y": 0.34
+            },
+            {
+              "x": 0.3,
+              "y": 0.43
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.16,
+              "y": 0.54
+            },
+            {
+              "x": 0.2,
+              "y": 0.7
+            },
+            {
+              "x": 0.34,
+              "y": 0.82
+            },
+            {
+              "x": 0.5,
+              "y": 0.86
+            },
+            {
+              "x": 0.66,
+              "y": 0.82
+            },
+            {
+              "x": 0.8,
+              "y": 0.7
+            },
+            {
+              "x": 0.84,
+              "y": 0.54
+            },
+            {
+              "x": 0.7,
+              "y": 0.57
+            },
+            {
+              "x": 0.65,
+              "y": 0.66
+            },
+            {
+              "x": 0.57,
+              "y": 0.71
+            },
+            {
+              "x": 0.43,
+              "y": 0.71
+            },
+            {
+              "x": 0.35,
+              "y": 0.66
+            },
+            {
+              "x": 0.3,
+              "y": 0.57
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/82bb6ecc64bf0169b1543326626db659.png"
+    },
+    {
+      "id": "club_b7735d55b58599001de1e528",
+      "provider_id": 90,
+      "name": "Real Betis Balompié",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/90.png",
+      "crest": "crests/10a6cfa15ca1565dff4b4e55d7548e42.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#04944C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.29,
+          "y": 0.28,
+          "width": 0.43,
+          "height": 0.42,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/aa45a2395b498a3f02445fabfb4567ba.png"
+    },
+    {
+      "id": "club_f4311a8b4bff7234d81f0d5d",
+      "provider_id": 86,
+      "name": "Real Madrid CF",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/86.png",
+      "crest": "crests/8f7398501f3e42443794c18891826dd3.png",
+      "theme_colors": {
+        "primary": "#FCBC04",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.18,
+          "y": 0.3,
+          "width": 0.64,
+          "height": 0.57,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/2a0058e138e596f37736ddeefe3188e9.png"
+    },
+    {
+      "id": "club_4d386528a7e2ea54c2946036",
+      "provider_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5335.png",
+      "crest": "crests/67f4224eed1a5501957558312fbfce5c.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.12,
+              "y": 0.45
+            },
+            {
+              "x": 0.19,
+              "y": 0.28
+            },
+            {
+              "x": 0.34,
+              "y": 0.18
+            },
+            {
+              "x": 0.5,
+              "y": 0.15
+            },
+            {
+              "x": 0.66,
+              "y": 0.18
+            },
+            {
+              "x": 0.81,
+              "y": 0.28
+            },
+            {
+              "x": 0.88,
+              "y": 0.45
+            },
+            {
+              "x": 0.73,
+              "y": 0.42
+            },
+            {
+              "x": 0.66,
+              "y": 0.33
+            },
+            {
+              "x": 0.57,
+              "y": 0.29
+            },
+            {
+              "x": 0.43,
+              "y": 0.29
+            },
+            {
+              "x": 0.34,
+              "y": 0.33
+            },
+            {
+              "x": 0.27,
+              "y": 0.42
+            }
+          ]
+        },
+        {
+          "x": 0.34,
+          "y": 0.35,
+          "width": 0.22,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.12,
+              "y": 0.55
+            },
+            {
+              "x": 0.19,
+              "y": 0.72
+            },
+            {
+              "x": 0.34,
+              "y": 0.82
+            },
+            {
+              "x": 0.5,
+              "y": 0.85
+            },
+            {
+              "x": 0.66,
+              "y": 0.82
+            },
+            {
+              "x": 0.81,
+              "y": 0.72
+            },
+            {
+              "x": 0.88,
+              "y": 0.55
+            },
+            {
+              "x": 0.73,
+              "y": 0.58
+            },
+            {
+              "x": 0.66,
+              "y": 0.67
+            },
+            {
+              "x": 0.57,
+              "y": 0.71
+            },
+            {
+              "x": 0.43,
+              "y": 0.71
+            },
+            {
+              "x": 0.34,
+              "y": 0.67
+            },
+            {
+              "x": 0.27,
+              "y": 0.58
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/94629dc0860102f2f6c480754be1fcfc.png"
+    },
+    {
+      "id": "club_080b460d6f79e44c11e6efdb",
+      "provider_id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/92.png",
+      "crest": "crests/a3e8470f07db247762af50903ca50009.png",
+      "theme_colors": {
+        "primary": "#143C8C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.31,
+          "y": 0.65,
+          "width": 0.22,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/2bcc132f1f769e5f773ca06e0dc28c1b.png"
+    },
+    {
+      "id": "club_9629b741e5a7dd5673660708",
+      "provider_id": 559,
+      "name": "Sevilla FC",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/559.png",
+      "crest": "crests/96d5e722b1f156b3c327417d5f589752.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#CC0C24"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.57,
+          "y": 0.22,
+          "width": 0.24,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/4592ed4cdb69e7c79da88eacd11de43f.png"
+    },
+    {
+      "id": "club_bd1009fa3315fc84dc63fa7f",
+      "provider_id": 95,
+      "name": "Valencia CF",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/95.png",
+      "crest": "crests/3134d62a5314fd6a2e77233c9cb3307b.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FCE434"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.32,
+          "width": 0.67,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/d86f2fe230c7f52c2bd9ae17328eae96.png"
+    },
+    {
+      "id": "club_04853bfd8975cbbe0ba8ea5a",
+      "provider_id": 94,
+      "name": "Villarreal CF",
+      "scope": "la-liga",
+      "league": "La Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/94.png",
+      "crest": "crests/5a1ec57b70778e331f0e2cf93a9ea48e.png",
+      "theme_colors": {
+        "primary": "#045484",
+        "secondary": "#FCE464"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.27,
+          "y": 0.27,
+          "width": 0.48,
+          "height": 0.55,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/8ace6a44ad530775e42c43c022cab2e7.png"
+    },
+    {
+      "id": "club_2c74b96001886a29f5cf3eb2",
+      "provider_id": 519,
+      "name": "AJ Auxerre",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/519.png",
+      "crest": "crests/4da61b9983d9a8e9e613b43e813b33aa.png",
+      "theme_colors": {
+        "primary": "#044CA4",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.07,
+          "width": 0.7,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/75c833f8fef56a8805b155716f8172e4.png"
+    },
+    {
+      "id": "club_a8aeda160dad229f50ecde4f",
+      "provider_id": 532,
+      "name": "Angers SCO",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/532.png",
+      "crest": "crests/d79698933cf2b6b8d37dce05eda1000e.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#140C0C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.31,
+          "y": 0.08,
+          "width": 0.38,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.19,
+          "y": 0.22,
+          "width": 0.62,
+          "height": 0.36,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/914dc0b25733437fc8be09f6dcfb1106.png"
+    },
+    {
+      "id": "club_8cfc8d4fd5afcfd0085df5ca",
+      "provider_id": 548,
+      "name": "AS Monaco FC",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/548.png",
+      "crest": "crests/21ba862e86b78ca7092d49e765e1c8b1.png",
+      "theme_colors": {
+        "primary": "#D4A404",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.32,
+          "y": 0.36,
+          "width": 0.38,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/a54d8c192050e708ba9e3d498ab964f9.png"
+    },
+    {
+      "id": "club_f67c1aa36ae71963308e0af4",
+      "provider_id": 531,
+      "name": "ES Troyes AC",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/531.png",
+      "crest": "crests/70577aa74ee04d97460804ec8b1b492c.png",
+      "theme_colors": {
+        "primary": "#046CB4",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.39,
+          "y": 0.08,
+          "width": 0.23,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.16,
+          "y": 0.33,
+          "width": 0.68,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.25,
+          "y": 0.51,
+          "width": 0.5,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.4,
+          "y": 0.67,
+          "width": 0.21,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/50e40c3b6b69a73e8f3cb51089202849.png"
+    },
+    {
+      "id": "club_2d9a2b13ce69e1973cf0f40b",
+      "provider_id": 525,
+      "name": "FC Lorient",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/525.png",
+      "crest": "crests/b30c8e2cb1bf334ad7d92082b56c32e4.png",
+      "theme_colors": {
+        "primary": "#F48414",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.33,
+          "width": 0.68,
+          "height": 0.19,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.41,
+          "y": 0.65,
+          "width": 0.18,
+          "height": 0.09,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/268a5d4a0879954b3622506af488e2a2.png"
+    },
+    {
+      "id": "club_7368d921cb7ea784f5607ee1",
+      "provider_id": 533,
+      "name": "Le Havre AC",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/533.png",
+      "crest": "crests/9370049c30cb71ede6d88516876ee074.png",
+      "theme_colors": {
+        "primary": "#1C345C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.21,
+          "y": 0.16,
+          "width": 0.59,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.38,
+          "y": 0.72,
+          "width": 0.24,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/9cce5f286a28005b95a497865846ce2c.png"
+    },
+    {
+      "id": "club_a424315e4901ccbe125d8eb6",
+      "provider_id": 535,
+      "name": "Le Mans FC",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+      "crest": "crests/1c7d871f3ad2d90f049bdd5f9bd6c079.png",
+      "theme_colors": {
+        "primary": "#140C14",
+        "secondary": "#FCBC04"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.06,
+          "y": 0.05,
+          "width": 0.88,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/580260626152979fb8b1095a0f707bdf.png"
+    },
+    {
+      "id": "club_8807c55d894df2ce827afdb2",
+      "provider_id": 521,
+      "name": "Lille OSC",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/521.png",
+      "crest": "crests/3ad04bec1165da48ce0a84eb9d993c48.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#24246C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.23,
+          "y": 0.68,
+          "width": 0.55,
+          "height": 0.19,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/52c2a21b864a6a55c4fec6ee971ee99e.png"
+    },
+    {
+      "id": "club_dfb393840a5137abca1c669d",
+      "provider_id": 522,
+      "name": "OGC Nice",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/522.png",
+      "crest": "crests/77312efd925f02c8ed3474c8ffaa60db.png",
+      "theme_colors": {
+        "primary": "#BC9464",
+        "secondary": "#241C24"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.29,
+          "y": 0.23,
+          "width": 0.42,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.29,
+          "y": 0.85,
+          "width": 0.42,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/4434002dc2261a697b5f0b878d09de78.png"
+    },
+    {
+      "id": "club_9e057f336168fa6c2b5a9cca",
+      "provider_id": 516,
+      "name": "Olympique de Marseille",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/516.png",
+      "crest": "crests/dac1fb065297de1d15123e2a680dbe32.png",
+      "theme_colors": {
+        "primary": "#0C64AC",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.12,
+          "width": 0.7,
+          "height": 0.76,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/28cd0b94f1de579199f79b820bd5474c.png"
+    },
+    {
+      "id": "club_bdaa64c7ecb695931fd96857",
+      "provider_id": 523,
+      "name": "Olympique Lyonnais",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/523.png",
+      "crest": "crests/6a1288705bd806295565335524ce6824.png",
+      "theme_colors": {
+        "primary": "#043C84",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.08,
+          "y": 0.05,
+          "width": 0.84,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.66,
+          "y": 0.37,
+          "width": 0.22,
+          "height": 0.47,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/0ed09eb29807c0a44ae59b9bdf27990e.png"
+    },
+    {
+      "id": "club_09ee0fd3a773b7566e2b8a7a",
+      "provider_id": 1045,
+      "name": "Paris FC",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1045.png",
+      "crest": "crests/09ebafb416264d0ce42e3cf4f1bb552e.png",
+      "theme_colors": {
+        "primary": "#0C1434",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.19,
+          "y": 0.11,
+          "width": 0.63,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/3121ce63dcee2c082630cbf67fd67153.png"
+    },
+    {
+      "id": "club_640db7f0179ff15a90876297",
+      "provider_id": 524,
+      "name": "Paris Saint-Germain FC",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/524.png",
+      "crest": "crests/d1c1addbc95155aaa64b2ec803ed69cd.png",
+      "theme_colors": {
+        "primary": "#043464",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.14,
+              "y": 0.39
+            },
+            {
+              "x": 0.2,
+              "y": 0.22
+            },
+            {
+              "x": 0.35,
+              "y": 0.12
+            },
+            {
+              "x": 0.5,
+              "y": 0.09
+            },
+            {
+              "x": 0.65,
+              "y": 0.12
+            },
+            {
+              "x": 0.8,
+              "y": 0.22
+            },
+            {
+              "x": 0.86,
+              "y": 0.39
+            },
+            {
+              "x": 0.72,
+              "y": 0.37
+            },
+            {
+              "x": 0.66,
+              "y": 0.29
+            },
+            {
+              "x": 0.57,
+              "y": 0.25
+            },
+            {
+              "x": 0.43,
+              "y": 0.25
+            },
+            {
+              "x": 0.34,
+              "y": 0.29
+            },
+            {
+              "x": 0.28,
+              "y": 0.37
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.18,
+              "y": 0.69
+            },
+            {
+              "x": 0.31,
+              "y": 0.82
+            },
+            {
+              "x": 0.5,
+              "y": 0.87
+            },
+            {
+              "x": 0.69,
+              "y": 0.82
+            },
+            {
+              "x": 0.82,
+              "y": 0.69
+            },
+            {
+              "x": 0.73,
+              "y": 0.62
+            },
+            {
+              "x": 0.63,
+              "y": 0.72
+            },
+            {
+              "x": 0.5,
+              "y": 0.75
+            },
+            {
+              "x": 0.37,
+              "y": 0.72
+            },
+            {
+              "x": 0.27,
+              "y": 0.62
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/765362f71d3a3a3c5f02fd8cbbb0bb30.png"
+    },
+    {
+      "id": "club_92e660e3d1416ed2999648a1",
+      "provider_id": 546,
+      "name": "Racing Club de Lens",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/546.png",
+      "crest": "crests/61b64d4544ad1444a701184149740fd3.png",
+      "theme_colors": {
+        "primary": "#EC1C24",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.09,
+          "width": 0.71,
+          "height": 0.19,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.08,
+          "y": 0.2,
+          "width": 0.5,
+          "height": 0.79,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/78bd0ae563427caa9d93c06817e78ba0.png"
+    },
+    {
+      "id": "club_98b5a0bf126440ae9495d7d2",
+      "provider_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/576.png",
+      "crest": "crests/57d6dbd1e68a25b3ad7095bfcecf98a8.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#049CE4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.1,
+              "y": 0.44
+            },
+            {
+              "x": 0.18,
+              "y": 0.25
+            },
+            {
+              "x": 0.34,
+              "y": 0.13
+            },
+            {
+              "x": 0.5,
+              "y": 0.1
+            },
+            {
+              "x": 0.66,
+              "y": 0.13
+            },
+            {
+              "x": 0.82,
+              "y": 0.25
+            },
+            {
+              "x": 0.9,
+              "y": 0.44
+            },
+            {
+              "x": 0.76,
+              "y": 0.41
+            },
+            {
+              "x": 0.68,
+              "y": 0.31
+            },
+            {
+              "x": 0.58,
+              "y": 0.26
+            },
+            {
+              "x": 0.42,
+              "y": 0.26
+            },
+            {
+              "x": 0.32,
+              "y": 0.31
+            },
+            {
+              "x": 0.24,
+              "y": 0.41
+            }
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": 0.34,
+          "width": 0.31,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.1,
+              "y": 0.56
+            },
+            {
+              "x": 0.18,
+              "y": 0.75
+            },
+            {
+              "x": 0.34,
+              "y": 0.87
+            },
+            {
+              "x": 0.5,
+              "y": 0.9
+            },
+            {
+              "x": 0.66,
+              "y": 0.87
+            },
+            {
+              "x": 0.82,
+              "y": 0.75
+            },
+            {
+              "x": 0.9,
+              "y": 0.56
+            },
+            {
+              "x": 0.76,
+              "y": 0.59
+            },
+            {
+              "x": 0.68,
+              "y": 0.69
+            },
+            {
+              "x": 0.58,
+              "y": 0.74
+            },
+            {
+              "x": 0.42,
+              "y": 0.74
+            },
+            {
+              "x": 0.32,
+              "y": 0.69
+            },
+            {
+              "x": 0.24,
+              "y": 0.59
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/d0d1f0c67f8649507a0313bb2f9df85a.png"
+    },
+    {
+      "id": "club_8028557c63d7932321657a21",
+      "provider_id": 512,
+      "name": "Stade Brestois 29",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/512.png",
+      "crest": "crests/94c21fa88fb87d55d879e62dab1ded00.png",
+      "theme_colors": {
+        "primary": "#DC1C24",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.23,
+          "y": 0.36,
+          "width": 0.55,
+          "height": 0.36,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.41,
+          "y": 0.86,
+          "width": 0.18,
+          "height": 0.09,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/7ba6dd9699ba80321d7f95c70e4cdb59.png"
+    },
+    {
+      "id": "club_769e24d47220ea5f51eaff78",
+      "provider_id": 529,
+      "name": "Stade Rennais FC 1901",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/529.png",
+      "crest": "crests/6062d2816021119c20a1a32f3208c400.png",
+      "theme_colors": {
+        "primary": "#D42C3C",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.58,
+          "width": 0.7,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.28,
+          "y": 0.76,
+          "width": 0.45,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.41,
+          "y": 0.85,
+          "width": 0.19,
+          "height": 0.1,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/018ee865d4896278acf869aaf2812b1b.png"
+    },
+    {
+      "id": "club_c4c9ba542793cd54d0fd0ab7",
+      "provider_id": 511,
+      "name": "Toulouse FC",
+      "scope": "ligue-1",
+      "league": "Ligue 1",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/511.png",
+      "crest": "crests/f35bfc24936635fac6476d287dc8bbac.png",
+      "theme_colors": {
+        "primary": "#3C2C4C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.1,
+              "y": 0.43
+            },
+            {
+              "x": 0.17,
+              "y": 0.25
+            },
+            {
+              "x": 0.33,
+              "y": 0.13
+            },
+            {
+              "x": 0.5,
+              "y": 0.1
+            },
+            {
+              "x": 0.67,
+              "y": 0.13
+            },
+            {
+              "x": 0.83,
+              "y": 0.25
+            },
+            {
+              "x": 0.9,
+              "y": 0.43
+            },
+            {
+              "x": 0.76,
+              "y": 0.4
+            },
+            {
+              "x": 0.68,
+              "y": 0.31
+            },
+            {
+              "x": 0.58,
+              "y": 0.27
+            },
+            {
+              "x": 0.42,
+              "y": 0.27
+            },
+            {
+              "x": 0.32,
+              "y": 0.31
+            },
+            {
+              "x": 0.24,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "x": 0.04,
+          "y": 0.45,
+          "width": 0.14,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.82,
+          "y": 0.45,
+          "width": 0.14,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.1,
+              "y": 0.57
+            },
+            {
+              "x": 0.17,
+              "y": 0.75
+            },
+            {
+              "x": 0.33,
+              "y": 0.87
+            },
+            {
+              "x": 0.5,
+              "y": 0.9
+            },
+            {
+              "x": 0.67,
+              "y": 0.87
+            },
+            {
+              "x": 0.83,
+              "y": 0.75
+            },
+            {
+              "x": 0.9,
+              "y": 0.57
+            },
+            {
+              "x": 0.76,
+              "y": 0.6
+            },
+            {
+              "x": 0.68,
+              "y": 0.69
+            },
+            {
+              "x": 0.58,
+              "y": 0.73
+            },
+            {
+              "x": 0.42,
+              "y": 0.73
+            },
+            {
+              "x": 0.32,
+              "y": 0.69
+            },
+            {
+              "x": 0.24,
+              "y": 0.6
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/34b6b5d0bdb29c15321fd5bce5d94c86.png"
+    },
+    {
+      "id": "club_76fb57a25143033c5aaf9885",
+      "provider_id": 1044,
+      "name": "AFC Bournemouth",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/bournemouth.png",
+      "crest": "crests/20807cf65fcd8d7b6ce37db69ac60d87.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.06,
+          "width": 0.66,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/6c0464694ac96530fa858708edc2e1f5.png"
+    },
+    {
+      "id": "club_a3fd1db0ec28c435e99af487",
+      "provider_id": 57,
+      "name": "Arsenal FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/57.png",
+      "crest": "crests/ca9de0d22ebbe18386bb4b59b4dfa658.png",
+      "theme_colors": {
+        "primary": "#CC1444",
+        "secondary": "#9C844C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.19,
+          "y": 0.16,
+          "width": 0.63,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/2baa1360ab61754c3229711919f77b7b.png"
+    },
+    {
+      "id": "club_8fd4026c4f95edd3cdc901af",
+      "provider_id": 58,
+      "name": "Aston Villa FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/58.png",
+      "crest": "crests/f9faaea0d977fdb80115a58ef7bbc141.png",
+      "theme_colors": {
+        "primary": "#94BCE4",
+        "secondary": "#FCE404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.19,
+          "y": 0.12,
+          "width": 0.62,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.33,
+          "y": 0.8,
+          "width": 0.35,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/18f9214949a7e4a96ee5f0d2e3d9a5ea.png"
+    },
+    {
+      "id": "club_bc60740a7b615405d0487d4c",
+      "provider_id": 402,
+      "name": "Brentford FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/402.png",
+      "crest": "crests/7b038fa48231dc0bce279d00fba9894b.png",
+      "theme_colors": {
+        "primary": "#E40414",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.43
+            },
+            {
+              "x": 0.14,
+              "y": 0.24
+            },
+            {
+              "x": 0.29,
+              "y": 0.1
+            },
+            {
+              "x": 0.5,
+              "y": 0.06
+            },
+            {
+              "x": 0.71,
+              "y": 0.1
+            },
+            {
+              "x": 0.86,
+              "y": 0.24
+            },
+            {
+              "x": 0.92,
+              "y": 0.43
+            },
+            {
+              "x": 0.78,
+              "y": 0.4
+            },
+            {
+              "x": 0.71,
+              "y": 0.29
+            },
+            {
+              "x": 0.61,
+              "y": 0.22
+            },
+            {
+              "x": 0.5,
+              "y": 0.2
+            },
+            {
+              "x": 0.39,
+              "y": 0.22
+            },
+            {
+              "x": 0.29,
+              "y": 0.29
+            },
+            {
+              "x": 0.22,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "x": 0.04,
+          "y": 0.46,
+          "width": 0.13,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.83,
+          "y": 0.46,
+          "width": 0.13,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.57
+            },
+            {
+              "x": 0.14,
+              "y": 0.76
+            },
+            {
+              "x": 0.29,
+              "y": 0.9
+            },
+            {
+              "x": 0.5,
+              "y": 0.94
+            },
+            {
+              "x": 0.71,
+              "y": 0.9
+            },
+            {
+              "x": 0.86,
+              "y": 0.76
+            },
+            {
+              "x": 0.92,
+              "y": 0.57
+            },
+            {
+              "x": 0.78,
+              "y": 0.6
+            },
+            {
+              "x": 0.71,
+              "y": 0.71
+            },
+            {
+              "x": 0.61,
+              "y": 0.78
+            },
+            {
+              "x": 0.5,
+              "y": 0.8
+            },
+            {
+              "x": 0.39,
+              "y": 0.78
+            },
+            {
+              "x": 0.29,
+              "y": 0.71
+            },
+            {
+              "x": 0.22,
+              "y": 0.6
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/b9be03a4b10cd6417abcd7eea4187238.png"
+    },
+    {
+      "id": "club_84855cdee877e08cd8f7961d",
+      "provider_id": 397,
+      "name": "Brighton & Hove Albion FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/397.png",
+      "crest": "crests/6b406615958284687cd0815f3ec81be9.png",
+      "theme_colors": {
+        "primary": "#045CAC",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.43
+            },
+            {
+              "x": 0.14,
+              "y": 0.24
+            },
+            {
+              "x": 0.29,
+              "y": 0.1
+            },
+            {
+              "x": 0.5,
+              "y": 0.06
+            },
+            {
+              "x": 0.71,
+              "y": 0.1
+            },
+            {
+              "x": 0.86,
+              "y": 0.24
+            },
+            {
+              "x": 0.92,
+              "y": 0.43
+            },
+            {
+              "x": 0.78,
+              "y": 0.4
+            },
+            {
+              "x": 0.71,
+              "y": 0.29
+            },
+            {
+              "x": 0.61,
+              "y": 0.22
+            },
+            {
+              "x": 0.5,
+              "y": 0.2
+            },
+            {
+              "x": 0.39,
+              "y": 0.22
+            },
+            {
+              "x": 0.29,
+              "y": 0.29
+            },
+            {
+              "x": 0.22,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.13,
+              "y": 0.66
+            },
+            {
+              "x": 0.27,
+              "y": 0.82
+            },
+            {
+              "x": 0.5,
+              "y": 0.89
+            },
+            {
+              "x": 0.73,
+              "y": 0.82
+            },
+            {
+              "x": 0.87,
+              "y": 0.66
+            },
+            {
+              "x": 0.76,
+              "y": 0.59
+            },
+            {
+              "x": 0.66,
+              "y": 0.7
+            },
+            {
+              "x": 0.5,
+              "y": 0.74
+            },
+            {
+              "x": 0.34,
+              "y": 0.7
+            },
+            {
+              "x": 0.24,
+              "y": 0.59
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/479425830ef67a24d2f5f97769d1479a.png"
+    },
+    {
+      "id": "club_3fce9fb358835c2a4653c9f6",
+      "provider_id": 61,
+      "name": "Chelsea FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/61.png",
+      "crest": "crests/df7dc02d33145f04485fff6f69fa8614.png",
+      "theme_colors": {
+        "primary": "#044494",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.43
+            },
+            {
+              "x": 0.14,
+              "y": 0.24
+            },
+            {
+              "x": 0.29,
+              "y": 0.1
+            },
+            {
+              "x": 0.5,
+              "y": 0.06
+            },
+            {
+              "x": 0.71,
+              "y": 0.1
+            },
+            {
+              "x": 0.86,
+              "y": 0.24
+            },
+            {
+              "x": 0.92,
+              "y": 0.43
+            },
+            {
+              "x": 0.78,
+              "y": 0.4
+            },
+            {
+              "x": 0.71,
+              "y": 0.29
+            },
+            {
+              "x": 0.61,
+              "y": 0.22
+            },
+            {
+              "x": 0.5,
+              "y": 0.2
+            },
+            {
+              "x": 0.39,
+              "y": 0.22
+            },
+            {
+              "x": 0.29,
+              "y": 0.29
+            },
+            {
+              "x": 0.22,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.57
+            },
+            {
+              "x": 0.14,
+              "y": 0.76
+            },
+            {
+              "x": 0.29,
+              "y": 0.9
+            },
+            {
+              "x": 0.5,
+              "y": 0.94
+            },
+            {
+              "x": 0.71,
+              "y": 0.9
+            },
+            {
+              "x": 0.86,
+              "y": 0.76
+            },
+            {
+              "x": 0.92,
+              "y": 0.57
+            },
+            {
+              "x": 0.78,
+              "y": 0.6
+            },
+            {
+              "x": 0.71,
+              "y": 0.71
+            },
+            {
+              "x": 0.61,
+              "y": 0.78
+            },
+            {
+              "x": 0.5,
+              "y": 0.8
+            },
+            {
+              "x": 0.39,
+              "y": 0.78
+            },
+            {
+              "x": 0.29,
+              "y": 0.71
+            },
+            {
+              "x": 0.22,
+              "y": 0.6
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/122ef8f95f44397763d1314edf77811c.png"
+    },
+    {
+      "id": "club_9d4d6d6cd642275ca3354628",
+      "provider_id": 1076,
+      "name": "Coventry City FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1076.png",
+      "crest": "crests/ae3b7fc3a448918807e7691744f8aeb6.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.21,
+          "y": 0.02,
+          "width": 0.58,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.84,
+          "width": 0.56,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/127ba0118831422a84117d7cbb2348f2.png"
+    },
+    {
+      "id": "club_05feb3815e7c14b062577d30",
+      "provider_id": 354,
+      "name": "Crystal Palace FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/354.png",
+      "crest": "crests/5792d82bdf98d081146076d73f4b55cf.png",
+      "theme_colors": {
+        "primary": "#044C94",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.16,
+          "y": 0.68,
+          "width": 0.69,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.44,
+          "y": 0.62,
+          "width": 0.13,
+          "height": 0.09,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/f49ebec344d3bf336db0a0af2bbc3fa1.png"
+    },
+    {
+      "id": "club_a3bb4a72a318e22da26a442d",
+      "provider_id": 62,
+      "name": "Everton FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/62.png",
+      "crest": "crests/83539b28e29bcba76b9f5d3c7aaeea04.png",
+      "theme_colors": {
+        "primary": "#24448C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.27,
+          "y": 0.51,
+          "width": 0.48,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.67,
+          "width": 0.23,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.07,
+              "y": 0.72
+            },
+            {
+              "x": 0.26,
+              "y": 0.82
+            },
+            {
+              "x": 0.5,
+              "y": 0.86
+            },
+            {
+              "x": 0.74,
+              "y": 0.82
+            },
+            {
+              "x": 0.93,
+              "y": 0.72
+            },
+            {
+              "x": 0.88,
+              "y": 0.89
+            },
+            {
+              "x": 0.66,
+              "y": 0.98
+            },
+            {
+              "x": 0.34,
+              "y": 0.98
+            },
+            {
+              "x": 0.12,
+              "y": 0.89
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/9c786b7757916e414ec55de411007ce8.png"
+    },
+    {
+      "id": "club_1bb57f7afe82561eecf8e313",
+      "provider_id": 63,
+      "name": "Fulham FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/63.png",
+      "crest": "crests/a9e47e68c3c7b92be898c6029a24fd23.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.31,
+          "y": 0.22,
+          "width": 0.38,
+          "height": 0.54,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/aa3db24049950eaa07122165a81d02fe.png"
+    },
+    {
+      "id": "club_90e4c89e10b98018b192e42c",
+      "provider_id": 322,
+      "name": "Hull City AFC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/322.png",
+      "crest": "crests/77cadd005a2b483e867cb5de0bb32fab.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FCB404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.16,
+          "y": 0.03,
+          "width": 0.7,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.75,
+          "width": 0.56,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/3c01fe1ce6b08d52f38051efb3bff51e.png"
+    },
+    {
+      "id": "club_60de2573e3fe699c51908570",
+      "provider_id": 349,
+      "name": "Ipswich Town FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/349.png",
+      "crest": "crests/023cb87a49aa2c45eb17c1232032d3da.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#243C94"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.2,
+          "y": 0.17,
+          "width": 0.61,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.72,
+          "width": 0.58,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/ffe7d6a1578d852e396e83f4f0c96cdc.png"
+    },
+    {
+      "id": "club_c5ca854c2c0c80a9117b2182",
+      "provider_id": 341,
+      "name": "Leeds United FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/341.png",
+      "crest": "crests/c36ee691cdaa66e6f7517d90b54489a0.png",
+      "theme_colors": {
+        "primary": "#FCDC1C",
+        "secondary": "#0464A4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.38,
+          "y": 0.36,
+          "width": 0.24,
+          "height": 0.39,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/6813901878b208146940dc273764ef06.png"
+    },
+    {
+      "id": "club_f33263dcf5c9bd1bea0b9860",
+      "provider_id": 64,
+      "name": "Liverpool FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/64.png",
+      "crest": "crests/94b05882b46eac38f9f6a7d22200b38c.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#04A49C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.24,
+          "y": 0.19,
+          "width": 0.53,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.23,
+          "y": 0.32,
+          "width": 0.54,
+          "height": 0.24,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.31,
+          "y": 0.81,
+          "width": 0.38,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/5795f2c91c659dbd759c9e7591f02081.png"
+    },
+    {
+      "id": "club_4a2b3be010cf275580a13225",
+      "provider_id": 65,
+      "name": "Manchester City FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/65.png",
+      "crest": "crests/3a86e6759a84686b6c35b1cc20d105f9.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#043464"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.43
+            },
+            {
+              "x": 0.14,
+              "y": 0.24
+            },
+            {
+              "x": 0.29,
+              "y": 0.1
+            },
+            {
+              "x": 0.5,
+              "y": 0.06
+            },
+            {
+              "x": 0.71,
+              "y": 0.1
+            },
+            {
+              "x": 0.86,
+              "y": 0.24
+            },
+            {
+              "x": 0.92,
+              "y": 0.43
+            },
+            {
+              "x": 0.78,
+              "y": 0.4
+            },
+            {
+              "x": 0.71,
+              "y": 0.29
+            },
+            {
+              "x": 0.61,
+              "y": 0.22
+            },
+            {
+              "x": 0.5,
+              "y": 0.2
+            },
+            {
+              "x": 0.39,
+              "y": 0.22
+            },
+            {
+              "x": 0.29,
+              "y": 0.29
+            },
+            {
+              "x": 0.22,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "x": 0.04,
+          "y": 0.46,
+          "width": 0.13,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.83,
+          "y": 0.46,
+          "width": 0.13,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.18,
+              "y": 0.69
+            },
+            {
+              "x": 0.31,
+              "y": 0.83
+            },
+            {
+              "x": 0.5,
+              "y": 0.88
+            },
+            {
+              "x": 0.69,
+              "y": 0.83
+            },
+            {
+              "x": 0.82,
+              "y": 0.69
+            },
+            {
+              "x": 0.72,
+              "y": 0.62
+            },
+            {
+              "x": 0.62,
+              "y": 0.72
+            },
+            {
+              "x": 0.5,
+              "y": 0.75
+            },
+            {
+              "x": 0.38,
+              "y": 0.72
+            },
+            {
+              "x": 0.28,
+              "y": 0.62
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/ca232e6145c8faca0a585f634ae15c1e.png"
+    },
+    {
+      "id": "club_5b6a4c7965b297b575ec5c05",
+      "provider_id": 66,
+      "name": "Manchester United FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/66.png",
+      "crest": "crests/3869b21503617b1f37fe762e95a4b940.png",
+      "theme_colors": {
+        "primary": "#DC040C",
+        "secondary": "#FCE404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.13,
+          "y": 0.1,
+          "width": 0.75,
+          "height": 0.24,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.16,
+          "y": 0.68,
+          "width": 0.68,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/d446081d247ee7e3e465ed291d4e0a4d.png"
+    },
+    {
+      "id": "club_d9a3f8aaa7b73d17773e2bdc",
+      "provider_id": 67,
+      "name": "Newcastle United FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/67.png",
+      "crest": "crests/2b1475cf00e68e185a4ae31d797fdd33.png",
+      "theme_colors": {
+        "primary": "#04B4F4",
+        "secondary": "#241C24"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.77,
+          "width": 0.67,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/524ed5dc7abe64dfee052d605bb637fd.png"
+    },
+    {
+      "id": "club_bd554b3a6519e08bf61e9cc0",
+      "provider_id": 351,
+      "name": "Nottingham Forest FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/351.png",
+      "crest": "crests/76a62cdebe77699311e914c23c9bff6b.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#FC242C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.18,
+          "y": 0.69,
+          "width": 0.64,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/ad617b2585e4fd6c1aab337acf53b2f7.png"
+    },
+    {
+      "id": "club_6c64513f49a6a9aa52e2ec65",
+      "provider_id": 71,
+      "name": "Sunderland AFC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/71.png",
+      "crest": "crests/fb84e06f901f15fe72f9eb2b66534676.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.34,
+          "y": 0.29,
+          "width": 0.34,
+          "height": 0.08,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.29,
+          "y": 0.7,
+          "width": 0.43,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/5672dce2b35656b5330e43b65a7980d1.png"
+    },
+    {
+      "id": "club_e77c3b0a58e583f8cae6bbcb",
+      "provider_id": 73,
+      "name": "Tottenham Hotspur FC",
+      "scope": "premier-league",
+      "league": "Premier League",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/73.png",
+      "crest": "crests/3d3bd3c8f7233eeeb2702df3893fa16c.png",
+      "theme_colors": {
+        "primary": "#042454",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.14,
+          "y": 0.65,
+          "width": 0.72,
+          "height": 0.35,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/112018d5e3668936a80e5a8148853ee6.png"
+    },
+    {
+      "id": "club_ea5747f210babc441ef2a267",
+      "provider_id": 5527,
+      "name": "Académico de Viseu FC",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5527.png",
+      "crest": "crests/2bdb7af894a4595733c4d3cd6b7ba2ca.png",
+      "theme_colors": {
+        "primary": "#241C1C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.26,
+          "y": 0.26,
+          "width": 0.48,
+          "height": 0.42,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/19603fd11a9fdfda23754b4faed50171.png"
+    },
+    {
+      "id": "club_3a85860e88d55f21cfa3f9c4",
+      "provider_id": 6618,
+      "name": "Casa Pia AC",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/6618.png",
+      "crest": "crests/6104f3488081e33ade9d5afdaaaf9408.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.25,
+          "y": 0.34,
+          "width": 0.17,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.58,
+          "y": 0.34,
+          "width": 0.17,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.25,
+          "y": 0.58,
+          "width": 0.17,
+          "height": 0.19,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.58,
+          "y": 0.58,
+          "width": 0.17,
+          "height": 0.19,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/2848afec34e3162feb44a0e3c32f72f3.png"
+    },
+    {
+      "id": "club_2567c51e2b92f10d3b887d5a",
+      "provider_id": 5529,
+      "name": "CD Nacional",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5529.png",
+      "crest": "crests/d4c4e62d16cf417674c6149c859a9053.png",
+      "theme_colors": {
+        "primary": "#D4B42C",
+        "secondary": "#944C9C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.23,
+          "y": 0.2,
+          "width": 0.55,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.23,
+          "y": 0.64,
+          "width": 0.55,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/af0f1aa239a32011571297627086cd07.png"
+    },
+    {
+      "id": "club_d81e21bf5b2d145b8f77288a",
+      "provider_id": 5530,
+      "name": "CD Santa Clara",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5530.png",
+      "crest": "crests/11f25b681651b8c37c45e05b045d9839.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#2C2C2C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.11,
+              "y": 0.43
+            },
+            {
+              "x": 0.18,
+              "y": 0.25
+            },
+            {
+              "x": 0.34,
+              "y": 0.13
+            },
+            {
+              "x": 0.5,
+              "y": 0.1
+            },
+            {
+              "x": 0.66,
+              "y": 0.13
+            },
+            {
+              "x": 0.82,
+              "y": 0.25
+            },
+            {
+              "x": 0.89,
+              "y": 0.43
+            },
+            {
+              "x": 0.75,
+              "y": 0.4
+            },
+            {
+              "x": 0.68,
+              "y": 0.31
+            },
+            {
+              "x": 0.58,
+              "y": 0.27
+            },
+            {
+              "x": 0.42,
+              "y": 0.27
+            },
+            {
+              "x": 0.32,
+              "y": 0.31
+            },
+            {
+              "x": 0.25,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.11,
+              "y": 0.57
+            },
+            {
+              "x": 0.18,
+              "y": 0.75
+            },
+            {
+              "x": 0.34,
+              "y": 0.87
+            },
+            {
+              "x": 0.5,
+              "y": 0.9
+            },
+            {
+              "x": 0.66,
+              "y": 0.87
+            },
+            {
+              "x": 0.82,
+              "y": 0.75
+            },
+            {
+              "x": 0.89,
+              "y": 0.57
+            },
+            {
+              "x": 0.75,
+              "y": 0.6
+            },
+            {
+              "x": 0.68,
+              "y": 0.69
+            },
+            {
+              "x": 0.58,
+              "y": 0.73
+            },
+            {
+              "x": 0.42,
+              "y": 0.73
+            },
+            {
+              "x": 0.32,
+              "y": 0.69
+            },
+            {
+              "x": 0.25,
+              "y": 0.6
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/68879f0dc645981820a149f6970ddfc9.png"
+    },
+    {
+      "id": "club_0f13eadc1a164ad497b43381",
+      "provider_id": 9136,
+      "name": "CF Estrela da Amadora",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/9136.png",
+      "crest": "crests/f46f62920e68e756fb069b266fc3ddb6.png",
+      "theme_colors": {
+        "primary": "#04AC5C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.26,
+          "width": 0.17,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.42,
+          "y": 0.16,
+          "width": 0.17,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.68,
+          "y": 0.26,
+          "width": 0.17,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.42,
+          "y": 0.66,
+          "width": 0.17,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/5cc6bf90625427b859cb218ca3124512.png"
+    },
+    {
+      "id": "club_94cc99635eab726ff6347e1e",
+      "provider_id": 5575,
+      "name": "CS Marítimo",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5575.png",
+      "crest": "crests/d06d896000ae33d0ab475df670dfb835.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#041C04"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.14,
+              "y": 0.33
+            },
+            {
+              "x": 0.25,
+              "y": 0.17
+            },
+            {
+              "x": 0.43,
+              "y": 0.09
+            },
+            {
+              "x": 0.62,
+              "y": 0.11
+            },
+            {
+              "x": 0.79,
+              "y": 0.22
+            },
+            {
+              "x": 0.85,
+              "y": 0.35
+            },
+            {
+              "x": 0.7,
+              "y": 0.34
+            },
+            {
+              "x": 0.62,
+              "y": 0.26
+            },
+            {
+              "x": 0.5,
+              "y": 0.22
+            },
+            {
+              "x": 0.37,
+              "y": 0.24
+            },
+            {
+              "x": 0.29,
+              "y": 0.33
+            }
+          ]
+        },
+        {
+          "x": 0.31,
+          "y": 0.8,
+          "width": 0.42,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/58b7f53d4644a9ea51c2bbb31842b882.png"
+    },
+    {
+      "id": "club_fea036db2cabab9d89a15633",
+      "provider_id": 7822,
+      "name": "FC Alverca",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/7822.png",
+      "crest": "crests/bab950521b52db1bf5c2e08da2732d1e.png",
+      "theme_colors": {
+        "primary": "#343434",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.14,
+          "y": 0.1,
+          "width": 0.72,
+          "height": 0.31,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/8a15ffb1ea84362034a37b66357ae01e.png"
+    },
+    {
+      "id": "club_a5e24acdda682c7ae1f1b934",
+      "provider_id": 712,
+      "name": "FC Arouca",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/712.png",
+      "crest": "crests/6878515c024c3e08caab500fcca169f4.png",
+      "theme_colors": {
+        "primary": "#FCEC04",
+        "secondary": "#044CA4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.02,
+          "y": 0.5,
+          "width": 0.34,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.65,
+          "y": 0.5,
+          "width": 0.33,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.32,
+          "y": 0.69,
+          "width": 0.36,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/f79ff981fff336e996e60c19084be13d.png"
+    },
+    {
+      "id": "club_80e9b452edec811c867897cc",
+      "provider_id": 5531,
+      "name": "FC Famalicão",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5531.png",
+      "crest": "crests/a18434be9a397e4c77c2899e9f7c9f82.png",
+      "theme_colors": {
+        "primary": "#0C1CC4",
+        "secondary": "#FCEC04"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.29,
+          "y": 0.13,
+          "width": 0.43,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/3695d1b1f3cfe3d2a2e2acf709684702.png"
+    },
+    {
+      "id": "club_b3f85b3266317632c9f1914a",
+      "provider_id": 503,
+      "name": "FC Porto",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/503.png",
+      "crest": "crests/a41fb4ec4e72f33c82bd946e1c93d8c0.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#047CC4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.2,
+          "y": 0.67,
+          "width": 0.16,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.42,
+          "y": 0.7,
+          "width": 0.16,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.67,
+          "y": 0.67,
+          "width": 0.16,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/9c2197c91e1ea63ec52b4a99ab06e2f5.png"
+    },
+    {
+      "id": "club_bf66010666b5c5377fb76767",
+      "provider_id": 582,
+      "name": "GD Estoril Praia",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/582.png",
+      "crest": "crests/bacef0636f1121362bfe419eb5d58f07.png",
+      "theme_colors": {
+        "primary": "#FCF404",
+        "secondary": "#0454A4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.27,
+          "y": 0.34,
+          "width": 0.46,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/329611feef40b7b1c250aecd8e1a32e6.png"
+    },
+    {
+      "id": "club_2a0fa8db430b431574fd39f6",
+      "provider_id": 5533,
+      "name": "Gil Vicente FC",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5533.png",
+      "crest": "crests/64e0a771c281812d17ef190dcfefa26d.png",
+      "theme_colors": {
+        "primary": "#043464",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.3,
+          "y": 0.71,
+          "width": 0.4,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.84,
+          "width": 0.23,
+          "height": 0.08,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/a0cbe3a7fd4ea47a1e02c100910426fb.png"
+    },
+    {
+      "id": "club_766ebfea71553de9924ef1ff",
+      "provider_id": 583,
+      "name": "Moreirense FC",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/583.png",
+      "crest": "crests/714d47b1a4001b47d7442ce61c2ed39f.png",
+      "theme_colors": {
+        "primary": "#AC9414",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.3,
+          "y": 0.35,
+          "width": 0.4,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/84463f25fbf07eb158281a4384ee2c6f.png"
+    },
+    {
+      "id": "club_5fe1d919e577c3683099241d",
+      "provider_id": 496,
+      "name": "Rio Ave FC",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/496.png",
+      "crest": "crests/9872bf79f9b0b4da60a548e8955f3034.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FC9C24"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.34,
+          "y": 0.79,
+          "width": 0.33,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/0099c855d48de95f3748714980a50427.png"
+    },
+    {
+      "id": "club_3648dacd4614e1e21583ab9b",
+      "provider_id": 1903,
+      "name": "Sport Lisboa e Benfica",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1903.png",
+      "crest": "crests/e1fa3139febfc1a35c1f3b93aa342c53.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#FC0C0C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.16,
+              "y": 0.27
+            },
+            {
+              "x": 0.35,
+              "y": 0.21
+            },
+            {
+              "x": 0.67,
+              "y": 0.21
+            },
+            {
+              "x": 0.86,
+              "y": 0.29
+            },
+            {
+              "x": 0.82,
+              "y": 0.38
+            },
+            {
+              "x": 0.63,
+              "y": 0.33
+            },
+            {
+              "x": 0.37,
+              "y": 0.33
+            },
+            {
+              "x": 0.19,
+              "y": 0.37
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.29,
+              "y": 0.54
+            },
+            {
+              "x": 0.63,
+              "y": 0.43
+            },
+            {
+              "x": 0.72,
+              "y": 0.55
+            },
+            {
+              "x": 0.38,
+              "y": 0.68
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/77b81390757fc477752bd5131ca53223.png"
+    },
+    {
+      "id": "club_48485abdc55d39efcab6796d",
+      "provider_id": 5613,
+      "name": "Sporting Clube de Braga",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5613.png",
+      "crest": "crests/c8af711ff67042b05aa6e3ce2e7c4911.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#CC2C24"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.28,
+          "y": 0.29,
+          "width": 0.45,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.15,
+              "y": 0.76
+            },
+            {
+              "x": 0.31,
+              "y": 0.86
+            },
+            {
+              "x": 0.5,
+              "y": 0.9
+            },
+            {
+              "x": 0.69,
+              "y": 0.86
+            },
+            {
+              "x": 0.85,
+              "y": 0.76
+            },
+            {
+              "x": 0.81,
+              "y": 0.91
+            },
+            {
+              "x": 0.64,
+              "y": 0.98
+            },
+            {
+              "x": 0.36,
+              "y": 0.98
+            },
+            {
+              "x": 0.19,
+              "y": 0.91
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/ba2622cd67c04ae060a41dec87c0e604.png"
+    },
+    {
+      "id": "club_0a3740574462fa1089bb2d9c",
+      "provider_id": 498,
+      "name": "Sporting Clube de Portugal",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/498.png",
+      "crest": "crests/7b04401b0fcd4aa7117f19a177a9b294.png",
+      "theme_colors": {
+        "primary": "#146C44",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.27,
+          "y": 0.03,
+          "width": 0.47,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.23,
+          "y": 0.23,
+          "width": 0.54,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.28,
+          "y": 0.74,
+          "width": 0.45,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/8d5b444e29202b38e51e6d1545a1c659.png"
+    },
+    {
+      "id": "club_3d8ddce1b5f5396ecac55523",
+      "provider_id": 5543,
+      "name": "Vitória SC",
+      "scope": "primeira-liga",
+      "league": "Primeira Liga",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5543.png",
+      "crest": "crests/d2ce0429a9e7579ecbf0e9e7db7abbc3.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.64,
+          "y": 0.35,
+          "width": 0.22,
+          "height": 0.37,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/7f046ee3117d7470b0234955f307c607.png"
+    },
+    {
+      "id": "club_afa7c61c1a435143bf823bad",
+      "provider_id": 98,
+      "name": "AC Milan",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/98.png",
+      "crest": "crests/b05a04249cae6de12998c46e6dd079fb.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.3,
+          "y": 0.1,
+          "width": 0.41,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.29,
+          "y": 0.73,
+          "width": 0.42,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/3773789c8ffa6b395086ae1f9eb2f00f.png"
+    },
+    {
+      "id": "club_2abb1fd88835175ab905b737",
+      "provider_id": 5911,
+      "name": "AC Monza",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5911.png",
+      "crest": "crests/a3e72e6f9ab6afb697e1ef1fc1c01bd4.png",
+      "theme_colors": {
+        "primary": "#EC1C3C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.27,
+          "y": 0.29,
+          "width": 0.47,
+          "height": 0.24,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/6034992ec45ac375544ce7c45b044923.png"
+    },
+    {
+      "id": "club_3832aac533184810d9e9e72c",
+      "provider_id": 99,
+      "name": "ACF Fiorentina",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/99.png",
+      "crest": "crests/48ff26ac8cae663ed0a9287486b536c0.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#543C84"
+      },
+      "cover_status": "not_required",
+      "cover_regions": [],
+      "covered_crest": "covered-crests/feb98d6d7a9fd5b9057fbd67386ef295.png"
+    },
+    {
+      "id": "club_f3e389a9999d5bdb6d1d16b8",
+      "provider_id": 100,
+      "name": "AS Roma",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/100.png",
+      "crest": "crests/d37b6c10c1c0e1c21f765bbb46f26c69.png",
+      "theme_colors": {
+        "primary": "#940C2C",
+        "secondary": "#FCBC04"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.21,
+          "y": 0.59,
+          "width": 0.58,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.37,
+          "y": 0.77,
+          "width": 0.27,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/b12f83a8a73c648c644f4f616d381d06.png"
+    },
+    {
+      "id": "club_113a7520905be28bd62e2e95",
+      "provider_id": 102,
+      "name": "Atalanta BC",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/102.png",
+      "crest": "crests/3089e9cbcee9f5145be458cf999064e3.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.23,
+              "y": 0.36
+            },
+            {
+              "x": 0.34,
+              "y": 0.17
+            },
+            {
+              "x": 0.52,
+              "y": 0.1
+            },
+            {
+              "x": 0.71,
+              "y": 0.17
+            },
+            {
+              "x": 0.8,
+              "y": 0.34
+            },
+            {
+              "x": 0.67,
+              "y": 0.37
+            },
+            {
+              "x": 0.61,
+              "y": 0.27
+            },
+            {
+              "x": 0.51,
+              "y": 0.23
+            },
+            {
+              "x": 0.4,
+              "y": 0.27
+            },
+            {
+              "x": 0.35,
+              "y": 0.38
+            }
+          ]
+        },
+        {
+          "x": 0.34,
+          "y": 0.77,
+          "width": 0.35,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/6355e786885f3475caf399e14a69d9dd.png"
+    },
+    {
+      "id": "club_f0c535cd358c49b7cde9a51c",
+      "provider_id": 103,
+      "name": "Bologna FC 1909",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/103.png",
+      "crest": "crests/bfe1fd34046e608f2b8de7d35baa127e.png",
+      "theme_colors": {
+        "primary": "#A41C24",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.29,
+          "y": 0.07,
+          "width": 0.43,
+          "height": 0.24,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/13fbad614d4840c0c1608c72f9557636.png"
+    },
+    {
+      "id": "club_8872d1516ed41729a046f4ec",
+      "provider_id": 104,
+      "name": "Cagliari Calcio",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/104.png",
+      "crest": "crests/19f91bd74302639b21fdb9b40e48d954.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#04244C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.2,
+          "y": 0.06,
+          "width": 0.61,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/b6c8defd68bb59ed2abba5eaf0bddcad.png"
+    },
+    {
+      "id": "club_10b8110e2f4a6f04a7e8f3ec",
+      "provider_id": 7397,
+      "name": "Como 1907",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/7397.png",
+      "crest": "crests/fe6f00f404996a0f85b69ddd89352f3d.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#14446C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.37,
+          "y": 0.19,
+          "width": 0.27,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.32,
+          "width": 0.57,
+          "height": 0.31,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/b1f8a849d4c4d2893a42fb53f6f75177.png"
+    },
+    {
+      "id": "club_29c6b3a4f9297c2b41c1c10e",
+      "provider_id": 108,
+      "name": "FC Internazionale Milano",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/108.png",
+      "crest": "crests/fdb637b55ec148164f7796cf08c0fc1b.png",
+      "theme_colors": {
+        "primary": "#0414AC",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.18,
+          "y": 0.14,
+          "width": 0.64,
+          "height": 0.72,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/4d2541efaf4dc1b77348728ff074ca6e.png"
+    },
+    {
+      "id": "club_977cf0ad6480d69ecee22c59",
+      "provider_id": 470,
+      "name": "Frosinone Calcio",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/470.png",
+      "crest": "crests/ce1e968ae510defad981fa9d26126ac0.png",
+      "theme_colors": {
+        "primary": "#0C4CA4",
+        "secondary": "#BCCCEC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.07,
+          "y": 0.02,
+          "width": 0.87,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/dd5aa78be7abcdb2b366e510408810f9.png"
+    },
+    {
+      "id": "club_1f920ada8bb367796d9ebf12",
+      "provider_id": 107,
+      "name": "Genoa CFC",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/107.png",
+      "crest": "crests/7823307b6745ab987f9b3d585ec8df58.png",
+      "theme_colors": {
+        "primary": "#9C042C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "not_required",
+      "cover_regions": [],
+      "covered_crest": "covered-crests/cb2fa2093459841b213f2ca5d63b35f2.png"
+    },
+    {
+      "id": "club_fb13fd30cf10040b2b3e50af",
+      "provider_id": 109,
+      "name": "Juventus FC",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/109.png",
+      "crest": "crests/0d11b0691168862612e1b049218fce81.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#F4F4F4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.16,
+          "y": 0.0,
+          "width": 0.68,
+          "height": 1.0,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/fcc5475f3a2b6d475d319ef969892301.png"
+    },
+    {
+      "id": "club_7b045fd4be585b56c7266607",
+      "provider_id": 112,
+      "name": "Parma Calcio 1913",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/112.png",
+      "crest": "crests/96c276f65b80272dde9548819af387fc.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#243C94"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.09,
+          "width": 0.71,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/784d177f84e2d6c56a40bdc0c3566111.png"
+    },
+    {
+      "id": "club_9337548a2ac7fe4261e55bad",
+      "provider_id": 110,
+      "name": "SS Lazio",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/110.png",
+      "crest": "crests/54ad71c635def6b55ff8e42a23f114bf.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#049CE4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.37,
+          "y": 0.44,
+          "width": 0.27,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/d604da088c91f073ae317a2c066cb547.png"
+    },
+    {
+      "id": "club_4a8bc3e1c0001e25a4dd3b74",
+      "provider_id": 113,
+      "name": "SSC Napoli",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/113.png",
+      "crest": "crests/fe27db131717fa9804e1a0543cdca649.png",
+      "theme_colors": {
+        "primary": "#04A4E4",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.32,
+          "y": 0.27,
+          "width": 0.37,
+          "height": 0.47,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/a16ffbfa02c5988e3e431d2dc427a336.png"
+    },
+    {
+      "id": "club_b89c8d7808890f23ab245b68",
+      "provider_id": 586,
+      "name": "Torino FC",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/586.png",
+      "crest": "crests/8c60f76302adf421a0fbb93e2f8860ca.png",
+      "theme_colors": {
+        "primary": "#7C1C24",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.07,
+          "width": 0.66,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.29,
+          "width": 0.27,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.67,
+          "y": 0.29,
+          "width": 0.21,
+          "height": 0.19,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/3188a792590fb73ccb1a1794534a4a71.png"
+    },
+    {
+      "id": "club_d0310444dd73eed5d0575dca",
+      "provider_id": 115,
+      "name": "Udinese Calcio",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/115.png",
+      "crest": "crests/1a5229bc91dd45acbf7c5c2c23fdd885.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#A4844C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.37,
+          "y": 0.0,
+          "width": 0.29,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.22,
+              "y": 0.48
+            },
+            {
+              "x": 0.28,
+              "y": 0.32
+            },
+            {
+              "x": 0.4,
+              "y": 0.23
+            },
+            {
+              "x": 0.5,
+              "y": 0.21
+            },
+            {
+              "x": 0.6,
+              "y": 0.23
+            },
+            {
+              "x": 0.72,
+              "y": 0.32
+            },
+            {
+              "x": 0.78,
+              "y": 0.48
+            },
+            {
+              "x": 0.66,
+              "y": 0.45
+            },
+            {
+              "x": 0.6,
+              "y": 0.37
+            },
+            {
+              "x": 0.53,
+              "y": 0.34
+            },
+            {
+              "x": 0.47,
+              "y": 0.34
+            },
+            {
+              "x": 0.4,
+              "y": 0.37
+            },
+            {
+              "x": 0.34,
+              "y": 0.45
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/fa7f4b80ccce715dbfd207b44125e9f4.png"
+    },
+    {
+      "id": "club_51466c3c81b14eaa7758653e",
+      "provider_id": 5890,
+      "name": "US Lecce",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/5890.png",
+      "crest": "crests/88ca1d618ff0f41d23863a94b05dbdcd.png",
+      "theme_colors": {
+        "primary": "#045C84",
+        "secondary": "#DCBC94"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.38,
+          "y": 0.07,
+          "width": 0.25,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.19,
+          "y": 0.18,
+          "width": 0.63,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.4,
+          "width": 0.23,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/c4357067d35bc7e7a4110ac0964b7dc7.png"
+    },
+    {
+      "id": "club_de5c5746ab58d588aad2f775",
+      "provider_id": 471,
+      "name": "US Sassuolo Calcio",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/471.png",
+      "crest": "crests/6ea030b44d561ee602d1cbbd32e4d883.png",
+      "theme_colors": {
+        "primary": "#241C1C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.36,
+          "width": 0.67,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/9db7ca4fde5f103b8d680dfbbe21723c.png"
+    },
+    {
+      "id": "club_f4b636a3e0e1b225b43fc50c",
+      "provider_id": 454,
+      "name": "Venezia FC",
+      "scope": "serie-a",
+      "league": "Serie A",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/454.png",
+      "crest": "crests/d80f00a91db82d4b814bdd4a8eae6ef1.png",
+      "theme_colors": {
+        "primary": "#14140C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.13,
+              "y": 0.39
+            },
+            {
+              "x": 0.2,
+              "y": 0.22
+            },
+            {
+              "x": 0.35,
+              "y": 0.11
+            },
+            {
+              "x": 0.5,
+              "y": 0.08
+            },
+            {
+              "x": 0.65,
+              "y": 0.11
+            },
+            {
+              "x": 0.8,
+              "y": 0.22
+            },
+            {
+              "x": 0.87,
+              "y": 0.39
+            },
+            {
+              "x": 0.73,
+              "y": 0.36
+            },
+            {
+              "x": 0.66,
+              "y": 0.28
+            },
+            {
+              "x": 0.57,
+              "y": 0.24
+            },
+            {
+              "x": 0.43,
+              "y": 0.24
+            },
+            {
+              "x": 0.34,
+              "y": 0.28
+            },
+            {
+              "x": 0.27,
+              "y": 0.36
+            }
+          ]
+        },
+        {
+          "x": 0.4,
+          "y": 0.82,
+          "width": 0.21,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/fd9b1dbf835e78083f264f779674e6ea.png"
+    }
+  ]
+}

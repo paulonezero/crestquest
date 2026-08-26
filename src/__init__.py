@@ -1,0 +1,1 @@
+"""Crest Quest domain package."""
