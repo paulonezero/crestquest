@@ -68,7 +68,7 @@ function prefersReducedMotion(): boolean {
 export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: ActiveRoundProps) {
   const [secondsLeft, setSecondsLeft] = useState(round.remaining_seconds)
   const [isAnswering, setIsAnswering] = useState(false)
-  const [wrongAnswer, setWrongAnswer] = useState<{ choice: Choice; index: number } | null>(null)
+  const [wrongAnswer, setWrongAnswer] = useState<{ choice: Choice } | null>(null)
   const [feedback, setFeedback] = useState<CorrectFeedback | null>(null)
   const [status, setStatus] = useState('Choose the club that matches the crest.')
   const [effectsOn, setEffectsOn] = useState(getEffectsPreference)
@@ -83,6 +83,10 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
   const pendingFocusToken = useRef<string | null>(null)
   const autoAdvanceToken = useRef<string | null>(null)
   const reducedMotion = prefersReducedMotion()
+  const choiceSlots = useMemo(
+    () => round.question.choices,
+    [round.question.question_token],
+  )
 
   const clockSync = useMemo(() => ({
     deadline: round.deadline,
@@ -196,15 +200,19 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
         void continueAfter(advanceToken)
       } else {
         triggerEffect('wrong')
-        const wrongIndex = answeredQuestion.choices.findIndex(
+        const wrongIndex = choiceSlots.findIndex(
           (candidate) => candidate.answer_token === choice.answer_token,
         )
-        const remainingChoices = response.state.question.choices.filter(
-          (candidate) => !response.state.question.removed_answer_tokens.includes(candidate.answer_token),
+        const removedTokens = response.state.question.removed_answer_tokens
+        const nextChoice = choiceSlots.slice(wrongIndex + 1).find(
+          (candidate) => !removedTokens.includes(candidate.answer_token),
+        ) ?? choiceSlots.slice(0, wrongIndex).reverse().find(
+          (candidate) => !removedTokens.includes(candidate.answer_token),
         )
-        pendingFocusToken.current = remainingChoices[Math.min(Math.max(0, wrongIndex), remainingChoices.length - 1)]?.answer_token ?? null
-        setWrongAnswer({ choice, index: wrongIndex })
+        pendingFocusToken.current = nextChoice?.answer_token ?? null
+        setWrongAnswer({ choice })
         setStatus(`${choice.name} is not correct. Try again.`)
+        if (removalTimer.current !== null) window.clearTimeout(removalTimer.current)
         removalTimer.current = window.setTimeout(() => setWrongAnswer(null), reducedMotion ? 0 : 430)
       }
     } catch (error) {
@@ -216,23 +224,7 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
     } finally {
       setIsAnswering(false)
     }
-  }, [continueAfter, effectsOn, isAnswering, onConflict, onRoundChange, reducedMotion, round.awaiting_advance, round.question, secondsLeft])
-
-  const visibleChoices = round.question.choices.filter(
-    (choice) => !round.question.removed_answer_tokens.includes(choice.answer_token),
-  )
-  if (
-    wrongAnswer
-    && !visibleChoices.some(
-      (choice) => choice.answer_token === wrongAnswer.choice.answer_token,
-    )
-  ) {
-    visibleChoices.splice(
-      Math.max(0, wrongAnswer.index),
-      0,
-      wrongAnswer.choice,
-    )
-  }
+  }, [choiceSlots, continueAfter, effectsOn, isAnswering, onConflict, onRoundChange, reducedMotion, round.awaiting_advance, round.question, secondsLeft])
 
   useEffect(() => {
     if (wrongAnswer || !pendingFocusToken.current) return
@@ -244,15 +236,20 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
     function handleKeyDown(event: KeyboardEvent) {
       if (isEditableTarget(event.target) || event.altKey || event.ctrlKey || event.metaKey) return
       const index = Number(event.key) - 1
-      const choice = visibleChoices[index]
-      if (index >= 0 && index < 4 && choice) {
+      const choice = choiceSlots[index]
+      if (
+        index >= 0
+        && index < 4
+        && choice
+        && !round.question.removed_answer_tokens.includes(choice.answer_token)
+      ) {
         event.preventDefault()
         void choose(choice)
       }
     }
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [choose, visibleChoices])
+  }, [choiceSlots, choose, round.question.removed_answer_tokens])
 
   function toggleEffects() {
     const next = !effectsOn
@@ -342,13 +339,25 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
               </div>
             </div>
             <div className="answer-grid" aria-busy={isAnswering || advancing}>
-              {visibleChoices.map((choice, index) => {
+              {choiceSlots.map((choice, index) => {
                   const isWrong = wrongAnswer?.choice.answer_token === choice.answer_token
+                  const isRemoved = round.question.removed_answer_tokens.includes(choice.answer_token)
+                  if (isRemoved && !isWrong) {
+                    return (
+                      <div
+                        className="answer-slot--empty"
+                        key={choice.answer_token}
+                        data-answer-slot={choice.answer_token}
+                        aria-hidden="true"
+                      />
+                    )
+                  }
                   return (
                     <button
                       className={`answer-button${isWrong ? ' answer-button--wrong' : ''}`}
                       type="button"
                       key={choice.answer_token}
+                      data-answer-slot={choice.answer_token}
                       ref={(element) => {
                         if (element) answerRefs.current.set(choice.answer_token, element)
                         else answerRefs.current.delete(choice.answer_token)

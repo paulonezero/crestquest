@@ -209,6 +209,11 @@ describe('Crest Quest frontend', () => {
     expect(screen.getByRole('button', { name: 'Arsenal' })).toHaveClass('answer-button--wrong')
     await waitFor(() => expect(screen.queryByRole('button', { name: 'Arsenal' })).not.toBeInTheDocument(), { timeout: 1000 })
     await waitFor(() => expect(screen.getByRole('button', { name: 'Barcelona' })).toHaveFocus())
+    const answerSlots = Array.from(document.querySelectorAll('.answer-grid > [data-answer-slot]'))
+    expect(answerSlots.map((slot) => slot.getAttribute('data-answer-slot'))).toEqual(
+      initial.question.choices.map((choice) => choice.answer_token),
+    )
+    expect(answerSlots[0]).toHaveClass('answer-slot--empty')
     expect(screen.queryByText(/ajax/i)).not.toBeInTheDocument()
   })
 
@@ -489,7 +494,7 @@ describe('Crest Quest frontend', () => {
     expect(await screen.findByRole('switch', { name: 'Sound & haptics on' })).toHaveAttribute('aria-checked', 'true')
   })
 
-  it('honours reduced motion when collapsing a wrong answer', async () => {
+  it('honours reduced motion when removing a wrong answer', async () => {
     const matchMedia = vi.fn().mockReturnValue({ matches: true })
     vi.stubGlobal('matchMedia', matchMedia)
     const initial = activeRound()

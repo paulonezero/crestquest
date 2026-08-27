@@ -205,6 +205,7 @@ h1 { max-width: 13em; margin: 0; font-size: clamp(2rem, 5vw, 3.1rem); font-weigh
 .answer-status--correct span { color: var(--gold); font-weight: 700; }
 .answer-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(8px, 1.2vw, 12px); min-height: 0; }
 .answer-button { position: relative; display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; width: 100%; min-height: clamp(66px, 9vh, 92px); align-items: center; gap: 10px; padding: 10px 13px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); background: #fffefa; cursor: pointer; text-align: left; font-size: clamp(.8rem, 1.3vw, .92rem); font-weight: 700; transition: border-color 140ms ease, background 140ms ease, transform 140ms ease; }
+.answer-slot--empty { min-height: clamp(66px, 9vh, 92px); visibility: hidden; pointer-events: none; }
 .answer-button:hover:not(:disabled) { border-color: rgba(34,94,76,.5); background: #f5faf6; }
 .answer-button:active:not(:disabled) { border-color: var(--forest-2); background: var(--mint); transform: scale(.985); }
 .answer-button:disabled { cursor: wait; opacity: .7; }
@@ -214,8 +215,8 @@ h1 { max-width: 13em; margin: 0; font-size: clamp(2rem, 5vw, 3.1rem); font-weigh
 .answer-button__league { color: var(--muted); font-size: .62rem; font-weight: 600; line-height: 1.2; }
 .answer-button--wrong .answer-button__league { color: inherit; opacity: .72; }
 .answer-button__wrong { color: var(--danger); font-size: 1.2rem; }
-.answer-button--wrong { border-color: rgba(165,64,56,.55); color: var(--danger); background: #fff5f3; animation: wrong-collapse 430ms ease-in both; transform-origin: center; }
-@keyframes wrong-collapse { 0%,35% { transform: translateX(0); } 10%,25% { transform: translateX(-7px); } 17%,32% { transform: translateX(7px); } 65% { opacity: 1; transform: scaleY(1); } 100% { min-height: 0; height: 0; padding-block: 0; border-width: 0; opacity: 0; transform: scaleY(0); } }
+.answer-button--wrong { border-color: rgba(165,64,56,.55); color: var(--danger); background: #fff5f3; animation: wrong-remove 430ms ease-in both; transform-origin: center; }
+@keyframes wrong-remove { 0%,35% { transform: translateX(0); } 10%,25% { transform: translateX(-7px); } 17%,32% { transform: translateX(7px); } 65% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(.96); } }
 
 .round-footer { display: flex; min-width: 0; border-top: 1px solid var(--line); background: rgba(255,253,248,.9); }
 .recent-answer { display: grid; min-width: 0; flex: 0 1 320px; grid-template-columns: 40px minmax(0, 1fr) auto; align-items: center; gap: 9px; padding: 5px 11px; border-right: 1px solid var(--line); background: linear-gradient(100deg, rgba(220,233,223,.8), rgba(245,230,194,.3)); animation: recent-answer-in 220ms ease both; }
@@ -303,6 +304,7 @@ tbody tr.is-current-player { background: rgba(220,233,223,.7); }
   .answer-heading { margin-bottom: 7px; }
   .answer-grid { grid-template-columns: 1fr; gap: 7px; }
   .answer-button { min-height: 48px; padding-block: 7px; }
+  .answer-slot--empty { min-height: 48px; }
   .round-footer--feedback { display: grid; }
   .round-footer--feedback .recent-answer { border-right: 0; border-bottom: 1px solid var(--line); }
   .round-footer-stats { min-height: 32px; }
@@ -314,6 +316,7 @@ tbody tr.is-current-player { background: rgba(220,233,223,.7); }
   .answer-area { padding: clamp(16px, 2.5vw, 26px); }
   .answer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .answer-button { min-height: clamp(68px, 8dvh, 88px); }
+  .answer-slot--empty { min-height: clamp(68px, 8dvh, 88px); }
 }
 
 @media (max-width: 680px) {
@@ -412,6 +415,7 @@ tbody tr.is-current-player { background: rgba(220,233,223,.7); }
   .answer-status { margin-top: 2px; font-size: .57rem; }
   .answer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
   .answer-button { grid-template-columns: minmax(0, 1fr) auto; min-height: 52px; gap: 4px; padding: 5px 8px; font-size: clamp(.7rem, 1.8vw, .8rem); }
+  .answer-slot--empty { min-height: 52px; }
   .answer-button kbd { display: none; }
   .answer-button__label { gap: 2px; }
   .answer-button__league { display: none; }
