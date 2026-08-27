@@ -104,6 +104,7 @@ describe('Crest Quest frontend', () => {
     fetchMock.mockReset()
     window.localStorage.clear()
     vi.stubGlobal('fetch', fetchMock)
+    vi.stubGlobal('scrollTo', vi.fn())
   })
 
   afterEach(() => {
@@ -180,6 +181,7 @@ describe('Crest Quest frontend', () => {
 
     expect(await screen.findByRole('heading', { name: 'Name that crest' })).toBeInTheDocument()
     expect(screen.getByRole('img', { name: 'Mystery football club crest' })).toHaveAttribute('src', '/api/questions/question-old/crest')
+    expect(window.scrollTo).toHaveBeenCalledWith(0, 0)
     expect(fetchMock).toHaveBeenLastCalledWith('/api/round/start', expect.objectContaining({
       method: 'POST',
       body: JSON.stringify({ scope: 'premier-league', duration: 30 }),

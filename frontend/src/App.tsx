@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import {
   ApiError,
   expireRound,
@@ -37,6 +37,12 @@ function messageFrom(error: unknown): string {
 
 function isAbortError(error: unknown): boolean {
   return error instanceof Error && error.name === 'AbortError'
+}
+
+function resetPageScroll() {
+  window.scrollTo(0, 0)
+  document.documentElement.scrollTop = 0
+  document.body.scrollTop = 0
 }
 
 type RoundSource = 'action' | 'snapshot' | 'start'
@@ -125,6 +131,8 @@ export default function App() {
 
   async function beginRound(scope: string, duration: number) {
     const round = await startRound(scope, duration)
+    if (document.activeElement instanceof HTMLElement) document.activeElement.blur()
+    resetPageScroll()
     updateRound(round, 'start')
   }
 
@@ -194,12 +202,9 @@ export default function App() {
   const round = state?.round
   const isGame = view.kind === 'active'
 
-  useEffect(() => {
+  useLayoutEffect(() => {
+    if (isGame) resetPageScroll()
     document.body.classList.toggle('is-playing', isGame)
-    if (isGame) {
-      document.documentElement.scrollTop = 0
-      document.body.scrollTop = 0
-    }
     return () => document.body.classList.remove('is-playing')
   }, [isGame])
 

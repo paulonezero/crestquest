@@ -498,6 +498,20 @@ for (const viewport of VIEWPORTS) {
   })
 }
 
+test('first round resets setup scroll before locking the game viewport', async ({ page }) => {
+  const viewport = { width: 390, height: 844 } as const
+  await page.setViewportSize(viewport)
+  await installApiMock(page)
+  await openSetup(page)
+
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight))
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(0)
+  await page.getByRole('button', { name: /Start quest/i }).tap()
+
+  await expect(page.getByRole('heading', { name: 'Name that crest' })).toBeVisible()
+  await assertActiveLayout(page, viewport, firstChoices.map((choice) => choice.name))
+})
+
 test('viewport rotation preserves the current active question and removed answer', async ({ page }) => {
   const portrait = { width: 768, height: 1024 } as const
   const landscape = { width: 1024, height: 768 } as const
