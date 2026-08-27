@@ -1,4 +1,4 @@
-.PHONY: install dev import-data prepare-crests validate-covers validate-data test lint build release-check run
+.PHONY: install dev import-data prepare-crests review-crests validate-covers validate-data test lint build release-check run
 
 VENV := .venv
 PYTHON := $(VENV)/bin/python
@@ -17,6 +17,9 @@ import-data:
 
 prepare-crests:
 	$(PYTHON) scripts/prepare_crest_assets.py
+
+review-crests:
+	$(PYTHON) scripts/generate_crest_review.py --open
 
 validate-covers:
 	$(PYTHON) scripts/validate_crest_covers.py

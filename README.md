@@ -192,6 +192,14 @@ The cover report groups all crests by confidence and separately lists missing an
 
 Visually compare untouched files in `data/crests/` with generated files in `data/covered-crests/`. Never replace an original with its covered derivative.
 
+For a full local visual review, run:
+
+```bash
+make review-crests
+```
+
+This generates and opens the ignored page `var/crest-review/index.html`. It shows every original and covered crest side by side, measures the percentage of visible original pixels changed by cover rendering, highlights crests over 50%, persists selections in browser local storage, and exports selected provider IDs as text or JSON.
+
 ## API
 
 ```text

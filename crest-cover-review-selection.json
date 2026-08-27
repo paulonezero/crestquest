@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-27T14:53:04Z",
+  "metric": "percentage of non-transparent original crest pixels changed by the covered asset",
+  "threshold_percent": 50,
+  "selected_count": 23,
+  "clubs": [
+    {
+      "provider_team_id": 15,
+      "name": "1. FSV Mainz 05",
+      "league": "Bundesliga",
+      "coverage_percent": 75,
+      "original_crest": "crests/f367fbcd7d23f6bd0e8c21c9d135b9af.png",
+      "covered_crest": "covered-crests/c8bf26cd45f9b0323cbda76aa79a873f.png"
+    },
+    {
+      "provider_team_id": 532,
+      "name": "Angers SCO",
+      "league": "Ligue 1",
+      "coverage_percent": 74.6,
+      "original_crest": "crests/d79698933cf2b6b8d37dce05eda1000e.png",
+      "covered_crest": "covered-crests/914dc0b25733437fc8be09f6dcfb1106.png"
+    },
+    {
+      "provider_team_id": 4,
+      "name": "Borussia Dortmund",
+      "league": "Bundesliga",
+      "coverage_percent": 90.5,
+      "original_crest": "crests/914140cc529d144193b2747f48c74c81.png",
+      "covered_crest": "covered-crests/c1c1fd5f771bcb1cf0cbebaa817c2c9a.png"
+    },
+    {
+      "provider_team_id": 397,
+      "name": "Brighton & Hove Albion FC",
+      "league": "Premier League",
+      "coverage_percent": 64.3,
+      "original_crest": "crests/6b406615958284687cd0815f3ec81be9.png",
+      "covered_crest": "covered-crests/479425830ef67a24d2f5f97769d1479a.png"
+    },
+    {
+      "provider_team_id": 5530,
+      "name": "CD Santa Clara",
+      "league": "Primeira Liga",
+      "coverage_percent": 85.9,
+      "original_crest": "crests/11f25b681651b8c37c45e05b045d9839.png",
+      "covered_crest": "covered-crests/68879f0dc645981820a149f6970ddfc9.png"
+    },
+    {
+      "provider_team_id": 61,
+      "name": "Chelsea FC",
+      "league": "Premier League",
+      "coverage_percent": 82.8,
+      "original_crest": "crests/df7dc02d33145f04485fff6f69fa8614.png",
+      "covered_crest": "covered-crests/122ef8f95f44397763d1314edf77811c.png"
+    },
+    {
+      "provider_team_id": 531,
+      "name": "ES Troyes AC",
+      "league": "Ligue 1",
+      "coverage_percent": 77.3,
+      "original_crest": "crests/70577aa74ee04d97460804ec8b1b492c.png",
+      "covered_crest": "covered-crests/50e40c3b6b69a73e8f3cb51089202849.png"
+    },
+    {
+      "provider_team_id": 503,
+      "name": "FC Porto",
+      "league": "Primeira Liga",
+      "coverage_percent": 84.4,
+      "original_crest": "crests/a41fb4ec4e72f33c82bd946e1c93d8c0.png",
+      "covered_crest": "covered-crests/9c2197c91e1ea63ec52b4a99ab06e2f5.png"
+    },
+    {
+      "provider_team_id": 675,
+      "name": "Feyenoord Rotterdam",
+      "league": "Eredivisie",
+      "coverage_percent": 95,
+      "original_crest": "crests/048c0e5ad8127517f0119162111a284b.png",
+      "covered_crest": "covered-crests/6bc1d577802d296576aa53df88a00a23.png"
+    },
+    {
+      "provider_team_id": 109,
+      "name": "Juventus FC",
+      "league": "Serie A",
+      "coverage_percent": 97.7,
+      "original_crest": "crests/0d11b0691168862612e1b049218fce81.png",
+      "covered_crest": "covered-crests/fcc5475f3a2b6d475d319ef969892301.png"
+    },
+    {
+      "provider_team_id": 64,
+      "name": "Liverpool FC",
+      "league": "Premier League",
+      "coverage_percent": 70.6,
+      "original_crest": "crests/94b05882b46eac38f9f6a7d22200b38c.png",
+      "covered_crest": "covered-crests/5795f2c91c659dbd759c9e7591f02081.png"
+    },
+    {
+      "provider_team_id": 516,
+      "name": "Olympique de Marseille",
+      "league": "Ligue 1",
+      "coverage_percent": 65.1,
+      "original_crest": "crests/dac1fb065297de1d15123e2a680dbe32.png",
+      "covered_crest": "covered-crests/28cd0b94f1de579199f79b820bd5474c.png"
+    },
+    {
+      "provider_team_id": 523,
+      "name": "Olympique Lyonnais",
+      "league": "Ligue 1",
+      "coverage_percent": 63.6,
+      "original_crest": "crests/6a1288705bd806295565335524ce6824.png",
+      "covered_crest": "covered-crests/0ed09eb29807c0a44ae59b9bdf27990e.png"
+    },
+    {
+      "provider_team_id": 546,
+      "name": "Racing Club de Lens",
+      "league": "Ligue 1",
+      "coverage_percent": 65.6,
+      "original_crest": "crests/61b64d4544ad1444a701184149740fd3.png",
+      "covered_crest": "covered-crests/78bd0ae563427caa9d93c06817e78ba0.png"
+    },
+    {
+      "provider_team_id": 560,
+      "name": "RC Deportivo La Coruña",
+      "league": "La Liga",
+      "coverage_percent": 74.4,
+      "original_crest": "crests/570d2ae61870ce2582975037b36f8325.png",
+      "covered_crest": "covered-crests/46e9a82212946840b6fad5fde10f5c9d.png"
+    },
+    {
+      "provider_team_id": 576,
+      "name": "RC Strasbourg Alsace",
+      "league": "Ligue 1",
+      "coverage_percent": 95.3,
+      "original_crest": "crests/57d6dbd1e68a25b3ad7095bfcecf98a8.png",
+      "covered_crest": "covered-crests/d0d1f0c67f8649507a0313bb2f9df85a.png"
+    },
+    {
+      "provider_team_id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "league": "La Liga",
+      "coverage_percent": 79,
+      "original_crest": "crests/dd0a9042394d6fd90e8e9b408bb1eeb3.png",
+      "covered_crest": "covered-crests/82bb6ecc64bf0169b1543326626db659.png"
+    },
+    {
+      "provider_team_id": 86,
+      "name": "Real Madrid CF",
+      "league": "La Liga",
+      "coverage_percent": 65.5,
+      "original_crest": "crests/8f7398501f3e42443794c18891826dd3.png",
+      "covered_crest": "covered-crests/2a0058e138e596f37736ddeefe3188e9.png"
+    },
+    {
+      "provider_team_id": 5335,
+      "name": "Real Racing Club de Santander",
+      "league": "La Liga",
+      "coverage_percent": 81,
+      "original_crest": "crests/67f4224eed1a5501957558312fbfce5c.png",
+      "covered_crest": "covered-crests/94629dc0860102f2f6c480754be1fcfc.png"
+    },
+    {
+      "provider_team_id": 29,
+      "name": "SC Paderborn 07",
+      "league": "Bundesliga",
+      "coverage_percent": 79.5,
+      "original_crest": "crests/60270f7f30ab709f180db845bfeae756.png",
+      "covered_crest": "covered-crests/4a7b816e219e3526b05df1ea729fd36c.png"
+    },
+    {
+      "provider_team_id": 719,
+      "name": "SV 07 Elversberg",
+      "league": "Bundesliga",
+      "coverage_percent": 96.7,
+      "original_crest": "crests/4b1a258c2809d141228a3104a56c5a63.png",
+      "covered_crest": "covered-crests/f67859cad7b2ff1c0e58078451e82a67.png"
+    },
+    {
+      "provider_team_id": 12,
+      "name": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "coverage_percent": 66.8,
+      "original_crest": "crests/36752be4250458e0980406a2918e9968.png",
+      "covered_crest": "covered-crests/c98f5a488664f3cd19fc860f0aff24db.png"
+    },
+    {
+      "provider_team_id": 511,
+      "name": "Toulouse FC",
+      "league": "Ligue 1",
+      "coverage_percent": 84.9,
+      "original_crest": "crests/f35bfc24936635fac6476d287dc8bbac.png",
+      "covered_crest": "covered-crests/34b6b5d0bdb29c15321fd5bce5d94c86.png"
+    }
+  ]
+}
