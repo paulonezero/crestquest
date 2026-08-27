@@ -13,6 +13,9 @@ from PIL import Image, ImageDraw
 
 _COLOR_PATTERN = re.compile(r"#[0-9A-Fa-f]{6}\Z")
 _REVIEW_STATUSES = frozenset({"covered", "not_required", "manual_review"})
+_COVERAGE_CONFIDENCES = frozenset({"high", "medium", "low", "unreviewed"})
+_SHA256_PATTERN = re.compile(r"[0-9a-f]{64}\Z")
+_REVIEWED_AT_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}\Z")
 _RECTANGLE_SHAPE = "rounded_rectangle"
 _POLYGON_SHAPE = "polygon"
 
@@ -26,6 +29,15 @@ def covered_crest_path(provider_team_id: int) -> str:
         f"crest-quest:football-data:covered-crest:v1:{provider_team_id}".encode()
     ).hexdigest()
     return f"covered-crests/{digest[:32]}.png"
+
+
+def crest_image_sha256(image: Image.Image) -> str:
+    """Return a stable digest of the reviewed crest pixels and dimensions."""
+    rgba = image.convert("RGBA")
+    digest = hashlib.sha256()
+    digest.update(f"{rgba.width}x{rgba.height}:RGBA\0".encode())
+    digest.update(rgba.tobytes())
+    return digest.hexdigest()
 
 
 def load_cover_metadata(path: Path | str) -> dict[int, dict[str, Any]]:
@@ -45,7 +57,8 @@ def load_cover_metadata(path: Path | str) -> dict[int, dict[str, Any]]:
             f"Crest-cover metadata is not valid JSON: {metadata_path}"
         ) from error
 
-    if not isinstance(raw, dict) or raw.get("schema_version") != 1:
+    schema_version = raw.get("schema_version") if isinstance(raw, dict) else None
+    if schema_version not in {1, 2}:
         raise CrestCoverError("Crest-cover metadata has an unsupported schema version")
     clubs = raw.get("clubs")
     if not isinstance(clubs, list):
@@ -88,6 +101,49 @@ def load_cover_metadata(path: Path | str) -> dict[int, dict[str, Any]]:
             "review_status": review_status,
             "cover_regions": regions,
         }
+        if schema_version == 2:
+            confidence = item.get("coverage_confidence")
+            if confidence not in _COVERAGE_CONFIDENCES:
+                raise CrestCoverError(
+                    f"{label}.coverage_confidence must be high, medium, low, "
+                    "or unreviewed"
+                )
+            reviewed_at = item.get("reviewed_at")
+            reviewed_digest = item.get("reviewed_crest_sha256")
+            if review_status == "manual_review":
+                if confidence != "unreviewed":
+                    raise CrestCoverError(
+                        f"{label} awaiting manual review must have "
+                        "unreviewed confidence"
+                    )
+                if reviewed_at is not None or reviewed_digest is not None:
+                    raise CrestCoverError(
+                        f"{label} awaiting manual review cannot have review provenance"
+                    )
+            else:
+                if confidence == "unreviewed":
+                    raise CrestCoverError(
+                        f"{label} with reviewed coverage cannot have "
+                        "unreviewed confidence"
+                    )
+                valid_reviewed_at = isinstance(
+                    reviewed_at, str
+                ) and _REVIEWED_AT_PATTERN.fullmatch(reviewed_at)
+                if not valid_reviewed_at:
+                    raise CrestCoverError(
+                        f"{label}.reviewed_at must be an ISO date (YYYY-MM-DD)"
+                    )
+                if (
+                    not isinstance(reviewed_digest, str)
+                    or not _SHA256_PATTERN.fullmatch(reviewed_digest)
+                ):
+                    raise CrestCoverError(
+                        f"{label}.reviewed_crest_sha256 must be a lowercase "
+                        "SHA-256 digest"
+                    )
+            normalized["coverage_confidence"] = confidence
+            normalized["reviewed_at"] = reviewed_at
+            normalized["reviewed_crest_sha256"] = reviewed_digest
         if "theme_colors" in item:
             normalized["theme_colors"] = validate_theme_colors(
                 item["theme_colors"], label=f"{label}.theme_colors"

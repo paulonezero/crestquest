@@ -146,11 +146,13 @@ Review the importer summary, crest-cover report, and version-control diff. Commi
 
 ## Crest cover annotations and colour overrides
 
-`data/crest_cover_metadata.json` is the maintained source for manual review. Every provider team ID must occur exactly once with one of these statuses:
+`data/crest_cover_metadata.json` is the maintained source for manual review. Its entries are keyed by stable provider team ID, so unchanged reviewed clubs remain approved when new leagues are imported. Every provider team ID must occur exactly once with one of these statuses:
 
 - `covered`: one or more reviewed normalized regions are required.
 - `not_required`: the crest has no answer-revealing text and `cover_regions` must be empty.
 - `manual_review`: no region is approved yet; the validation report lists the club explicitly.
+
+Schema v2 also records `coverage_confidence`, `reviewed_at`, and `reviewed_crest_sha256`. The digest is calculated from normalized RGBA pixels rather than PNG encoding. Preparation fails if a provider reuses an ID or URL for changed crest artwork, preventing stale approval from being carried forward. Reviewed entries use `high`, `medium`, or `low` confidence; `manual_review` entries use `unreviewed` with null provenance.
 
 Rectangle coordinates are relative to the complete 256×256 crest canvas and remain valid at every rendered size:
 
@@ -158,6 +160,9 @@ Rectangle coordinates are relative to the complete 256×256 crest canvas and rem
 {
   "provider_team_id": 123,
   "review_status": "covered",
+  "coverage_confidence": "high",
+  "reviewed_at": "2026-08-27",
+  "reviewed_crest_sha256": "<64-character lowercase SHA-256 digest>",
   "theme_colors": {
     "primary": "#C8102E",
     "secondary": "#FFFFFF"
@@ -182,6 +187,8 @@ After changing annotations or overrides, run:
 make prepare-crests
 make validate-data
 ```
+
+The cover report groups all crests by confidence and separately lists missing annotations, `manual_review` entries, and artwork changed since review. When adding leagues, retain existing metadata entries and add only the new provider IDs as `manual_review`; unchanged high-confidence entries require no new obscuring work. If an existing crest changes, update its regions as needed and replace its review date and pixel digest only after visual approval.
 
 Visually compare untouched files in `data/crests/` with generated files in `data/covered-crests/`. Never replace an original with its covered derivative.
 

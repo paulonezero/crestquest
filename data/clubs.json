@@ -158,24 +158,24 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.36,
-          "y": 0.15,
-          "width": 0.29,
-          "height": 0.14,
+          "x": 0.28,
+          "y": 0.1,
+          "width": 0.44,
+          "height": 0.22,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.34,
-          "y": 0.29,
-          "width": 0.32,
-          "height": 0.38,
+          "x": 0.25,
+          "y": 0.27,
+          "width": 0.5,
+          "height": 0.44,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.18,
-          "y": 0.71,
-          "width": 0.65,
-          "height": 0.17,
+          "x": 0.12,
+          "y": 0.68,
+          "width": 0.76,
+          "height": 0.23,
           "shape": "rounded_rectangle"
         }
       ],
@@ -474,10 +474,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.29,
-          "y": 0.14,
-          "width": 0.38,
-          "height": 0.72,
+          "x": 0.3,
+          "y": 0.12,
+          "width": 0.4,
+          "height": 0.76,
           "shape": "rounded_rectangle"
         }
       ],
@@ -516,10 +516,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.29,
-          "y": 0.61,
-          "width": 0.43,
-          "height": 0.22,
+          "x": 0.18,
+          "y": 0.34,
+          "width": 0.64,
+          "height": 0.51,
           "shape": "rounded_rectangle"
         }
       ],
@@ -566,24 +566,24 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.42,
-          "y": 0.18,
-          "width": 0.2,
-          "height": 0.17,
+          "x": 0.31,
+          "y": 0.15,
+          "width": 0.38,
+          "height": 0.2,
           "shape": "rounded_rectangle"
         },
         {
           "x": 0.0,
           "y": 0.34,
-          "width": 0.93,
-          "height": 0.25,
+          "width": 1.0,
+          "height": 0.22,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.42,
-          "y": 0.67,
-          "width": 0.19,
-          "height": 0.2,
+          "x": 0.32,
+          "y": 0.59,
+          "width": 0.36,
+          "height": 0.3,
           "shape": "rounded_rectangle"
         }
       ],
@@ -605,125 +605,39 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.15,
-              "y": 0.42
-            },
-            {
-              "x": 0.2,
-              "y": 0.24
-            },
-            {
-              "x": 0.35,
-              "y": 0.13
-            },
-            {
-              "x": 0.52,
-              "y": 0.1
-            },
-            {
-              "x": 0.69,
-              "y": 0.15
-            },
-            {
-              "x": 0.81,
-              "y": 0.29
-            },
-            {
-              "x": 0.84,
-              "y": 0.43
-            },
-            {
-              "x": 0.7,
-              "y": 0.39
-            },
-            {
-              "x": 0.66,
-              "y": 0.3
-            },
-            {
-              "x": 0.56,
-              "y": 0.25
-            },
-            {
-              "x": 0.43,
-              "y": 0.24
-            },
-            {
-              "x": 0.32,
-              "y": 0.29
-            },
-            {
-              "x": 0.28,
-              "y": 0.4
-            }
-          ]
-        },
-        {
-          "x": 0.29,
-          "y": 0.32,
-          "width": 0.46,
-          "height": 0.37,
+          "x": 0.03,
+          "y": 0.02,
+          "width": 0.94,
+          "height": 0.29,
           "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.15,
-              "y": 0.57
-            },
-            {
-              "x": 0.19,
-              "y": 0.74
-            },
-            {
-              "x": 0.34,
-              "y": 0.87
-            },
-            {
-              "x": 0.51,
-              "y": 0.91
-            },
-            {
-              "x": 0.68,
-              "y": 0.86
-            },
-            {
-              "x": 0.81,
-              "y": 0.72
-            },
-            {
-              "x": 0.84,
-              "y": 0.57
-            },
-            {
-              "x": 0.7,
-              "y": 0.61
-            },
-            {
-              "x": 0.66,
-              "y": 0.7
-            },
-            {
-              "x": 0.56,
-              "y": 0.76
-            },
-            {
-              "x": 0.43,
-              "y": 0.76
-            },
-            {
-              "x": 0.32,
-              "y": 0.7
-            },
-            {
-              "x": 0.28,
-              "y": 0.6
-            }
-          ]
+          "x": 0.0,
+          "y": 0.2,
+          "width": 0.25,
+          "height": 0.62,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.75,
+          "y": 0.2,
+          "width": 0.25,
+          "height": 0.62,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.03,
+          "y": 0.7,
+          "width": 0.94,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.26,
+          "y": 0.28,
+          "width": 0.48,
+          "height": 0.43,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/f67859cad7b2ff1c0e58078451e82a67.png"
@@ -982,57 +896,11 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.06,
-              "y": 0.71
-            },
-            {
-              "x": 0.18,
-              "y": 0.85
-            },
-            {
-              "x": 0.36,
-              "y": 0.94
-            },
-            {
-              "x": 0.64,
-              "y": 0.94
-            },
-            {
-              "x": 0.82,
-              "y": 0.85
-            },
-            {
-              "x": 0.94,
-              "y": 0.71
-            },
-            {
-              "x": 0.83,
-              "y": 0.66
-            },
-            {
-              "x": 0.72,
-              "y": 0.77
-            },
-            {
-              "x": 0.59,
-              "y": 0.82
-            },
-            {
-              "x": 0.41,
-              "y": 0.82
-            },
-            {
-              "x": 0.28,
-              "y": 0.77
-            },
-            {
-              "x": 0.17,
-              "y": 0.66
-            }
-          ]
+          "x": 0.03,
+          "y": 0.62,
+          "width": 0.94,
+          "height": 0.37,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/86dfaa2d4e138620d9c85fb34ec53436.png"
@@ -1085,38 +953,38 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.25,
-          "y": 0.23,
-          "width": 0.18,
-          "height": 0.29,
+          "x": 0.18,
+          "y": 0.12,
+          "width": 0.3,
+          "height": 0.4,
           "shape": "rounded_rectangle"
         },
         {
           "shape": "polygon",
           "points": [
             {
-              "x": 0.17,
-              "y": 0.69
+              "x": 0.1,
+              "y": 0.72
             },
             {
-              "x": 0.69,
-              "y": 0.27
+              "x": 0.72,
+              "y": 0.06
             },
             {
-              "x": 0.81,
-              "y": 0.39
+              "x": 0.88,
+              "y": 0.23
             },
             {
-              "x": 0.29,
-              "y": 0.81
+              "x": 0.26,
+              "y": 0.89
             }
           ]
         },
         {
-          "x": 0.65,
-          "y": 0.58,
-          "width": 0.2,
-          "height": 0.26,
+          "x": 0.59,
+          "y": 0.5,
+          "width": 0.3,
+          "height": 0.38,
           "shape": "rounded_rectangle"
         }
       ],
@@ -1138,133 +1006,39 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.05,
-              "y": 0.44
-            },
-            {
-              "x": 0.11,
-              "y": 0.23
-            },
-            {
-              "x": 0.28,
-              "y": 0.08
-            },
-            {
-              "x": 0.5,
-              "y": 0.03
-            },
-            {
-              "x": 0.72,
-              "y": 0.08
-            },
-            {
-              "x": 0.89,
-              "y": 0.23
-            },
-            {
-              "x": 0.95,
-              "y": 0.44
-            },
-            {
-              "x": 0.81,
-              "y": 0.42
-            },
-            {
-              "x": 0.75,
-              "y": 0.29
-            },
-            {
-              "x": 0.64,
-              "y": 0.2
-            },
-            {
-              "x": 0.5,
-              "y": 0.17
-            },
-            {
-              "x": 0.36,
-              "y": 0.2
-            },
-            {
-              "x": 0.25,
-              "y": 0.29
-            },
-            {
-              "x": 0.19,
-              "y": 0.42
-            }
-          ]
-        },
-        {
-          "x": 0.31,
-          "y": 0.27,
-          "width": 0.38,
-          "height": 0.46,
+          "x": 0.01,
+          "y": 0.01,
+          "width": 0.98,
+          "height": 0.28,
           "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.05,
-              "y": 0.56
-            },
-            {
-              "x": 0.11,
-              "y": 0.77
-            },
-            {
-              "x": 0.28,
-              "y": 0.92
-            },
-            {
-              "x": 0.5,
-              "y": 0.97
-            },
-            {
-              "x": 0.72,
-              "y": 0.92
-            },
-            {
-              "x": 0.89,
-              "y": 0.77
-            },
-            {
-              "x": 0.95,
-              "y": 0.56
-            },
-            {
-              "x": 0.81,
-              "y": 0.58
-            },
-            {
-              "x": 0.75,
-              "y": 0.71
-            },
-            {
-              "x": 0.64,
-              "y": 0.8
-            },
-            {
-              "x": 0.5,
-              "y": 0.83
-            },
-            {
-              "x": 0.36,
-              "y": 0.8
-            },
-            {
-              "x": 0.25,
-              "y": 0.71
-            },
-            {
-              "x": 0.19,
-              "y": 0.58
-            }
-          ]
+          "x": 0.0,
+          "y": 0.2,
+          "width": 0.24,
+          "height": 0.61,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.76,
+          "y": 0.2,
+          "width": 0.24,
+          "height": 0.61,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.01,
+          "y": 0.72,
+          "width": 0.98,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.28,
+          "y": 0.25,
+          "width": 0.44,
+          "height": 0.5,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/6bc1d577802d296576aa53df88a00a23.png"
@@ -1285,57 +1059,11 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.02,
-              "y": 0.52
-            },
-            {
-              "x": 0.08,
-              "y": 0.78
-            },
-            {
-              "x": 0.31,
-              "y": 0.96
-            },
-            {
-              "x": 0.63,
-              "y": 0.99
-            },
-            {
-              "x": 0.91,
-              "y": 0.82
-            },
-            {
-              "x": 0.99,
-              "y": 0.54
-            },
-            {
-              "x": 0.78,
-              "y": 0.57
-            },
-            {
-              "x": 0.73,
-              "y": 0.7
-            },
-            {
-              "x": 0.57,
-              "y": 0.79
-            },
-            {
-              "x": 0.4,
-              "y": 0.77
-            },
-            {
-              "x": 0.25,
-              "y": 0.67
-            },
-            {
-              "x": 0.21,
-              "y": 0.55
-            }
-          ]
+          "x": 0.02,
+          "y": 0.46,
+          "width": 0.96,
+          "height": 0.53,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/fcd1f5a0525df3b70a657de473d01bf5.png"
@@ -1356,17 +1084,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.16,
-          "y": 0.19,
-          "width": 0.7,
-          "height": 0.17,
+          "x": 0.02,
+          "y": 0.0,
+          "width": 0.96,
+          "height": 0.42,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.25,
-          "y": 0.73,
-          "width": 0.51,
-          "height": 0.18,
+          "x": 0.2,
+          "y": 0.7,
+          "width": 0.6,
+          "height": 0.23,
           "shape": "rounded_rectangle"
         }
       ],
@@ -1420,10 +1148,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.11,
-          "y": 0.16,
-          "width": 0.78,
-          "height": 0.23,
+          "x": 0.07,
+          "y": 0.05,
+          "width": 0.86,
+          "height": 0.37,
           "shape": "rounded_rectangle"
         }
       ],
@@ -1616,10 +1344,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.15,
-          "y": 0.05,
-          "width": 0.71,
-          "height": 0.14,
+          "x": 0.1,
+          "y": 0.0,
+          "width": 0.8,
+          "height": 0.25,
           "shape": "rounded_rectangle"
         }
       ],
@@ -1680,43 +1408,50 @@
       "cover_status": "covered",
       "cover_regions": [
         {
+          "x": 0.8,
+          "y": 0.25,
+          "width": 0.17,
+          "height": 0.52,
+          "shape": "rounded_rectangle"
+        },
+        {
           "shape": "polygon",
           "points": [
             {
-              "x": 0.12,
-              "y": 0.64
+              "x": 0.08,
+              "y": 0.6
             },
             {
               "x": 0.28,
-              "y": 0.74
-            },
-            {
-              "x": 0.49,
-              "y": 0.79
-            },
-            {
-              "x": 0.74,
-              "y": 0.7
-            },
-            {
-              "x": 0.87,
-              "y": 0.58
-            },
-            {
-              "x": 0.9,
-              "y": 0.76
-            },
-            {
-              "x": 0.76,
-              "y": 0.88
+              "y": 0.72
             },
             {
               "x": 0.5,
-              "y": 0.93
+              "y": 0.78
             },
             {
-              "x": 0.26,
-              "y": 0.86
+              "x": 0.76,
+              "y": 0.68
+            },
+            {
+              "x": 0.91,
+              "y": 0.55
+            },
+            {
+              "x": 0.93,
+              "y": 0.8
+            },
+            {
+              "x": 0.76,
+              "y": 0.91
+            },
+            {
+              "x": 0.5,
+              "y": 0.96
+            },
+            {
+              "x": 0.24,
+              "y": 0.89
             }
           ]
         }
@@ -1739,17 +1474,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.25,
-          "y": 0.39,
-          "width": 0.51,
-          "height": 0.17,
+          "x": 0.18,
+          "y": 0.34,
+          "width": 0.64,
+          "height": 0.34,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.28,
-          "y": 0.72,
-          "width": 0.44,
-          "height": 0.15,
+          "x": 0.2,
+          "y": 0.68,
+          "width": 0.6,
+          "height": 0.23,
           "shape": "rounded_rectangle"
         }
       ],
@@ -2269,23 +2004,30 @@
       "cover_status": "covered",
       "cover_regions": [
         {
+          "x": 0.48,
+          "y": 0.0,
+          "width": 0.52,
+          "height": 0.31,
+          "shape": "rounded_rectangle"
+        },
+        {
           "shape": "polygon",
           "points": [
             {
-              "x": 0.2,
-              "y": 0.59
+              "x": 0.03,
+              "y": 0.55
             },
             {
               "x": 0.67,
-              "y": 0.26
+              "y": 0.08
             },
             {
-              "x": 0.8,
+              "x": 0.97,
               "y": 0.38
             },
             {
-              "x": 0.33,
-              "y": 0.71
+              "x": 0.31,
+              "y": 0.88
             }
           ]
         }
@@ -2308,10 +2050,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.61,
-          "y": 0.27,
-          "width": 0.29,
-          "height": 0.47,
+          "x": 0.47,
+          "y": 0.1,
+          "width": 0.47,
+          "height": 0.7,
           "shape": "rounded_rectangle"
         }
       ],
@@ -2358,118 +2100,32 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.13,
-              "y": 0.46
-            },
-            {
-              "x": 0.2,
-              "y": 0.29
-            },
-            {
-              "x": 0.35,
-              "y": 0.18
-            },
-            {
-              "x": 0.52,
-              "y": 0.15
-            },
-            {
-              "x": 0.7,
-              "y": 0.2
-            },
-            {
-              "x": 0.83,
-              "y": 0.33
-            },
-            {
-              "x": 0.88,
-              "y": 0.48
-            },
-            {
-              "x": 0.73,
-              "y": 0.45
-            },
-            {
-              "x": 0.66,
-              "y": 0.34
-            },
-            {
-              "x": 0.55,
-              "y": 0.29
-            },
-            {
-              "x": 0.43,
-              "y": 0.29
-            },
-            {
-              "x": 0.32,
-              "y": 0.34
-            },
-            {
-              "x": 0.27,
-              "y": 0.45
-            }
-          ]
+          "x": 0.08,
+          "y": 0.18,
+          "width": 0.84,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.13,
-              "y": 0.55
-            },
-            {
-              "x": 0.2,
-              "y": 0.73
-            },
-            {
-              "x": 0.35,
-              "y": 0.84
-            },
-            {
-              "x": 0.52,
-              "y": 0.87
-            },
-            {
-              "x": 0.7,
-              "y": 0.82
-            },
-            {
-              "x": 0.83,
-              "y": 0.69
-            },
-            {
-              "x": 0.88,
-              "y": 0.54
-            },
-            {
-              "x": 0.73,
-              "y": 0.57
-            },
-            {
-              "x": 0.66,
-              "y": 0.68
-            },
-            {
-              "x": 0.55,
-              "y": 0.73
-            },
-            {
-              "x": 0.43,
-              "y": 0.73
-            },
-            {
-              "x": 0.32,
-              "y": 0.68
-            },
-            {
-              "x": 0.27,
-              "y": 0.57
-            }
-          ]
+          "x": 0.02,
+          "y": 0.3,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.68,
+          "y": 0.3,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.08,
+          "y": 0.62,
+          "width": 0.84,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/46e9a82212946840b6fad5fde10f5c9d.png"
@@ -2490,118 +2146,32 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.16,
-              "y": 0.46
-            },
-            {
-              "x": 0.2,
-              "y": 0.3
-            },
-            {
-              "x": 0.34,
-              "y": 0.18
-            },
-            {
-              "x": 0.5,
-              "y": 0.14
-            },
-            {
-              "x": 0.66,
-              "y": 0.18
-            },
-            {
-              "x": 0.8,
-              "y": 0.3
-            },
-            {
-              "x": 0.84,
-              "y": 0.46
-            },
-            {
-              "x": 0.7,
-              "y": 0.43
-            },
-            {
-              "x": 0.65,
-              "y": 0.34
-            },
-            {
-              "x": 0.57,
-              "y": 0.29
-            },
-            {
-              "x": 0.43,
-              "y": 0.29
-            },
-            {
-              "x": 0.35,
-              "y": 0.34
-            },
-            {
-              "x": 0.3,
-              "y": 0.43
-            }
-          ]
+          "x": 0.12,
+          "y": 0.08,
+          "width": 0.76,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.16,
-              "y": 0.54
-            },
-            {
-              "x": 0.2,
-              "y": 0.7
-            },
-            {
-              "x": 0.34,
-              "y": 0.82
-            },
-            {
-              "x": 0.5,
-              "y": 0.86
-            },
-            {
-              "x": 0.66,
-              "y": 0.82
-            },
-            {
-              "x": 0.8,
-              "y": 0.7
-            },
-            {
-              "x": 0.84,
-              "y": 0.54
-            },
-            {
-              "x": 0.7,
-              "y": 0.57
-            },
-            {
-              "x": 0.65,
-              "y": 0.66
-            },
-            {
-              "x": 0.57,
-              "y": 0.71
-            },
-            {
-              "x": 0.43,
-              "y": 0.71
-            },
-            {
-              "x": 0.35,
-              "y": 0.66
-            },
-            {
-              "x": 0.3,
-              "y": 0.57
-            }
-          ]
+          "x": 0.03,
+          "y": 0.28,
+          "width": 0.29,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.68,
+          "y": 0.28,
+          "width": 0.29,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.12,
+          "y": 0.65,
+          "width": 0.76,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/82bb6ecc64bf0169b1543326626db659.png"
@@ -2672,125 +2242,32 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.12,
-              "y": 0.45
-            },
-            {
-              "x": 0.19,
-              "y": 0.28
-            },
-            {
-              "x": 0.34,
-              "y": 0.18
-            },
-            {
-              "x": 0.5,
-              "y": 0.15
-            },
-            {
-              "x": 0.66,
-              "y": 0.18
-            },
-            {
-              "x": 0.81,
-              "y": 0.28
-            },
-            {
-              "x": 0.88,
-              "y": 0.45
-            },
-            {
-              "x": 0.73,
-              "y": 0.42
-            },
-            {
-              "x": 0.66,
-              "y": 0.33
-            },
-            {
-              "x": 0.57,
-              "y": 0.29
-            },
-            {
-              "x": 0.43,
-              "y": 0.29
-            },
-            {
-              "x": 0.34,
-              "y": 0.33
-            },
-            {
-              "x": 0.27,
-              "y": 0.42
-            }
-          ]
-        },
-        {
-          "x": 0.34,
-          "y": 0.35,
-          "width": 0.22,
-          "height": 0.18,
+          "x": 0.07,
+          "y": 0.07,
+          "width": 0.86,
+          "height": 0.34,
           "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.12,
-              "y": 0.55
-            },
-            {
-              "x": 0.19,
-              "y": 0.72
-            },
-            {
-              "x": 0.34,
-              "y": 0.82
-            },
-            {
-              "x": 0.5,
-              "y": 0.85
-            },
-            {
-              "x": 0.66,
-              "y": 0.82
-            },
-            {
-              "x": 0.81,
-              "y": 0.72
-            },
-            {
-              "x": 0.88,
-              "y": 0.55
-            },
-            {
-              "x": 0.73,
-              "y": 0.58
-            },
-            {
-              "x": 0.66,
-              "y": 0.67
-            },
-            {
-              "x": 0.57,
-              "y": 0.71
-            },
-            {
-              "x": 0.43,
-              "y": 0.71
-            },
-            {
-              "x": 0.34,
-              "y": 0.67
-            },
-            {
-              "x": 0.27,
-              "y": 0.58
-            }
-          ]
+          "x": 0.01,
+          "y": 0.29,
+          "width": 0.31,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.68,
+          "y": 0.29,
+          "width": 0.31,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.07,
+          "y": 0.63,
+          "width": 0.86,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/94629dc0860102f2f6c480754be1fcfc.png"
@@ -2811,10 +2288,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.31,
-          "y": 0.65,
-          "width": 0.22,
-          "height": 0.16,
+          "x": 0.14,
+          "y": 0.51,
+          "width": 0.64,
+          "height": 0.45,
           "shape": "rounded_rectangle"
         }
       ],
@@ -2836,10 +2313,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.57,
-          "y": 0.22,
-          "width": 0.24,
-          "height": 0.29,
+          "x": 0.47,
+          "y": 0.08,
+          "width": 0.44,
+          "height": 0.5,
           "shape": "rounded_rectangle"
         }
       ],
@@ -2936,17 +2413,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.31,
-          "y": 0.08,
-          "width": 0.38,
-          "height": 0.15,
+          "x": 0.22,
+          "y": 0.0,
+          "width": 0.56,
+          "height": 0.27,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.19,
-          "y": 0.22,
-          "width": 0.62,
-          "height": 0.36,
+          "x": 0.16,
+          "y": 0.2,
+          "width": 0.68,
+          "height": 0.42,
           "shape": "rounded_rectangle"
         }
       ],
@@ -2993,31 +2470,31 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.39,
-          "y": 0.08,
-          "width": 0.23,
-          "height": 0.12,
+          "x": 0.23,
+          "y": 0.01,
+          "width": 0.54,
+          "height": 0.22,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.16,
-          "y": 0.33,
-          "width": 0.68,
+          "x": 0.13,
+          "y": 0.2,
+          "width": 0.74,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.5,
+          "width": 0.6,
           "height": 0.18,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.25,
-          "y": 0.51,
-          "width": 0.5,
-          "height": 0.13,
-          "shape": "rounded_rectangle"
-        },
-        {
-          "x": 0.4,
-          "y": 0.67,
-          "width": 0.21,
-          "height": 0.21,
+          "x": 0.35,
+          "y": 0.65,
+          "width": 0.3,
+          "height": 0.25,
           "shape": "rounded_rectangle"
         }
       ],
@@ -3039,17 +2516,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.17,
-          "y": 0.33,
-          "width": 0.68,
-          "height": 0.19,
+          "x": 0.08,
+          "y": 0.22,
+          "width": 0.84,
+          "height": 0.34,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.41,
-          "y": 0.65,
-          "width": 0.18,
-          "height": 0.09,
+          "x": 0.36,
+          "y": 0.62,
+          "width": 0.28,
+          "height": 0.16,
           "shape": "rounded_rectangle"
         }
       ],
@@ -3210,17 +2687,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.08,
-          "y": 0.05,
-          "width": 0.84,
-          "height": 0.29,
+          "x": 0.06,
+          "y": 0.03,
+          "width": 0.88,
+          "height": 0.34,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.66,
-          "y": 0.37,
-          "width": 0.22,
-          "height": 0.47,
+          "x": 0.54,
+          "y": 0.32,
+          "width": 0.41,
+          "height": 0.59,
           "shape": "rounded_rectangle"
         }
       ],
@@ -3267,106 +2744,18 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.14,
-              "y": 0.39
-            },
-            {
-              "x": 0.2,
-              "y": 0.22
-            },
-            {
-              "x": 0.35,
-              "y": 0.12
-            },
-            {
-              "x": 0.5,
-              "y": 0.09
-            },
-            {
-              "x": 0.65,
-              "y": 0.12
-            },
-            {
-              "x": 0.8,
-              "y": 0.22
-            },
-            {
-              "x": 0.86,
-              "y": 0.39
-            },
-            {
-              "x": 0.72,
-              "y": 0.37
-            },
-            {
-              "x": 0.66,
-              "y": 0.29
-            },
-            {
-              "x": 0.57,
-              "y": 0.25
-            },
-            {
-              "x": 0.43,
-              "y": 0.25
-            },
-            {
-              "x": 0.34,
-              "y": 0.29
-            },
-            {
-              "x": 0.28,
-              "y": 0.37
-            }
-          ]
+          "x": 0.1,
+          "y": 0.06,
+          "width": 0.8,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.18,
-              "y": 0.69
-            },
-            {
-              "x": 0.31,
-              "y": 0.82
-            },
-            {
-              "x": 0.5,
-              "y": 0.87
-            },
-            {
-              "x": 0.69,
-              "y": 0.82
-            },
-            {
-              "x": 0.82,
-              "y": 0.69
-            },
-            {
-              "x": 0.73,
-              "y": 0.62
-            },
-            {
-              "x": 0.63,
-              "y": 0.72
-            },
-            {
-              "x": 0.5,
-              "y": 0.75
-            },
-            {
-              "x": 0.37,
-              "y": 0.72
-            },
-            {
-              "x": 0.27,
-              "y": 0.62
-            }
-          ]
+          "x": 0.1,
+          "y": 0.64,
+          "width": 0.8,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/765362f71d3a3a3c5f02fd8cbbb0bb30.png"
@@ -3387,18 +2776,32 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.15,
-          "y": 0.09,
-          "width": 0.71,
-          "height": 0.19,
+          "x": 0.1,
+          "y": 0.01,
+          "width": 0.8,
+          "height": 0.27,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.08,
-          "y": 0.2,
-          "width": 0.5,
-          "height": 0.79,
-          "shape": "rounded_rectangle"
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.14,
+              "y": 0.18
+            },
+            {
+              "x": 0.4,
+              "y": 0.18
+            },
+            {
+              "x": 0.69,
+              "y": 0.94
+            },
+            {
+              "x": 0.2,
+              "y": 0.73
+            }
+          ]
         }
       ],
       "covered_crest": "covered-crests/78bd0ae563427caa9d93c06817e78ba0.png"
@@ -3419,125 +2822,39 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.1,
-              "y": 0.44
-            },
-            {
-              "x": 0.18,
-              "y": 0.25
-            },
-            {
-              "x": 0.34,
-              "y": 0.13
-            },
-            {
-              "x": 0.5,
-              "y": 0.1
-            },
-            {
-              "x": 0.66,
-              "y": 0.13
-            },
-            {
-              "x": 0.82,
-              "y": 0.25
-            },
-            {
-              "x": 0.9,
-              "y": 0.44
-            },
-            {
-              "x": 0.76,
-              "y": 0.41
-            },
-            {
-              "x": 0.68,
-              "y": 0.31
-            },
-            {
-              "x": 0.58,
-              "y": 0.26
-            },
-            {
-              "x": 0.42,
-              "y": 0.26
-            },
-            {
-              "x": 0.32,
-              "y": 0.31
-            },
-            {
-              "x": 0.24,
-              "y": 0.41
-            }
-          ]
-        },
-        {
-          "x": 0.35,
-          "y": 0.34,
-          "width": 0.31,
-          "height": 0.33,
+          "x": 0.06,
+          "y": 0.05,
+          "width": 0.88,
+          "height": 0.35,
           "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.1,
-              "y": 0.56
-            },
-            {
-              "x": 0.18,
-              "y": 0.75
-            },
-            {
-              "x": 0.34,
-              "y": 0.87
-            },
-            {
-              "x": 0.5,
-              "y": 0.9
-            },
-            {
-              "x": 0.66,
-              "y": 0.87
-            },
-            {
-              "x": 0.82,
-              "y": 0.75
-            },
-            {
-              "x": 0.9,
-              "y": 0.56
-            },
-            {
-              "x": 0.76,
-              "y": 0.59
-            },
-            {
-              "x": 0.68,
-              "y": 0.69
-            },
-            {
-              "x": 0.58,
-              "y": 0.74
-            },
-            {
-              "x": 0.42,
-              "y": 0.74
-            },
-            {
-              "x": 0.32,
-              "y": 0.69
-            },
-            {
-              "x": 0.24,
-              "y": 0.59
-            }
-          ]
+          "x": 0.01,
+          "y": 0.28,
+          "width": 0.29,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.7,
+          "y": 0.28,
+          "width": 0.29,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.06,
+          "y": 0.64,
+          "width": 0.88,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.32,
+          "y": 0.31,
+          "width": 0.36,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/d0d1f0c67f8649507a0313bb2f9df85a.png"
@@ -3558,17 +2875,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.23,
-          "y": 0.36,
-          "width": 0.55,
-          "height": 0.36,
+          "x": 0.18,
+          "y": 0.31,
+          "width": 0.64,
+          "height": 0.59,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.41,
-          "y": 0.86,
-          "width": 0.18,
-          "height": 0.09,
+          "x": 0.36,
+          "y": 0.84,
+          "width": 0.28,
+          "height": 0.12,
           "shape": "rounded_rectangle"
         }
       ],
@@ -3629,132 +2946,32 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.1,
-              "y": 0.43
-            },
-            {
-              "x": 0.17,
-              "y": 0.25
-            },
-            {
-              "x": 0.33,
-              "y": 0.13
-            },
-            {
-              "x": 0.5,
-              "y": 0.1
-            },
-            {
-              "x": 0.67,
-              "y": 0.13
-            },
-            {
-              "x": 0.83,
-              "y": 0.25
-            },
-            {
-              "x": 0.9,
-              "y": 0.43
-            },
-            {
-              "x": 0.76,
-              "y": 0.4
-            },
-            {
-              "x": 0.68,
-              "y": 0.31
-            },
-            {
-              "x": 0.58,
-              "y": 0.27
-            },
-            {
-              "x": 0.42,
-              "y": 0.27
-            },
-            {
-              "x": 0.32,
-              "y": 0.31
-            },
-            {
-              "x": 0.24,
-              "y": 0.4
-            }
-          ]
-        },
-        {
-          "x": 0.04,
-          "y": 0.45,
-          "width": 0.14,
-          "height": 0.16,
+          "x": 0.08,
+          "y": 0.05,
+          "width": 0.84,
+          "height": 0.35,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.82,
-          "y": 0.45,
-          "width": 0.14,
-          "height": 0.16,
+          "x": 0.02,
+          "y": 0.3,
+          "width": 0.3,
+          "height": 0.44,
           "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.1,
-              "y": 0.57
-            },
-            {
-              "x": 0.17,
-              "y": 0.75
-            },
-            {
-              "x": 0.33,
-              "y": 0.87
-            },
-            {
-              "x": 0.5,
-              "y": 0.9
-            },
-            {
-              "x": 0.67,
-              "y": 0.87
-            },
-            {
-              "x": 0.83,
-              "y": 0.75
-            },
-            {
-              "x": 0.9,
-              "y": 0.57
-            },
-            {
-              "x": 0.76,
-              "y": 0.6
-            },
-            {
-              "x": 0.68,
-              "y": 0.69
-            },
-            {
-              "x": 0.58,
-              "y": 0.73
-            },
-            {
-              "x": 0.42,
-              "y": 0.73
-            },
-            {
-              "x": 0.32,
-              "y": 0.69
-            },
-            {
-              "x": 0.24,
-              "y": 0.6
-            }
-          ]
+          "x": 0.68,
+          "y": 0.3,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.08,
+          "y": 0.64,
+          "width": 0.84,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/34b6b5d0bdb29c15321fd5bce5d94c86.png"
@@ -3825,17 +3042,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.19,
-          "y": 0.12,
-          "width": 0.62,
-          "height": 0.18,
+          "x": 0.12,
+          "y": 0.05,
+          "width": 0.76,
+          "height": 0.28,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.33,
-          "y": 0.8,
-          "width": 0.35,
-          "height": 0.11,
+          "x": 0.3,
+          "y": 0.78,
+          "width": 0.4,
+          "height": 0.15,
           "shape": "rounded_rectangle"
         }
       ],
@@ -4011,110 +3228,18 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.08,
-              "y": 0.43
-            },
-            {
-              "x": 0.14,
-              "y": 0.24
-            },
-            {
-              "x": 0.29,
-              "y": 0.1
-            },
-            {
-              "x": 0.5,
-              "y": 0.06
-            },
-            {
-              "x": 0.71,
-              "y": 0.1
-            },
-            {
-              "x": 0.86,
-              "y": 0.24
-            },
-            {
-              "x": 0.92,
-              "y": 0.43
-            },
-            {
-              "x": 0.78,
-              "y": 0.4
-            },
-            {
-              "x": 0.71,
-              "y": 0.29
-            },
-            {
-              "x": 0.61,
-              "y": 0.22
-            },
-            {
-              "x": 0.5,
-              "y": 0.2
-            },
-            {
-              "x": 0.39,
-              "y": 0.22
-            },
-            {
-              "x": 0.29,
-              "y": 0.29
-            },
-            {
-              "x": 0.22,
-              "y": 0.4
-            }
-          ]
+          "x": 0.08,
+          "y": 0.05,
+          "width": 0.84,
+          "height": 0.36,
+          "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.13,
-              "y": 0.66
-            },
-            {
-              "x": 0.27,
-              "y": 0.82
-            },
-            {
-              "x": 0.5,
-              "y": 0.89
-            },
-            {
-              "x": 0.73,
-              "y": 0.82
-            },
-            {
-              "x": 0.87,
-              "y": 0.66
-            },
-            {
-              "x": 0.76,
-              "y": 0.59
-            },
-            {
-              "x": 0.66,
-              "y": 0.7
-            },
-            {
-              "x": 0.5,
-              "y": 0.74
-            },
-            {
-              "x": 0.34,
-              "y": 0.7
-            },
-            {
-              "x": 0.24,
-              "y": 0.59
-            }
-          ]
+          "x": 0.08,
+          "y": 0.64,
+          "width": 0.84,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/479425830ef67a24d2f5f97769d1479a.png"
@@ -4135,126 +3260,32 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.08,
-              "y": 0.43
-            },
-            {
-              "x": 0.14,
-              "y": 0.24
-            },
-            {
-              "x": 0.29,
-              "y": 0.1
-            },
-            {
-              "x": 0.5,
-              "y": 0.06
-            },
-            {
-              "x": 0.71,
-              "y": 0.1
-            },
-            {
-              "x": 0.86,
-              "y": 0.24
-            },
-            {
-              "x": 0.92,
-              "y": 0.43
-            },
-            {
-              "x": 0.78,
-              "y": 0.4
-            },
-            {
-              "x": 0.71,
-              "y": 0.29
-            },
-            {
-              "x": 0.61,
-              "y": 0.22
-            },
-            {
-              "x": 0.5,
-              "y": 0.2
-            },
-            {
-              "x": 0.39,
-              "y": 0.22
-            },
-            {
-              "x": 0.29,
-              "y": 0.29
-            },
-            {
-              "x": 0.22,
-              "y": 0.4
-            }
-          ]
+          "x": 0.06,
+          "y": 0.02,
+          "width": 0.88,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.08,
-              "y": 0.57
-            },
-            {
-              "x": 0.14,
-              "y": 0.76
-            },
-            {
-              "x": 0.29,
-              "y": 0.9
-            },
-            {
-              "x": 0.5,
-              "y": 0.94
-            },
-            {
-              "x": 0.71,
-              "y": 0.9
-            },
-            {
-              "x": 0.86,
-              "y": 0.76
-            },
-            {
-              "x": 0.92,
-              "y": 0.57
-            },
-            {
-              "x": 0.78,
-              "y": 0.6
-            },
-            {
-              "x": 0.71,
-              "y": 0.71
-            },
-            {
-              "x": 0.61,
-              "y": 0.78
-            },
-            {
-              "x": 0.5,
-              "y": 0.8
-            },
-            {
-              "x": 0.39,
-              "y": 0.78
-            },
-            {
-              "x": 0.29,
-              "y": 0.71
-            },
-            {
-              "x": 0.22,
-              "y": 0.6
-            }
-          ]
+          "x": 0.0,
+          "y": 0.25,
+          "width": 0.28,
+          "height": 0.51,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.72,
+          "y": 0.25,
+          "width": 0.28,
+          "height": 0.51,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.06,
+          "y": 0.66,
+          "width": 0.88,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/122ef8f95f44397763d1314edf77811c.png"
@@ -4307,17 +3338,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.16,
-          "y": 0.68,
-          "width": 0.69,
-          "height": 0.17,
-          "shape": "rounded_rectangle"
-        },
-        {
-          "x": 0.44,
-          "y": 0.62,
-          "width": 0.13,
-          "height": 0.09,
+          "x": 0.1,
+          "y": 0.61,
+          "width": 0.8,
+          "height": 0.34,
           "shape": "rounded_rectangle"
         }
       ],
@@ -4339,59 +3363,39 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.27,
-          "y": 0.51,
-          "width": 0.48,
+          "x": 0.03,
+          "y": 0.42,
+          "width": 0.31,
+          "height": 0.48,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.17,
+          "y": 0.45,
+          "width": 0.66,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.66,
+          "y": 0.42,
+          "width": 0.31,
+          "height": 0.48,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.68,
+          "width": 0.6,
           "height": 0.18,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.39,
-          "y": 0.67,
-          "width": 0.23,
-          "height": 0.11,
+          "x": 0.05,
+          "y": 0.78,
+          "width": 0.9,
+          "height": 0.21,
           "shape": "rounded_rectangle"
-        },
-        {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.07,
-              "y": 0.72
-            },
-            {
-              "x": 0.26,
-              "y": 0.82
-            },
-            {
-              "x": 0.5,
-              "y": 0.86
-            },
-            {
-              "x": 0.74,
-              "y": 0.82
-            },
-            {
-              "x": 0.93,
-              "y": 0.72
-            },
-            {
-              "x": 0.88,
-              "y": 0.89
-            },
-            {
-              "x": 0.66,
-              "y": 0.98
-            },
-            {
-              "x": 0.34,
-              "y": 0.98
-            },
-            {
-              "x": 0.12,
-              "y": 0.89
-            }
-          ]
         }
       ],
       "covered_crest": "covered-crests/9c786b7757916e414ec55de411007ce8.png"
@@ -4526,24 +3530,24 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.24,
-          "y": 0.19,
-          "width": 0.53,
-          "height": 0.12,
+          "x": 0.17,
+          "y": 0.13,
+          "width": 0.66,
+          "height": 0.21,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.23,
-          "y": 0.32,
-          "width": 0.54,
-          "height": 0.24,
+          "x": 0.18,
+          "y": 0.3,
+          "width": 0.64,
+          "height": 0.3,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.31,
-          "y": 0.81,
-          "width": 0.38,
-          "height": 0.12,
+          "x": 0.22,
+          "y": 0.76,
+          "width": 0.56,
+          "height": 0.21,
           "shape": "rounded_rectangle"
         }
       ],
@@ -4565,124 +3569,32 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.08,
-              "y": 0.43
-            },
-            {
-              "x": 0.14,
-              "y": 0.24
-            },
-            {
-              "x": 0.29,
-              "y": 0.1
-            },
-            {
-              "x": 0.5,
-              "y": 0.06
-            },
-            {
-              "x": 0.71,
-              "y": 0.1
-            },
-            {
-              "x": 0.86,
-              "y": 0.24
-            },
-            {
-              "x": 0.92,
-              "y": 0.43
-            },
-            {
-              "x": 0.78,
-              "y": 0.4
-            },
-            {
-              "x": 0.71,
-              "y": 0.29
-            },
-            {
-              "x": 0.61,
-              "y": 0.22
-            },
-            {
-              "x": 0.5,
-              "y": 0.2
-            },
-            {
-              "x": 0.39,
-              "y": 0.22
-            },
-            {
-              "x": 0.29,
-              "y": 0.29
-            },
-            {
-              "x": 0.22,
-              "y": 0.4
-            }
-          ]
-        },
-        {
-          "x": 0.04,
-          "y": 0.46,
-          "width": 0.13,
-          "height": 0.16,
+          "x": 0.1,
+          "y": 0.06,
+          "width": 0.8,
+          "height": 0.3,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.83,
-          "y": 0.46,
-          "width": 0.13,
-          "height": 0.16,
+          "x": 0.02,
+          "y": 0.42,
+          "width": 0.18,
+          "height": 0.23,
           "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.18,
-              "y": 0.69
-            },
-            {
-              "x": 0.31,
-              "y": 0.83
-            },
-            {
-              "x": 0.5,
-              "y": 0.88
-            },
-            {
-              "x": 0.69,
-              "y": 0.83
-            },
-            {
-              "x": 0.82,
-              "y": 0.69
-            },
-            {
-              "x": 0.72,
-              "y": 0.62
-            },
-            {
-              "x": 0.62,
-              "y": 0.72
-            },
-            {
-              "x": 0.5,
-              "y": 0.75
-            },
-            {
-              "x": 0.38,
-              "y": 0.72
-            },
-            {
-              "x": 0.28,
-              "y": 0.62
-            }
-          ]
+          "x": 0.8,
+          "y": 0.42,
+          "width": 0.18,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.12,
+          "y": 0.68,
+          "width": 0.76,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/ca232e6145c8faca0a585f634ae15c1e.png"
@@ -4735,10 +3647,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.17,
-          "y": 0.77,
-          "width": 0.67,
-          "height": 0.17,
+          "x": 0.08,
+          "y": 0.71,
+          "width": 0.84,
+          "height": 0.28,
           "shape": "rounded_rectangle"
         }
       ],
@@ -4785,17 +3697,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.34,
-          "y": 0.29,
-          "width": 0.34,
-          "height": 0.08,
+          "x": 0.29,
+          "y": 0.26,
+          "width": 0.42,
+          "height": 0.13,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.29,
-          "y": 0.7,
-          "width": 0.43,
-          "height": 0.14,
+          "x": 0.18,
+          "y": 0.64,
+          "width": 0.64,
+          "height": 0.27,
           "shape": "rounded_rectangle"
         }
       ],
@@ -4913,17 +3825,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.23,
-          "y": 0.2,
-          "width": 0.55,
-          "height": 0.17,
+          "x": 0.16,
+          "y": 0.14,
+          "width": 0.68,
+          "height": 0.28,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.23,
-          "y": 0.64,
-          "width": 0.55,
-          "height": 0.16,
+          "x": 0.16,
+          "y": 0.58,
+          "width": 0.68,
+          "height": 0.28,
           "shape": "rounded_rectangle"
         }
       ],
@@ -4945,118 +3857,32 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.11,
-              "y": 0.43
-            },
-            {
-              "x": 0.18,
-              "y": 0.25
-            },
-            {
-              "x": 0.34,
-              "y": 0.13
-            },
-            {
-              "x": 0.5,
-              "y": 0.1
-            },
-            {
-              "x": 0.66,
-              "y": 0.13
-            },
-            {
-              "x": 0.82,
-              "y": 0.25
-            },
-            {
-              "x": 0.89,
-              "y": 0.43
-            },
-            {
-              "x": 0.75,
-              "y": 0.4
-            },
-            {
-              "x": 0.68,
-              "y": 0.31
-            },
-            {
-              "x": 0.58,
-              "y": 0.27
-            },
-            {
-              "x": 0.42,
-              "y": 0.27
-            },
-            {
-              "x": 0.32,
-              "y": 0.31
-            },
-            {
-              "x": 0.25,
-              "y": 0.4
-            }
-          ]
+          "x": 0.06,
+          "y": 0.05,
+          "width": 0.88,
+          "height": 0.36,
+          "shape": "rounded_rectangle"
         },
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.11,
-              "y": 0.57
-            },
-            {
-              "x": 0.18,
-              "y": 0.75
-            },
-            {
-              "x": 0.34,
-              "y": 0.87
-            },
-            {
-              "x": 0.5,
-              "y": 0.9
-            },
-            {
-              "x": 0.66,
-              "y": 0.87
-            },
-            {
-              "x": 0.82,
-              "y": 0.75
-            },
-            {
-              "x": 0.89,
-              "y": 0.57
-            },
-            {
-              "x": 0.75,
-              "y": 0.6
-            },
-            {
-              "x": 0.68,
-              "y": 0.69
-            },
-            {
-              "x": 0.58,
-              "y": 0.73
-            },
-            {
-              "x": 0.42,
-              "y": 0.73
-            },
-            {
-              "x": 0.32,
-              "y": 0.69
-            },
-            {
-              "x": 0.25,
-              "y": 0.6
-            }
-          ]
+          "x": 0.01,
+          "y": 0.29,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.69,
+          "y": 0.29,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.06,
+          "y": 0.63,
+          "width": 0.88,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
         }
       ],
       "covered_crest": "covered-crests/68879f0dc645981820a149f6970ddfc9.png"
@@ -5077,31 +3903,31 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.17,
-          "y": 0.26,
-          "width": 0.17,
-          "height": 0.2,
+          "x": 0.12,
+          "y": 0.2,
+          "width": 0.25,
+          "height": 0.3,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.42,
-          "y": 0.16,
-          "width": 0.17,
-          "height": 0.2,
+          "x": 0.37,
+          "y": 0.1,
+          "width": 0.26,
+          "height": 0.31,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.68,
-          "y": 0.26,
-          "width": 0.17,
-          "height": 0.2,
+          "x": 0.63,
+          "y": 0.2,
+          "width": 0.25,
+          "height": 0.3,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.42,
-          "y": 0.66,
-          "width": 0.17,
-          "height": 0.2,
+          "x": 0.37,
+          "y": 0.61,
+          "width": 0.26,
+          "height": 0.3,
           "shape": "rounded_rectangle"
         }
       ],
@@ -5123,59 +3949,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.14,
-              "y": 0.33
-            },
-            {
-              "x": 0.25,
-              "y": 0.17
-            },
-            {
-              "x": 0.43,
-              "y": 0.09
-            },
-            {
-              "x": 0.62,
-              "y": 0.11
-            },
-            {
-              "x": 0.79,
-              "y": 0.22
-            },
-            {
-              "x": 0.85,
-              "y": 0.35
-            },
-            {
-              "x": 0.7,
-              "y": 0.34
-            },
-            {
-              "x": 0.62,
-              "y": 0.26
-            },
-            {
-              "x": 0.5,
-              "y": 0.22
-            },
-            {
-              "x": 0.37,
-              "y": 0.24
-            },
-            {
-              "x": 0.29,
-              "y": 0.33
-            }
-          ]
+          "x": 0.1,
+          "y": 0.02,
+          "width": 0.8,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
         },
         {
-          "x": 0.31,
-          "y": 0.8,
-          "width": 0.42,
-          "height": 0.15,
+          "x": 0.22,
+          "y": 0.73,
+          "width": 0.6,
+          "height": 0.25,
           "shape": "rounded_rectangle"
         }
       ],
@@ -5261,10 +4045,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.29,
-          "y": 0.13,
-          "width": 0.43,
-          "height": 0.17,
+          "x": 0.19,
+          "y": 0.04,
+          "width": 0.62,
+          "height": 0.33,
           "shape": "rounded_rectangle"
         }
       ],
@@ -5286,24 +4070,38 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.2,
-          "y": 0.67,
-          "width": 0.16,
-          "height": 0.23,
+          "x": 0.18,
+          "y": 0.04,
+          "width": 0.64,
+          "height": 0.3,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.42,
-          "y": 0.7,
-          "width": 0.16,
-          "height": 0.21,
+          "x": 0.17,
+          "y": 0.24,
+          "width": 0.66,
+          "height": 0.38,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.67,
+          "x": 0.15,
+          "y": 0.64,
+          "width": 0.22,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
           "y": 0.67,
-          "width": 0.16,
-          "height": 0.23,
+          "width": 0.22,
+          "height": 0.26,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.65,
+          "y": 0.64,
+          "width": 0.22,
+          "height": 0.29,
           "shape": "rounded_rectangle"
         }
       ],
@@ -5350,17 +4148,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.3,
-          "y": 0.71,
-          "width": 0.4,
-          "height": 0.15,
+          "x": 0.24,
+          "y": 0.66,
+          "width": 0.52,
+          "height": 0.24,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.39,
-          "y": 0.84,
-          "width": 0.23,
-          "height": 0.08,
+          "x": 0.34,
+          "y": 0.82,
+          "width": 0.32,
+          "height": 0.12,
           "shape": "rounded_rectangle"
         }
       ],
@@ -5432,60 +4230,30 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.16,
-              "y": 0.27
-            },
-            {
-              "x": 0.35,
-              "y": 0.21
-            },
-            {
-              "x": 0.67,
-              "y": 0.21
-            },
-            {
-              "x": 0.86,
-              "y": 0.29
-            },
-            {
-              "x": 0.82,
-              "y": 0.38
-            },
-            {
-              "x": 0.63,
-              "y": 0.33
-            },
-            {
-              "x": 0.37,
-              "y": 0.33
-            },
-            {
-              "x": 0.19,
-              "y": 0.37
-            }
-          ]
+          "x": 0.12,
+          "y": 0.23,
+          "width": 0.76,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
         },
         {
           "shape": "polygon",
           "points": [
             {
-              "x": 0.29,
-              "y": 0.54
-            },
-            {
-              "x": 0.63,
-              "y": 0.43
-            },
-            {
-              "x": 0.72,
+              "x": 0.24,
               "y": 0.55
             },
             {
-              "x": 0.38,
-              "y": 0.68
+              "x": 0.65,
+              "y": 0.4
+            },
+            {
+              "x": 0.78,
+              "y": 0.58
+            },
+            {
+              "x": 0.36,
+              "y": 0.73
             }
           ]
         }
@@ -5574,24 +4342,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.27,
-          "y": 0.03,
-          "width": 0.47,
-          "height": 0.17,
+          "x": 0.18,
+          "y": 0.01,
+          "width": 0.64,
+          "height": 0.44,
           "shape": "rounded_rectangle"
         },
         {
-          "x": 0.23,
-          "y": 0.23,
-          "width": 0.54,
-          "height": 0.18,
-          "shape": "rounded_rectangle"
-        },
-        {
-          "x": 0.28,
-          "y": 0.74,
-          "width": 0.45,
-          "height": 0.15,
+          "x": 0.2,
+          "y": 0.68,
+          "width": 0.6,
+          "height": 0.27,
           "shape": "rounded_rectangle"
         }
       ],
@@ -5670,10 +4431,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.27,
-          "y": 0.29,
-          "width": 0.47,
-          "height": 0.24,
+          "x": 0.19,
+          "y": 0.15,
+          "width": 0.62,
+          "height": 0.43,
           "shape": "rounded_rectangle"
         }
       ],
@@ -5744,55 +4505,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.23,
-              "y": 0.36
-            },
-            {
-              "x": 0.34,
-              "y": 0.17
-            },
-            {
-              "x": 0.52,
-              "y": 0.1
-            },
-            {
-              "x": 0.71,
-              "y": 0.17
-            },
-            {
-              "x": 0.8,
-              "y": 0.34
-            },
-            {
-              "x": 0.67,
-              "y": 0.37
-            },
-            {
-              "x": 0.61,
-              "y": 0.27
-            },
-            {
-              "x": 0.51,
-              "y": 0.23
-            },
-            {
-              "x": 0.4,
-              "y": 0.27
-            },
-            {
-              "x": 0.35,
-              "y": 0.38
-            }
-          ]
+          "x": 0.1,
+          "y": 0.03,
+          "width": 0.8,
+          "height": 0.36,
+          "shape": "rounded_rectangle"
         },
         {
-          "x": 0.34,
-          "y": 0.77,
-          "width": 0.35,
-          "height": 0.15,
+          "x": 0.25,
+          "y": 0.72,
+          "width": 0.5,
+          "height": 0.23,
           "shape": "rounded_rectangle"
         }
       ],
@@ -6063,24 +4786,10 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "x": 0.17,
+          "x": 0.07,
           "y": 0.07,
-          "width": 0.66,
-          "height": 0.2,
-          "shape": "rounded_rectangle"
-        },
-        {
-          "x": 0.18,
-          "y": 0.29,
-          "width": 0.27,
-          "height": 0.15,
-          "shape": "rounded_rectangle"
-        },
-        {
-          "x": 0.67,
-          "y": 0.29,
-          "width": 0.21,
-          "height": 0.19,
+          "width": 0.86,
+          "height": 0.5,
           "shape": "rounded_rectangle"
         }
       ],
@@ -6248,67 +4957,17 @@
       "cover_status": "covered",
       "cover_regions": [
         {
-          "shape": "polygon",
-          "points": [
-            {
-              "x": 0.13,
-              "y": 0.39
-            },
-            {
-              "x": 0.2,
-              "y": 0.22
-            },
-            {
-              "x": 0.35,
-              "y": 0.11
-            },
-            {
-              "x": 0.5,
-              "y": 0.08
-            },
-            {
-              "x": 0.65,
-              "y": 0.11
-            },
-            {
-              "x": 0.8,
-              "y": 0.22
-            },
-            {
-              "x": 0.87,
-              "y": 0.39
-            },
-            {
-              "x": 0.73,
-              "y": 0.36
-            },
-            {
-              "x": 0.66,
-              "y": 0.28
-            },
-            {
-              "x": 0.57,
-              "y": 0.24
-            },
-            {
-              "x": 0.43,
-              "y": 0.24
-            },
-            {
-              "x": 0.34,
-              "y": 0.28
-            },
-            {
-              "x": 0.27,
-              "y": 0.36
-            }
-          ]
+          "x": 0.02,
+          "y": 0.0,
+          "width": 0.96,
+          "height": 0.4,
+          "shape": "rounded_rectangle"
         },
         {
-          "x": 0.4,
-          "y": 0.82,
-          "width": 0.21,
-          "height": 0.13,
+          "x": 0.35,
+          "y": 0.79,
+          "width": 0.3,
+          "height": 0.17,
           "shape": "rounded_rectangle"
         }
       ],

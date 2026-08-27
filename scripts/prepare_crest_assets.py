@@ -16,6 +16,7 @@ if __package__ in {None, ""}:
 from src.crest_covering import (
     CrestCoverError,
     covered_crest_path,
+    crest_image_sha256,
     extract_theme_colors,
     load_cover_metadata,
     save_covered_crest,
@@ -100,6 +101,14 @@ def prepare_crest_assets(
 
             with Image.open(original_path) as opened:
                 opened.load()
+                reviewed_digest = annotation.get("reviewed_crest_sha256")
+                current_digest = crest_image_sha256(opened)
+                if reviewed_digest is not None and current_digest != reviewed_digest:
+                    raise CrestCoverError(
+                        f"Club {record.get('name', provider_id)!r} ({provider_id}) has "
+                        "changed since its crest cover was reviewed; mark it for "
+                        "manual review and update reviewed_crest_sha256 after approval"
+                    )
                 theme_colors = extract_theme_colors(
                     opened, annotation.get("theme_colors")
                 )

@@ -1,1029 +1,3744 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "clubs": [
     {
       "provider_team_id": 1,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.17, "y": 0.57, "width": 0.48, "height": 0.20, "shape": "rounded_rectangle"},
-        {"x": 0.25, "y": 0.76, "width": 0.35, "height": 0.13, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.17,
+          "y": 0.57,
+          "width": 0.48,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.25,
+          "y": 0.76,
+          "width": 0.35,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "dbb7d840c8f10aa9f3eef7a75f645c4125baf91959174ec2eb533968dde845a8",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 2,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.56}, {"x": 0.67, "y": 0.17}, {"x": 0.91, "y": 0.40}, {"x": 0.28, "y": 0.84}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.56
+            },
+            {
+              "x": 0.67,
+              "y": 0.17
+            },
+            {
+              "x": 0.91,
+              "y": 0.4
+            },
+            {
+              "x": 0.28,
+              "y": 0.84
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "0c49cd56d48cc5a90298c96d52f89e8e6e76d4a0717d9cdfdfee95bb8d2fffb2",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 3,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.36, "y": 0.15, "width": 0.29, "height": 0.14, "shape": "rounded_rectangle"},
-        {"x": 0.34, "y": 0.29, "width": 0.32, "height": 0.38, "shape": "rounded_rectangle"},
-        {"x": 0.18, "y": 0.71, "width": 0.65, "height": 0.17, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.28,
+          "y": 0.1,
+          "width": 0.44,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.25,
+          "y": 0.27,
+          "width": 0.5,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.12,
+          "y": 0.68,
+          "width": 0.76,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "987856666cec7e1cdfefbf8e2ab4a94fd58dd3d2c601c00e8e3efd4f309d6558",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 4,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.04}, {"x": 0.92, "y": 0.04}, {"x": 0.92, "y": 0.96}, {"x": 0.08, "y": 0.96}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.04
+            },
+            {
+              "x": 0.92,
+              "y": 0.04
+            },
+            {
+              "x": 0.92,
+              "y": 0.96
+            },
+            {
+              "x": 0.08,
+              "y": 0.96
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "c9810264a2bf61f8bb2d1726944f40b42806f4692c668e9e73d93e121850525c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.09, "y": 0.46}, {"x": 0.12, "y": 0.27}, {"x": 0.24, "y": 0.12}, {"x": 0.41, "y": 0.06}, {"x": 0.59, "y": 0.06}, {"x": 0.76, "y": 0.12}, {"x": 0.88, "y": 0.27}, {"x": 0.91, "y": 0.46}, {"x": 0.78, "y": 0.43}, {"x": 0.74, "y": 0.31}, {"x": 0.65, "y": 0.22}, {"x": 0.55, "y": 0.18}, {"x": 0.45, "y": 0.18}, {"x": 0.35, "y": 0.22}, {"x": 0.26, "y": 0.31}, {"x": 0.22, "y": 0.43}]},
-        {"shape": "polygon", "points": [{"x": 0.09, "y": 0.54}, {"x": 0.12, "y": 0.73}, {"x": 0.24, "y": 0.88}, {"x": 0.41, "y": 0.94}, {"x": 0.59, "y": 0.94}, {"x": 0.76, "y": 0.88}, {"x": 0.88, "y": 0.73}, {"x": 0.91, "y": 0.54}, {"x": 0.78, "y": 0.57}, {"x": 0.74, "y": 0.69}, {"x": 0.65, "y": 0.78}, {"x": 0.55, "y": 0.82}, {"x": 0.45, "y": 0.82}, {"x": 0.35, "y": 0.78}, {"x": 0.26, "y": 0.69}, {"x": 0.22, "y": 0.57}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.09,
+              "y": 0.46
+            },
+            {
+              "x": 0.12,
+              "y": 0.27
+            },
+            {
+              "x": 0.24,
+              "y": 0.12
+            },
+            {
+              "x": 0.41,
+              "y": 0.06
+            },
+            {
+              "x": 0.59,
+              "y": 0.06
+            },
+            {
+              "x": 0.76,
+              "y": 0.12
+            },
+            {
+              "x": 0.88,
+              "y": 0.27
+            },
+            {
+              "x": 0.91,
+              "y": 0.46
+            },
+            {
+              "x": 0.78,
+              "y": 0.43
+            },
+            {
+              "x": 0.74,
+              "y": 0.31
+            },
+            {
+              "x": 0.65,
+              "y": 0.22
+            },
+            {
+              "x": 0.55,
+              "y": 0.18
+            },
+            {
+              "x": 0.45,
+              "y": 0.18
+            },
+            {
+              "x": 0.35,
+              "y": 0.22
+            },
+            {
+              "x": 0.26,
+              "y": 0.31
+            },
+            {
+              "x": 0.22,
+              "y": 0.43
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.09,
+              "y": 0.54
+            },
+            {
+              "x": 0.12,
+              "y": 0.73
+            },
+            {
+              "x": 0.24,
+              "y": 0.88
+            },
+            {
+              "x": 0.41,
+              "y": 0.94
+            },
+            {
+              "x": 0.59,
+              "y": 0.94
+            },
+            {
+              "x": 0.76,
+              "y": 0.88
+            },
+            {
+              "x": 0.88,
+              "y": 0.73
+            },
+            {
+              "x": 0.91,
+              "y": 0.54
+            },
+            {
+              "x": 0.78,
+              "y": 0.57
+            },
+            {
+              "x": 0.74,
+              "y": 0.69
+            },
+            {
+              "x": 0.65,
+              "y": 0.78
+            },
+            {
+              "x": 0.55,
+              "y": 0.82
+            },
+            {
+              "x": 0.45,
+              "y": 0.82
+            },
+            {
+              "x": 0.35,
+              "y": 0.78
+            },
+            {
+              "x": 0.26,
+              "y": 0.69
+            },
+            {
+              "x": 0.22,
+              "y": 0.57
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "3b70347af8954c77c381170699d76ef717d01c12de33f2dd0b30cc3da3fb1f4a",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 6,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.29, "y": 0.14, "width": 0.38, "height": 0.72, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.3,
+          "y": 0.12,
+          "width": 0.4,
+          "height": 0.76,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "de6cd22dcbc9f581bfc675e9f247aa4f35a6c8277abdb1e2c9804a4e394a606b",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 7,
       "review_status": "not_required",
-      "cover_regions": []
+      "cover_regions": [],
+      "reviewed_crest_sha256": "14322e4fa901bfaf41fe08694d7cc278e7a1b8e42fd74b1199d81dd4a1b29b3c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 10,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.13, "y": 0.08, "width": 0.74, "height": 0.48, "shape": "rounded_rectangle"},
-        {"x": 0.30, "y": 0.47, "width": 0.40, "height": 0.10, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.13,
+          "y": 0.08,
+          "width": 0.74,
+          "height": 0.48,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.3,
+          "y": 0.47,
+          "width": 0.4,
+          "height": 0.1,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "f576bc829bb78f6db59e5c69987f24308d73ebbd717f0653ba415a1fd59624f2",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 12,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.27, "y": 0.25, "width": 0.47, "height": 0.51, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.27,
+          "y": 0.25,
+          "width": 0.47,
+          "height": 0.51,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "0b439a5a61e892722e62213fe87a5ae06968c8ec77b0b85a0a5a2aba79b43ef3",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 15,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.15, "y": 0.08, "width": 0.70, "height": 0.84, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.15,
+          "y": 0.08,
+          "width": 0.7,
+          "height": 0.84,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "e5118563bd0a1732a805f5233a83088c3416019bf85dfdee529c8ef8ea374001",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 16,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.26, "y": 0.08, "width": 0.49, "height": 0.22, "shape": "rounded_rectangle"},
-        {"x": 0.39, "y": 0.81, "width": 0.23, "height": 0.11, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.26,
+          "y": 0.08,
+          "width": 0.49,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.81,
+          "width": 0.23,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "45ebce00a6daf1ba29c82e809c340904e58dbf9e6b2a767c9ba1c9b6efdd8503",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 17,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.49, "y": 0.57, "width": 0.34, "height": 0.25, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.49,
+          "y": 0.57,
+          "width": 0.34,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "4c9a9237a5435a736c82d9243fd989981943025b66af038423686df90715db3c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 18,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.38, "y": 0.32, "width": 0.28, "height": 0.32, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.38,
+          "y": 0.32,
+          "width": 0.28,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "875203e655ba343c6858a611574ccbfe456a5517048f3d6a5a7a4ba30b2a0a32",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 19,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.47, "y": 0.43, "width": 0.10, "height": 0.18, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.47,
+          "y": 0.43,
+          "width": 0.1,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "86c1a2b7ba954f0c329489a0f431a807297625d4a2bdd74aa38ca9e743a9456e",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 28,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.03, "y": 0.32, "width": 0.31, "height": 0.29, "shape": "rounded_rectangle"},
-        {"x": 0.24, "y": 0.32, "width": 0.25, "height": 0.13, "shape": "rounded_rectangle"},
-        {"x": 0.56, "y": 0.42, "width": 0.41, "height": 0.20, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.03,
+          "y": 0.32,
+          "width": 0.31,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.24,
+          "y": 0.32,
+          "width": 0.25,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.56,
+          "y": 0.42,
+          "width": 0.41,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "ec629ee9c9c7e1cfc82ada6bcacb116dbbd80a7cc87d58a0a749ebeceb320e7c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 29,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.42, "y": 0.18, "width": 0.20, "height": 0.17, "shape": "rounded_rectangle"},
-        {"x": 0.00, "y": 0.34, "width": 0.93, "height": 0.25, "shape": "rounded_rectangle"},
-        {"x": 0.42, "y": 0.67, "width": 0.19, "height": 0.20, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.31,
+          "y": 0.15,
+          "width": 0.38,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.0,
+          "y": 0.34,
+          "width": 1.0,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.32,
+          "y": 0.59,
+          "width": 0.36,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "239340c680bf5df68eafc91dd3f96b298ebc94cfb79c417c81ae4e0c23b39835",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 57,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.19, "y": 0.16, "width": 0.63, "height": 0.23, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.19,
+          "y": 0.16,
+          "width": 0.63,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "49e3fa48a09ac7ca9d7765092abf4b5e66148e4cb2948caead097f21d8070aa8",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 58,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.19, "y": 0.12, "width": 0.62, "height": 0.18, "shape": "rounded_rectangle"},
-        {"x": 0.33, "y": 0.80, "width": 0.35, "height": 0.11, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.12,
+          "y": 0.05,
+          "width": 0.76,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.3,
+          "y": 0.78,
+          "width": 0.4,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3049f2de59a439f292a9a160106ccfa324c9aa11d3cd26e7b3465321235116ab",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 61,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.43}, {"x": 0.14, "y": 0.24}, {"x": 0.29, "y": 0.10}, {"x": 0.50, "y": 0.06}, {"x": 0.71, "y": 0.10}, {"x": 0.86, "y": 0.24}, {"x": 0.92, "y": 0.43}, {"x": 0.78, "y": 0.40}, {"x": 0.71, "y": 0.29}, {"x": 0.61, "y": 0.22}, {"x": 0.50, "y": 0.20}, {"x": 0.39, "y": 0.22}, {"x": 0.29, "y": 0.29}, {"x": 0.22, "y": 0.40}]},
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.57}, {"x": 0.14, "y": 0.76}, {"x": 0.29, "y": 0.90}, {"x": 0.50, "y": 0.94}, {"x": 0.71, "y": 0.90}, {"x": 0.86, "y": 0.76}, {"x": 0.92, "y": 0.57}, {"x": 0.78, "y": 0.60}, {"x": 0.71, "y": 0.71}, {"x": 0.61, "y": 0.78}, {"x": 0.50, "y": 0.80}, {"x": 0.39, "y": 0.78}, {"x": 0.29, "y": 0.71}, {"x": 0.22, "y": 0.60}]}
-      ]
+        {
+          "x": 0.06,
+          "y": 0.02,
+          "width": 0.88,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.0,
+          "y": 0.25,
+          "width": 0.28,
+          "height": 0.51,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.72,
+          "y": 0.25,
+          "width": 0.28,
+          "height": 0.51,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.06,
+          "y": 0.66,
+          "width": 0.88,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "e501c2fc918005af85351c3d8f64ba5d4acb490d7bc3ddc9cc80fa864e90f6c7",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 62,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.27, "y": 0.51, "width": 0.48, "height": 0.18, "shape": "rounded_rectangle"},
-        {"x": 0.39, "y": 0.67, "width": 0.23, "height": 0.11, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.07, "y": 0.72}, {"x": 0.26, "y": 0.82}, {"x": 0.50, "y": 0.86}, {"x": 0.74, "y": 0.82}, {"x": 0.93, "y": 0.72}, {"x": 0.88, "y": 0.89}, {"x": 0.66, "y": 0.98}, {"x": 0.34, "y": 0.98}, {"x": 0.12, "y": 0.89}]}
-      ]
+        {
+          "x": 0.03,
+          "y": 0.42,
+          "width": 0.31,
+          "height": 0.48,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.17,
+          "y": 0.45,
+          "width": 0.66,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.66,
+          "y": 0.42,
+          "width": 0.31,
+          "height": 0.48,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.68,
+          "width": 0.6,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.05,
+          "y": 0.78,
+          "width": 0.9,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "d6e3e56f0e9a9ca0202bca808d4969947449ac0de56636002c524c19b7015181",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 63,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.31, "y": 0.22, "width": 0.38, "height": 0.54, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.31,
+          "y": 0.22,
+          "width": 0.38,
+          "height": 0.54,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "5308560a45344a0271e6ec225dcd22ba20715777e57a8316a60982108a6f3d00",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 64,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.24, "y": 0.19, "width": 0.53, "height": 0.12, "shape": "rounded_rectangle"},
-        {"x": 0.23, "y": 0.32, "width": 0.54, "height": 0.24, "shape": "rounded_rectangle"},
-        {"x": 0.31, "y": 0.81, "width": 0.38, "height": 0.12, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.17,
+          "y": 0.13,
+          "width": 0.66,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.3,
+          "width": 0.64,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.76,
+          "width": 0.56,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "f0a2eb7d070fd2da421baee87308595497421a9eed566c0679d1ab0ef1ec4804",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 65,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.43}, {"x": 0.14, "y": 0.24}, {"x": 0.29, "y": 0.10}, {"x": 0.50, "y": 0.06}, {"x": 0.71, "y": 0.10}, {"x": 0.86, "y": 0.24}, {"x": 0.92, "y": 0.43}, {"x": 0.78, "y": 0.40}, {"x": 0.71, "y": 0.29}, {"x": 0.61, "y": 0.22}, {"x": 0.50, "y": 0.20}, {"x": 0.39, "y": 0.22}, {"x": 0.29, "y": 0.29}, {"x": 0.22, "y": 0.40}]},
-        {"x": 0.04, "y": 0.46, "width": 0.13, "height": 0.16, "shape": "rounded_rectangle"},
-        {"x": 0.83, "y": 0.46, "width": 0.13, "height": 0.16, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.18, "y": 0.69}, {"x": 0.31, "y": 0.83}, {"x": 0.50, "y": 0.88}, {"x": 0.69, "y": 0.83}, {"x": 0.82, "y": 0.69}, {"x": 0.72, "y": 0.62}, {"x": 0.62, "y": 0.72}, {"x": 0.50, "y": 0.75}, {"x": 0.38, "y": 0.72}, {"x": 0.28, "y": 0.62}]}
-      ]
+        {
+          "x": 0.1,
+          "y": 0.06,
+          "width": 0.8,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.02,
+          "y": 0.42,
+          "width": 0.18,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.8,
+          "y": 0.42,
+          "width": 0.18,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.12,
+          "y": 0.68,
+          "width": 0.76,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "a02886db86b4adcb8a6ec77d9fba64caf7aa3ada85e20c5b6606aa6e3139069d",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 66,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.13, "y": 0.10, "width": 0.75, "height": 0.24, "shape": "rounded_rectangle"},
-        {"x": 0.16, "y": 0.68, "width": 0.68, "height": 0.23, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.13,
+          "y": 0.1,
+          "width": 0.75,
+          "height": 0.24,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.16,
+          "y": 0.68,
+          "width": 0.68,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "1327575927248be5ffbe33b3d713463234e290778c73c0931fb1fcb65fd90242",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 67,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.17, "y": 0.77, "width": 0.67, "height": 0.17, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.08,
+          "y": 0.71,
+          "width": 0.84,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "45255509de2fda873a5948f6929b89d626898cc448bb72cc41480862e9dccc63",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 71,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.34, "y": 0.29, "width": 0.34, "height": 0.08, "shape": "rounded_rectangle"},
-        {"x": 0.29, "y": 0.70, "width": 0.43, "height": 0.14, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.29,
+          "y": 0.26,
+          "width": 0.42,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.64,
+          "width": 0.64,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "d1152fc390bc9b85713b7d3dd8d44167a97ff9a1e9d3e3fb034503b683f302a9",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 73,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.14, "y": 0.65, "width": 0.72, "height": 0.35, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.14,
+          "y": 0.65,
+          "width": 0.72,
+          "height": 0.35,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "a472f1c1c513e18aec3e7faf9bbeb89d2625321fb108a4279c6a31c1ea815574",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 77,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.11, "y": 0.01, "width": 0.78, "height": 0.16, "shape": "rounded_rectangle"},
-        {"x": 0.07, "y": 0.27, "width": 0.12, "height": 0.15, "shape": "rounded_rectangle"},
-        {"x": 0.81, "y": 0.27, "width": 0.12, "height": 0.15, "shape": "rounded_rectangle"},
-        {"x": 0.27, "y": 0.68, "width": 0.47, "height": 0.27, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.11,
+          "y": 0.01,
+          "width": 0.78,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.07,
+          "y": 0.27,
+          "width": 0.12,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.81,
+          "y": 0.27,
+          "width": 0.12,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.27,
+          "y": 0.68,
+          "width": 0.47,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "211c866a299ea297d726de0eb64aa0461898c379051e9b71e0232ad67435f5ba",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 78,
       "review_status": "not_required",
-      "cover_regions": []
+      "cover_regions": [],
+      "reviewed_crest_sha256": "5138224a188f3f510557b22dce5d97d5aaf04abe9d08612d6902bae402407704",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 79,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.14, "y": 0.30, "width": 0.14, "height": 0.25, "shape": "rounded_rectangle"},
-        {"x": 0.73, "y": 0.30, "width": 0.14, "height": 0.25, "shape": "rounded_rectangle"},
-        {"x": 0.43, "y": 0.70, "width": 0.15, "height": 0.20, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.14,
+          "y": 0.3,
+          "width": 0.14,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.73,
+          "y": 0.3,
+          "width": 0.14,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.43,
+          "y": 0.7,
+          "width": 0.15,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "a4884ad742e30141ce49f8b98a3c123530d80dfcd8fa07e22c000731aba017b0",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 80,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.16, "y": 0.46}, {"x": 0.20, "y": 0.30}, {"x": 0.34, "y": 0.18}, {"x": 0.50, "y": 0.14}, {"x": 0.66, "y": 0.18}, {"x": 0.80, "y": 0.30}, {"x": 0.84, "y": 0.46}, {"x": 0.70, "y": 0.43}, {"x": 0.65, "y": 0.34}, {"x": 0.57, "y": 0.29}, {"x": 0.43, "y": 0.29}, {"x": 0.35, "y": 0.34}, {"x": 0.30, "y": 0.43}]},
-        {"shape": "polygon", "points": [{"x": 0.16, "y": 0.54}, {"x": 0.20, "y": 0.70}, {"x": 0.34, "y": 0.82}, {"x": 0.50, "y": 0.86}, {"x": 0.66, "y": 0.82}, {"x": 0.80, "y": 0.70}, {"x": 0.84, "y": 0.54}, {"x": 0.70, "y": 0.57}, {"x": 0.65, "y": 0.66}, {"x": 0.57, "y": 0.71}, {"x": 0.43, "y": 0.71}, {"x": 0.35, "y": 0.66}, {"x": 0.30, "y": 0.57}]}
-      ]
+        {
+          "x": 0.12,
+          "y": 0.08,
+          "width": 0.76,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.03,
+          "y": 0.28,
+          "width": 0.29,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.68,
+          "y": 0.28,
+          "width": 0.29,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.12,
+          "y": 0.65,
+          "width": 0.76,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "983cc14123b25683adda6a034dead4e47c6efd068698d534b52993729d90d55b",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 81,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.31, "y": 0.42, "width": 0.39, "height": 0.17, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.31,
+          "y": 0.42,
+          "width": 0.39,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "b55fe29e01c90af57cedc3e1290f31336aa7658943cd9d9da89ff0b916d3e331",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 82,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.01, "y": 0.34}, {"x": 0.04, "y": 0.70}, {"x": 0.20, "y": 0.90}, {"x": 0.50, "y": 0.98}, {"x": 0.80, "y": 0.90}, {"x": 0.96, "y": 0.70}, {"x": 0.99, "y": 0.34}, {"x": 0.82, "y": 0.42}, {"x": 0.79, "y": 0.67}, {"x": 0.65, "y": 0.78}, {"x": 0.50, "y": 0.82}, {"x": 0.35, "y": 0.78}, {"x": 0.21, "y": 0.67}, {"x": 0.18, "y": 0.42}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.01,
+              "y": 0.34
+            },
+            {
+              "x": 0.04,
+              "y": 0.7
+            },
+            {
+              "x": 0.2,
+              "y": 0.9
+            },
+            {
+              "x": 0.5,
+              "y": 0.98
+            },
+            {
+              "x": 0.8,
+              "y": 0.9
+            },
+            {
+              "x": 0.96,
+              "y": 0.7
+            },
+            {
+              "x": 0.99,
+              "y": 0.34
+            },
+            {
+              "x": 0.82,
+              "y": 0.42
+            },
+            {
+              "x": 0.79,
+              "y": 0.67
+            },
+            {
+              "x": 0.65,
+              "y": 0.78
+            },
+            {
+              "x": 0.5,
+              "y": 0.82
+            },
+            {
+              "x": 0.35,
+              "y": 0.78
+            },
+            {
+              "x": 0.21,
+              "y": 0.67
+            },
+            {
+              "x": 0.18,
+              "y": 0.42
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "c7e59bb375fd05a44d1fc94707cc5dac5280023dff4be69bc6253c5afd51fac0",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 84,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.20, "y": 0.59}, {"x": 0.67, "y": 0.26}, {"x": 0.80, "y": 0.38}, {"x": 0.33, "y": 0.71}]}
-      ]
+        {
+          "x": 0.48,
+          "y": 0.0,
+          "width": 0.52,
+          "height": 0.31,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.03,
+              "y": 0.55
+            },
+            {
+              "x": 0.67,
+              "y": 0.08
+            },
+            {
+              "x": 0.97,
+              "y": 0.38
+            },
+            {
+              "x": 0.31,
+              "y": 0.88
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "591440a48e372f9ae62f72afa66d3657fe8c441682ea7d5828f57227a7fbc51c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 86,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.18, "y": 0.30, "width": 0.64, "height": 0.57, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.18,
+          "y": 0.3,
+          "width": 0.64,
+          "height": 0.57,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "a5eab5c7f4c21967b4ce9462923072411605fec78301e7079a2865048916a5ad",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 87,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.61, "y": 0.27, "width": 0.29, "height": 0.47, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.47,
+          "y": 0.1,
+          "width": 0.47,
+          "height": 0.7,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "4095ccbc210d49b18cb78602d18527418d300f2c6946feed0c020097b9e8f437",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 88,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.17, "y": 0.48}, {"x": 0.80, "y": 0.34}, {"x": 0.84, "y": 0.49}, {"x": 0.21, "y": 0.64}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.17,
+              "y": 0.48
+            },
+            {
+              "x": 0.8,
+              "y": 0.34
+            },
+            {
+              "x": 0.84,
+              "y": 0.49
+            },
+            {
+              "x": 0.21,
+              "y": 0.64
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "264df33dd019e3e0902933dffd20c2e194faff0e86bb079bf715f19f8dc6d36d",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 90,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.29, "y": 0.28, "width": 0.43, "height": 0.42, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.29,
+          "y": 0.28,
+          "width": 0.43,
+          "height": 0.42,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "a89ff7a48bb597d8179e2a8df9c613c0e65bf9d2d575ff51bd99f9d496e551b0",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 92,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.31, "y": 0.65, "width": 0.22, "height": 0.16, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.14,
+          "y": 0.51,
+          "width": 0.64,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "d1b35bd8f21725aefa37f8b5953b121303fd837d602883f8a7dc25ec79773c8c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 94,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.27, "y": 0.27, "width": 0.48, "height": 0.55, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.27,
+          "y": 0.27,
+          "width": 0.48,
+          "height": 0.55,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "858912667ad91c245d00c35b309f82d5bd7ea22ea3b0f034de0d8f853cdfa73a",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 95,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.17, "y": 0.32, "width": 0.67, "height": 0.17, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.17,
+          "y": 0.32,
+          "width": 0.67,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "af850c073df26498e10021e9397170234f9d45a8911603b0393533f3272d5c97",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 98,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.30, "y": 0.10, "width": 0.41, "height": 0.25, "shape": "rounded_rectangle"},
-        {"x": 0.29, "y": 0.73, "width": 0.42, "height": 0.18, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.3,
+          "y": 0.1,
+          "width": 0.41,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.29,
+          "y": 0.73,
+          "width": 0.42,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "8225c402b059b134f3bfaab09e55ec56a538a3e18021ba78939ab46d9b4b43a2",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 99,
       "review_status": "not_required",
-      "cover_regions": []
+      "cover_regions": [],
+      "reviewed_crest_sha256": "69764f24e0f7c0e57a7e7b64e0242665c2385dde6e7dc2b4f92cfb55a3d8b2ac",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 100,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.21, "y": 0.59, "width": 0.58, "height": 0.18, "shape": "rounded_rectangle"},
-        {"x": 0.37, "y": 0.77, "width": 0.27, "height": 0.13, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.21,
+          "y": 0.59,
+          "width": 0.58,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.37,
+          "y": 0.77,
+          "width": 0.27,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "56b053c7f7e9a9ffedfe2476b16044a26c89b65a6181d4f0fc39649a9100b534",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 102,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.23, "y": 0.36}, {"x": 0.34, "y": 0.17}, {"x": 0.52, "y": 0.10}, {"x": 0.71, "y": 0.17}, {"x": 0.80, "y": 0.34}, {"x": 0.67, "y": 0.37}, {"x": 0.61, "y": 0.27}, {"x": 0.51, "y": 0.23}, {"x": 0.40, "y": 0.27}, {"x": 0.35, "y": 0.38}]},
-        {"x": 0.34, "y": 0.77, "width": 0.35, "height": 0.15, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.1,
+          "y": 0.03,
+          "width": 0.8,
+          "height": 0.36,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.25,
+          "y": 0.72,
+          "width": 0.5,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "00427442bc341e16c655e5012fd0e7492464f050e367bbfb6f849c2c252a344d",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 103,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.29, "y": 0.07, "width": 0.43, "height": 0.24, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.29,
+          "y": 0.07,
+          "width": 0.43,
+          "height": 0.24,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "4848d290a50a9cb303d8b59c7834391779f2420ef03e1708f3fae99ee6d2d0c6",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 104,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.20, "y": 0.06, "width": 0.61, "height": 0.18, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.2,
+          "y": 0.06,
+          "width": 0.61,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "1bdb42589f6f6f916cdb1632a9e91ea00c0d4ce82eb0cb4badcad4cfb36cce01",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 107,
       "review_status": "not_required",
-      "cover_regions": []
+      "cover_regions": [],
+      "reviewed_crest_sha256": "6e58e521344c82d274c102002c5cf42aa5cfd733c3ff539903f31c89210afd9d",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 108,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.18, "y": 0.14, "width": 0.64, "height": 0.72, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.18,
+          "y": 0.14,
+          "width": 0.64,
+          "height": 0.72,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "cb21300b7775ac06b123027db00ea5e755e49801806a8b90487ac68096674a69",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 109,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.16, "y": 0.00, "width": 0.68, "height": 1.00, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.16,
+          "y": 0.0,
+          "width": 0.68,
+          "height": 1.0,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "104855e57d63eca53cdcca21ce6b0a507b09103e307a972b46dd69ef59b54791",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 110,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.37, "y": 0.44, "width": 0.27, "height": 0.14, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.37,
+          "y": 0.44,
+          "width": 0.27,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3fadc1eeff4cfa6f6efccbf949f2887db065182662b00be3beec667306923085",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 112,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.15, "y": 0.09, "width": 0.71, "height": 0.17, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.15,
+          "y": 0.09,
+          "width": 0.71,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "af8c255108892dbb9569cb436f9ab444c8c326b9ede49ce1dadd165c7f0d79d4",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 113,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.32, "y": 0.27, "width": 0.37, "height": 0.47, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.32,
+          "y": 0.27,
+          "width": 0.37,
+          "height": 0.47,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3a148f33fb320d1bbac2252c25ce4c61492c7ee701269fb089244ed3076b0938",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 115,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.37, "y": 0.00, "width": 0.29, "height": 0.18, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.22, "y": 0.48}, {"x": 0.28, "y": 0.32}, {"x": 0.40, "y": 0.23}, {"x": 0.50, "y": 0.21}, {"x": 0.60, "y": 0.23}, {"x": 0.72, "y": 0.32}, {"x": 0.78, "y": 0.48}, {"x": 0.66, "y": 0.45}, {"x": 0.60, "y": 0.37}, {"x": 0.53, "y": 0.34}, {"x": 0.47, "y": 0.34}, {"x": 0.40, "y": 0.37}, {"x": 0.34, "y": 0.45}]}
-      ]
+        {
+          "x": 0.37,
+          "y": 0.0,
+          "width": 0.29,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.22,
+              "y": 0.48
+            },
+            {
+              "x": 0.28,
+              "y": 0.32
+            },
+            {
+              "x": 0.4,
+              "y": 0.23
+            },
+            {
+              "x": 0.5,
+              "y": 0.21
+            },
+            {
+              "x": 0.6,
+              "y": 0.23
+            },
+            {
+              "x": 0.72,
+              "y": 0.32
+            },
+            {
+              "x": 0.78,
+              "y": 0.48
+            },
+            {
+              "x": 0.66,
+              "y": 0.45
+            },
+            {
+              "x": 0.6,
+              "y": 0.37
+            },
+            {
+              "x": 0.53,
+              "y": 0.34
+            },
+            {
+              "x": 0.47,
+              "y": 0.34
+            },
+            {
+              "x": 0.4,
+              "y": 0.37
+            },
+            {
+              "x": 0.34,
+              "y": 0.45
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "74a1318e7c31c0c37d1f23dfa09ea0158c6cdb0f40ec933c3bab84e844dfb2b8",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 263,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.43}, {"x": 0.14, "y": 0.24}, {"x": 0.29, "y": 0.11}, {"x": 0.50, "y": 0.07}, {"x": 0.71, "y": 0.11}, {"x": 0.86, "y": 0.24}, {"x": 0.92, "y": 0.43}, {"x": 0.78, "y": 0.40}, {"x": 0.71, "y": 0.29}, {"x": 0.61, "y": 0.23}, {"x": 0.50, "y": 0.21}, {"x": 0.39, "y": 0.23}, {"x": 0.29, "y": 0.29}, {"x": 0.22, "y": 0.40}]},
-        {"x": 0.30, "y": 0.37, "width": 0.27, "height": 0.20, "shape": "rounded_rectangle"},
-        {"x": 0.05, "y": 0.47, "width": 0.12, "height": 0.14, "shape": "rounded_rectangle"},
-        {"x": 0.83, "y": 0.47, "width": 0.12, "height": 0.14, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.57}, {"x": 0.14, "y": 0.76}, {"x": 0.29, "y": 0.89}, {"x": 0.50, "y": 0.93}, {"x": 0.71, "y": 0.89}, {"x": 0.86, "y": 0.76}, {"x": 0.92, "y": 0.57}, {"x": 0.78, "y": 0.60}, {"x": 0.71, "y": 0.71}, {"x": 0.61, "y": 0.77}, {"x": 0.50, "y": 0.79}, {"x": 0.39, "y": 0.77}, {"x": 0.29, "y": 0.71}, {"x": 0.22, "y": 0.60}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.43
+            },
+            {
+              "x": 0.14,
+              "y": 0.24
+            },
+            {
+              "x": 0.29,
+              "y": 0.11
+            },
+            {
+              "x": 0.5,
+              "y": 0.07
+            },
+            {
+              "x": 0.71,
+              "y": 0.11
+            },
+            {
+              "x": 0.86,
+              "y": 0.24
+            },
+            {
+              "x": 0.92,
+              "y": 0.43
+            },
+            {
+              "x": 0.78,
+              "y": 0.4
+            },
+            {
+              "x": 0.71,
+              "y": 0.29
+            },
+            {
+              "x": 0.61,
+              "y": 0.23
+            },
+            {
+              "x": 0.5,
+              "y": 0.21
+            },
+            {
+              "x": 0.39,
+              "y": 0.23
+            },
+            {
+              "x": 0.29,
+              "y": 0.29
+            },
+            {
+              "x": 0.22,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "x": 0.3,
+          "y": 0.37,
+          "width": 0.27,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.05,
+          "y": 0.47,
+          "width": 0.12,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.83,
+          "y": 0.47,
+          "width": 0.12,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.57
+            },
+            {
+              "x": 0.14,
+              "y": 0.76
+            },
+            {
+              "x": 0.29,
+              "y": 0.89
+            },
+            {
+              "x": 0.5,
+              "y": 0.93
+            },
+            {
+              "x": 0.71,
+              "y": 0.89
+            },
+            {
+              "x": 0.86,
+              "y": 0.76
+            },
+            {
+              "x": 0.92,
+              "y": 0.57
+            },
+            {
+              "x": 0.78,
+              "y": 0.6
+            },
+            {
+              "x": 0.71,
+              "y": 0.71
+            },
+            {
+              "x": 0.61,
+              "y": 0.77
+            },
+            {
+              "x": 0.5,
+              "y": 0.79
+            },
+            {
+              "x": 0.39,
+              "y": 0.77
+            },
+            {
+              "x": 0.29,
+              "y": 0.71
+            },
+            {
+              "x": 0.22,
+              "y": 0.6
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "60998bc55b07b950d1e8d44d09382922e0c9de8559c453d56ca69bf8251866f3",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 285,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.13, "y": 0.26, "width": 0.18, "height": 0.21, "shape": "rounded_rectangle"},
-        {"x": 0.34, "y": 0.30, "width": 0.34, "height": 0.14, "shape": "rounded_rectangle"},
-        {"x": 0.71, "y": 0.26, "width": 0.17, "height": 0.21, "shape": "rounded_rectangle"},
-        {"x": 0.20, "y": 0.65, "width": 0.61, "height": 0.14, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.13,
+          "y": 0.26,
+          "width": 0.18,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.3,
+          "width": 0.34,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.71,
+          "y": 0.26,
+          "width": 0.17,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.65,
+          "width": 0.61,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "7a10e2740a004eb8f9222f54a113eacb2be8082859c37bed9b3e098e5c467c8c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 322,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.16, "y": 0.03, "width": 0.70, "height": 0.18, "shape": "rounded_rectangle"},
-        {"x": 0.22, "y": 0.75, "width": 0.56, "height": 0.16, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.16,
+          "y": 0.03,
+          "width": 0.7,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.75,
+          "width": 0.56,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "340a266cca53aaa0962230487a1ffe3ba57149f526e6895c656ab56c4f655be6",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 341,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.38, "y": 0.36, "width": 0.24, "height": 0.39, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.38,
+          "y": 0.36,
+          "width": 0.24,
+          "height": 0.39,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "dc992a0cdfb2d9277730c1dae11ed79c7411b8c492fcfdb4898fc824a701bd45",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 349,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.20, "y": 0.17, "width": 0.61, "height": 0.15, "shape": "rounded_rectangle"},
-        {"x": 0.22, "y": 0.72, "width": 0.58, "height": 0.15, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.2,
+          "y": 0.17,
+          "width": 0.61,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.72,
+          "width": 0.58,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "192841709349f81dc3d4fa2507c126108d19162abd5db11a2c7131de64267bc5",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 351,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.18, "y": 0.69, "width": 0.64, "height": 0.21, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.18,
+          "y": 0.69,
+          "width": 0.64,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "dbb4b8b29eab6d20616dd3dbf4a22f48e02b5f28e7247ef86205a120617ec252",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 354,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.16, "y": 0.68, "width": 0.69, "height": 0.17, "shape": "rounded_rectangle"},
-        {"x": 0.44, "y": 0.62, "width": 0.13, "height": 0.09, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.1,
+          "y": 0.61,
+          "width": 0.8,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "847f9f495d19aa990fffcf2b95c9ca6ba9eec5b451436edb9be696b04943d254",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 397,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.43}, {"x": 0.14, "y": 0.24}, {"x": 0.29, "y": 0.10}, {"x": 0.50, "y": 0.06}, {"x": 0.71, "y": 0.10}, {"x": 0.86, "y": 0.24}, {"x": 0.92, "y": 0.43}, {"x": 0.78, "y": 0.40}, {"x": 0.71, "y": 0.29}, {"x": 0.61, "y": 0.22}, {"x": 0.50, "y": 0.20}, {"x": 0.39, "y": 0.22}, {"x": 0.29, "y": 0.29}, {"x": 0.22, "y": 0.40}]},
-        {"shape": "polygon", "points": [{"x": 0.13, "y": 0.66}, {"x": 0.27, "y": 0.82}, {"x": 0.50, "y": 0.89}, {"x": 0.73, "y": 0.82}, {"x": 0.87, "y": 0.66}, {"x": 0.76, "y": 0.59}, {"x": 0.66, "y": 0.70}, {"x": 0.50, "y": 0.74}, {"x": 0.34, "y": 0.70}, {"x": 0.24, "y": 0.59}]}
-      ]
+        {
+          "x": 0.08,
+          "y": 0.05,
+          "width": 0.84,
+          "height": 0.36,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.08,
+          "y": 0.64,
+          "width": 0.84,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3197a98a892fc056559c56d664485aaf98b6e45c93a9c4b49fcf818f8801f1cc",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 402,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.43}, {"x": 0.14, "y": 0.24}, {"x": 0.29, "y": 0.10}, {"x": 0.50, "y": 0.06}, {"x": 0.71, "y": 0.10}, {"x": 0.86, "y": 0.24}, {"x": 0.92, "y": 0.43}, {"x": 0.78, "y": 0.40}, {"x": 0.71, "y": 0.29}, {"x": 0.61, "y": 0.22}, {"x": 0.50, "y": 0.20}, {"x": 0.39, "y": 0.22}, {"x": 0.29, "y": 0.29}, {"x": 0.22, "y": 0.40}]},
-        {"x": 0.04, "y": 0.46, "width": 0.13, "height": 0.16, "shape": "rounded_rectangle"},
-        {"x": 0.83, "y": 0.46, "width": 0.13, "height": 0.16, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.08, "y": 0.57}, {"x": 0.14, "y": 0.76}, {"x": 0.29, "y": 0.90}, {"x": 0.50, "y": 0.94}, {"x": 0.71, "y": 0.90}, {"x": 0.86, "y": 0.76}, {"x": 0.92, "y": 0.57}, {"x": 0.78, "y": 0.60}, {"x": 0.71, "y": 0.71}, {"x": 0.61, "y": 0.78}, {"x": 0.50, "y": 0.80}, {"x": 0.39, "y": 0.78}, {"x": 0.29, "y": 0.71}, {"x": 0.22, "y": 0.60}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.43
+            },
+            {
+              "x": 0.14,
+              "y": 0.24
+            },
+            {
+              "x": 0.29,
+              "y": 0.1
+            },
+            {
+              "x": 0.5,
+              "y": 0.06
+            },
+            {
+              "x": 0.71,
+              "y": 0.1
+            },
+            {
+              "x": 0.86,
+              "y": 0.24
+            },
+            {
+              "x": 0.92,
+              "y": 0.43
+            },
+            {
+              "x": 0.78,
+              "y": 0.4
+            },
+            {
+              "x": 0.71,
+              "y": 0.29
+            },
+            {
+              "x": 0.61,
+              "y": 0.22
+            },
+            {
+              "x": 0.5,
+              "y": 0.2
+            },
+            {
+              "x": 0.39,
+              "y": 0.22
+            },
+            {
+              "x": 0.29,
+              "y": 0.29
+            },
+            {
+              "x": 0.22,
+              "y": 0.4
+            }
+          ]
+        },
+        {
+          "x": 0.04,
+          "y": 0.46,
+          "width": 0.13,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.83,
+          "y": 0.46,
+          "width": 0.13,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.57
+            },
+            {
+              "x": 0.14,
+              "y": 0.76
+            },
+            {
+              "x": 0.29,
+              "y": 0.9
+            },
+            {
+              "x": 0.5,
+              "y": 0.94
+            },
+            {
+              "x": 0.71,
+              "y": 0.9
+            },
+            {
+              "x": 0.86,
+              "y": 0.76
+            },
+            {
+              "x": 0.92,
+              "y": 0.57
+            },
+            {
+              "x": 0.78,
+              "y": 0.6
+            },
+            {
+              "x": 0.71,
+              "y": 0.71
+            },
+            {
+              "x": 0.61,
+              "y": 0.78
+            },
+            {
+              "x": 0.5,
+              "y": 0.8
+            },
+            {
+              "x": 0.39,
+              "y": 0.78
+            },
+            {
+              "x": 0.29,
+              "y": 0.71
+            },
+            {
+              "x": 0.22,
+              "y": 0.6
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "ce1d3ddd223fe7851b278287495febea7b57230b9cf7786bef9a9f00098f7ce5",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 454,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.13, "y": 0.39}, {"x": 0.20, "y": 0.22}, {"x": 0.35, "y": 0.11}, {"x": 0.50, "y": 0.08}, {"x": 0.65, "y": 0.11}, {"x": 0.80, "y": 0.22}, {"x": 0.87, "y": 0.39}, {"x": 0.73, "y": 0.36}, {"x": 0.66, "y": 0.28}, {"x": 0.57, "y": 0.24}, {"x": 0.43, "y": 0.24}, {"x": 0.34, "y": 0.28}, {"x": 0.27, "y": 0.36}]},
-        {"x": 0.40, "y": 0.82, "width": 0.21, "height": 0.13, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.02,
+          "y": 0.0,
+          "width": 0.96,
+          "height": 0.4,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.35,
+          "y": 0.79,
+          "width": 0.3,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "910ef40a216fbca330148b9b525ea21def2d61f00414ed425fb0b3701d99c7b7",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 470,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.07, "y": 0.02, "width": 0.87, "height": 0.20, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.07,
+          "y": 0.02,
+          "width": 0.87,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "76d2040e19096ce59e9d54baf0217339ade1084532fb03adbd86e9bc55a932b0",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 471,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.17, "y": 0.36, "width": 0.67, "height": 0.15, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.17,
+          "y": 0.36,
+          "width": 0.67,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "d623bfb7011c43c1421b87072a0dd57bbcdcd75297438610454f630132df3ea4",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 496,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.34, "y": 0.79, "width": 0.33, "height": 0.13, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.34,
+          "y": 0.79,
+          "width": 0.33,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3b3100d3721799e684c3a28475fdf80e4ecc4b0ccae31e7f7ccf43c575a839a7",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 498,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.27, "y": 0.03, "width": 0.47, "height": 0.17, "shape": "rounded_rectangle"},
-        {"x": 0.23, "y": 0.23, "width": 0.54, "height": 0.18, "shape": "rounded_rectangle"},
-        {"x": 0.28, "y": 0.74, "width": 0.45, "height": 0.15, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.18,
+          "y": 0.01,
+          "width": 0.64,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.68,
+          "width": 0.6,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "8b3d663a736ee2657318c6fa3ef3755606d100684ab60e6e149369d37303848a",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 503,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.20, "y": 0.67, "width": 0.16, "height": 0.23, "shape": "rounded_rectangle"},
-        {"x": 0.42, "y": 0.70, "width": 0.16, "height": 0.21, "shape": "rounded_rectangle"},
-        {"x": 0.67, "y": 0.67, "width": 0.16, "height": 0.23, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.18,
+          "y": 0.04,
+          "width": 0.64,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.17,
+          "y": 0.24,
+          "width": 0.66,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.15,
+          "y": 0.64,
+          "width": 0.22,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.67,
+          "width": 0.22,
+          "height": 0.26,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.65,
+          "y": 0.64,
+          "width": 0.22,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "966ef4636e99f87a578e748fb4cbb82f4ced73da08e6d7d274edfbbe63fe7d6e",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 511,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.10, "y": 0.43}, {"x": 0.17, "y": 0.25}, {"x": 0.33, "y": 0.13}, {"x": 0.50, "y": 0.10}, {"x": 0.67, "y": 0.13}, {"x": 0.83, "y": 0.25}, {"x": 0.90, "y": 0.43}, {"x": 0.76, "y": 0.40}, {"x": 0.68, "y": 0.31}, {"x": 0.58, "y": 0.27}, {"x": 0.42, "y": 0.27}, {"x": 0.32, "y": 0.31}, {"x": 0.24, "y": 0.40}]},
-        {"x": 0.04, "y": 0.45, "width": 0.14, "height": 0.16, "shape": "rounded_rectangle"},
-        {"x": 0.82, "y": 0.45, "width": 0.14, "height": 0.16, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.10, "y": 0.57}, {"x": 0.17, "y": 0.75}, {"x": 0.33, "y": 0.87}, {"x": 0.50, "y": 0.90}, {"x": 0.67, "y": 0.87}, {"x": 0.83, "y": 0.75}, {"x": 0.90, "y": 0.57}, {"x": 0.76, "y": 0.60}, {"x": 0.68, "y": 0.69}, {"x": 0.58, "y": 0.73}, {"x": 0.42, "y": 0.73}, {"x": 0.32, "y": 0.69}, {"x": 0.24, "y": 0.60}]}
-      ]
+        {
+          "x": 0.08,
+          "y": 0.05,
+          "width": 0.84,
+          "height": 0.35,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.02,
+          "y": 0.3,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.68,
+          "y": 0.3,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.08,
+          "y": 0.64,
+          "width": 0.84,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "f2f7df9299b7a8f8653a6869bf6ca98c01edf25fbbfcd8cc2316ec26d2fcc3b5",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 512,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.23, "y": 0.36, "width": 0.55, "height": 0.36, "shape": "rounded_rectangle"},
-        {"x": 0.41, "y": 0.86, "width": 0.18, "height": 0.09, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.18,
+          "y": 0.31,
+          "width": 0.64,
+          "height": 0.59,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.36,
+          "y": 0.84,
+          "width": 0.28,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "4f93c4b559fa31ad2f9573a9e0eddf53723572010f8e89976234724d84e2cf13",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 516,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.15, "y": 0.12, "width": 0.70, "height": 0.76, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.15,
+          "y": 0.12,
+          "width": 0.7,
+          "height": 0.76,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "715cb74923cff73386ff4f6277a49a304ecdc37438a228bf6ef9dd4e830fe3b3",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 519,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.15, "y": 0.07, "width": 0.70, "height": 0.16, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.15,
+          "y": 0.07,
+          "width": 0.7,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "987d8b1363c79345544413b9cf74722b6b27ba800bfe41f80c404438271198bc",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 521,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.23, "y": 0.68, "width": 0.55, "height": 0.19, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.23,
+          "y": 0.68,
+          "width": 0.55,
+          "height": 0.19,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "2d265b1a0b1afb9d082fbd746ff5a187f029b99a174163ba685922eed11bf15e",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 522,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.29, "y": 0.23, "width": 0.42, "height": 0.29, "shape": "rounded_rectangle"},
-        {"x": 0.29, "y": 0.85, "width": 0.42, "height": 0.11, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.29,
+          "y": 0.23,
+          "width": 0.42,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.29,
+          "y": 0.85,
+          "width": 0.42,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "01ba0c60b40f0c9dc279f2ec9c826cdbcfef96ab993131c71ffb66a964c805f6",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 523,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.08, "y": 0.05, "width": 0.84, "height": 0.29, "shape": "rounded_rectangle"},
-        {"x": 0.66, "y": 0.37, "width": 0.22, "height": 0.47, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.06,
+          "y": 0.03,
+          "width": 0.88,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.54,
+          "y": 0.32,
+          "width": 0.41,
+          "height": 0.59,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "363fda0294cde7d4eeef0d0f5a417a02f664ae3f494d1243f3ace4e768fe3b2d",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 524,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.14, "y": 0.39}, {"x": 0.20, "y": 0.22}, {"x": 0.35, "y": 0.12}, {"x": 0.50, "y": 0.09}, {"x": 0.65, "y": 0.12}, {"x": 0.80, "y": 0.22}, {"x": 0.86, "y": 0.39}, {"x": 0.72, "y": 0.37}, {"x": 0.66, "y": 0.29}, {"x": 0.57, "y": 0.25}, {"x": 0.43, "y": 0.25}, {"x": 0.34, "y": 0.29}, {"x": 0.28, "y": 0.37}]},
-        {"shape": "polygon", "points": [{"x": 0.18, "y": 0.69}, {"x": 0.31, "y": 0.82}, {"x": 0.50, "y": 0.87}, {"x": 0.69, "y": 0.82}, {"x": 0.82, "y": 0.69}, {"x": 0.73, "y": 0.62}, {"x": 0.63, "y": 0.72}, {"x": 0.50, "y": 0.75}, {"x": 0.37, "y": 0.72}, {"x": 0.27, "y": 0.62}]}
-      ]
+        {
+          "x": 0.1,
+          "y": 0.06,
+          "width": 0.8,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.1,
+          "y": 0.64,
+          "width": 0.8,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "663d7048e202e8747750860b938d2a3f1c5324b85f1627d539ada58e023b9220",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 525,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.17, "y": 0.33, "width": 0.68, "height": 0.19, "shape": "rounded_rectangle"},
-        {"x": 0.41, "y": 0.65, "width": 0.18, "height": 0.09, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.08,
+          "y": 0.22,
+          "width": 0.84,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.36,
+          "y": 0.62,
+          "width": 0.28,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "50db64eae8e78521540a6e1ad6a83e075ebbb7897bed1b4093e5d751a75f3617",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 529,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.15, "y": 0.58, "width": 0.70, "height": 0.21, "shape": "rounded_rectangle"},
-        {"x": 0.28, "y": 0.76, "width": 0.45, "height": 0.11, "shape": "rounded_rectangle"},
-        {"x": 0.41, "y": 0.85, "width": 0.19, "height": 0.10, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.15,
+          "y": 0.58,
+          "width": 0.7,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.28,
+          "y": 0.76,
+          "width": 0.45,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.41,
+          "y": 0.85,
+          "width": 0.19,
+          "height": 0.1,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "08e74b809df009ac77930a0a81fa25af53d98ed4e911bc392262255662cdfb2f",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 531,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.39, "y": 0.08, "width": 0.23, "height": 0.12, "shape": "rounded_rectangle"},
-        {"x": 0.16, "y": 0.33, "width": 0.68, "height": 0.18, "shape": "rounded_rectangle"},
-        {"x": 0.25, "y": 0.51, "width": 0.50, "height": 0.13, "shape": "rounded_rectangle"},
-        {"x": 0.40, "y": 0.67, "width": 0.21, "height": 0.21, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.23,
+          "y": 0.01,
+          "width": 0.54,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.13,
+          "y": 0.2,
+          "width": 0.74,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.5,
+          "width": 0.6,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.35,
+          "y": 0.65,
+          "width": 0.3,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3a17293c0f042c640ab401ab7668e84a75bbaeb55b9804e69de0eeb34d8cbc65",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 532,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.31, "y": 0.08, "width": 0.38, "height": 0.15, "shape": "rounded_rectangle"},
-        {"x": 0.19, "y": 0.22, "width": 0.62, "height": 0.36, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.22,
+          "y": 0.0,
+          "width": 0.56,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.16,
+          "y": 0.2,
+          "width": 0.68,
+          "height": 0.42,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "0ee74ad3c0bdc1fcefe7a1df8fc3a603473b181f850121161b01f8fa6ff94e69",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 533,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.21, "y": 0.16, "width": 0.59, "height": 0.29, "shape": "rounded_rectangle"},
-        {"x": 0.38, "y": 0.72, "width": 0.24, "height": 0.12, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.21,
+          "y": 0.16,
+          "width": 0.59,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.38,
+          "y": 0.72,
+          "width": 0.24,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "7e752fc483f470c273136e72d12808cb76651416ae0043f7a9e9ea058eb09465",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 535,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.06, "y": 0.05, "width": 0.88, "height": 0.23, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.06,
+          "y": 0.05,
+          "width": 0.88,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "c28aff48521e50e589275f10d3432f54df15eac5830d5f759a70f8bbefe02071",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 546,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.15, "y": 0.09, "width": 0.71, "height": 0.19, "shape": "rounded_rectangle"},
-        {"x": 0.08, "y": 0.20, "width": 0.50, "height": 0.79, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.1,
+          "y": 0.01,
+          "width": 0.8,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.14,
+              "y": 0.18
+            },
+            {
+              "x": 0.4,
+              "y": 0.18
+            },
+            {
+              "x": 0.69,
+              "y": 0.94
+            },
+            {
+              "x": 0.2,
+              "y": 0.73
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "cfb60f9acf5462eba8b4fd67c640fcf1eeec1e8c26094f5afc15de814ae17d98",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 548,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.32, "y": 0.36, "width": 0.38, "height": 0.17, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.32,
+          "y": 0.36,
+          "width": 0.38,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "afaff6f4f89895ffcb51737e6bddbededfaa9739aa5aa53f0bf86d58894c0858",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 558,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.39, "y": 0.34, "width": 0.23, "height": 0.29, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.39,
+          "y": 0.34,
+          "width": 0.23,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "e1da68ea58d88042928efdefb42a15fe10dc8e192f23bd4d2caa309a3a9931ae",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 559,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.57, "y": 0.22, "width": 0.24, "height": 0.29, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.47,
+          "y": 0.08,
+          "width": 0.44,
+          "height": 0.5,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3ccd4557f277cea55ff0afc3be1d9da55a4eab9568d74a7eebd1665e52d316ce",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 560,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.13, "y": 0.46}, {"x": 0.20, "y": 0.29}, {"x": 0.35, "y": 0.18}, {"x": 0.52, "y": 0.15}, {"x": 0.70, "y": 0.20}, {"x": 0.83, "y": 0.33}, {"x": 0.88, "y": 0.48}, {"x": 0.73, "y": 0.45}, {"x": 0.66, "y": 0.34}, {"x": 0.55, "y": 0.29}, {"x": 0.43, "y": 0.29}, {"x": 0.32, "y": 0.34}, {"x": 0.27, "y": 0.45}]},
-        {"shape": "polygon", "points": [{"x": 0.13, "y": 0.55}, {"x": 0.20, "y": 0.73}, {"x": 0.35, "y": 0.84}, {"x": 0.52, "y": 0.87}, {"x": 0.70, "y": 0.82}, {"x": 0.83, "y": 0.69}, {"x": 0.88, "y": 0.54}, {"x": 0.73, "y": 0.57}, {"x": 0.66, "y": 0.68}, {"x": 0.55, "y": 0.73}, {"x": 0.43, "y": 0.73}, {"x": 0.32, "y": 0.68}, {"x": 0.27, "y": 0.57}]}
-      ]
+        {
+          "x": 0.08,
+          "y": 0.18,
+          "width": 0.84,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.02,
+          "y": 0.3,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.68,
+          "y": 0.3,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.08,
+          "y": 0.62,
+          "width": 0.84,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "e5f15f1f22b86eb9d6a9244aaf090674819ba433abc2071238c114dfe2ade19f",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 576,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.10, "y": 0.44}, {"x": 0.18, "y": 0.25}, {"x": 0.34, "y": 0.13}, {"x": 0.50, "y": 0.10}, {"x": 0.66, "y": 0.13}, {"x": 0.82, "y": 0.25}, {"x": 0.90, "y": 0.44}, {"x": 0.76, "y": 0.41}, {"x": 0.68, "y": 0.31}, {"x": 0.58, "y": 0.26}, {"x": 0.42, "y": 0.26}, {"x": 0.32, "y": 0.31}, {"x": 0.24, "y": 0.41}]},
-        {"x": 0.35, "y": 0.34, "width": 0.31, "height": 0.33, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.10, "y": 0.56}, {"x": 0.18, "y": 0.75}, {"x": 0.34, "y": 0.87}, {"x": 0.50, "y": 0.90}, {"x": 0.66, "y": 0.87}, {"x": 0.82, "y": 0.75}, {"x": 0.90, "y": 0.56}, {"x": 0.76, "y": 0.59}, {"x": 0.68, "y": 0.69}, {"x": 0.58, "y": 0.74}, {"x": 0.42, "y": 0.74}, {"x": 0.32, "y": 0.69}, {"x": 0.24, "y": 0.59}]}
-      ]
+        {
+          "x": 0.06,
+          "y": 0.05,
+          "width": 0.88,
+          "height": 0.35,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.01,
+          "y": 0.28,
+          "width": 0.29,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.7,
+          "y": 0.28,
+          "width": 0.29,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.06,
+          "y": 0.64,
+          "width": 0.88,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.32,
+          "y": 0.31,
+          "width": 0.36,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "e71eacc5c2db98ba3f50870ce513c209bfa4b7665e54a248d2943eabd8103bc8",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 582,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.27, "y": 0.34, "width": 0.46, "height": 0.38, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.27,
+          "y": 0.34,
+          "width": 0.46,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3c37d1483c1cac8778dcd7b23fe33f7ffe17f27579e4b937c8cb1a5bf96e7525",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 583,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.30, "y": 0.35, "width": 0.40, "height": 0.38, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.3,
+          "y": 0.35,
+          "width": 0.4,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "750f66da39e61f00506a57ca7f68bd7a4b766dd20d6c32e6ca148321ec4e8bcb",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 586,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.17, "y": 0.07, "width": 0.66, "height": 0.20, "shape": "rounded_rectangle"},
-        {"x": 0.18, "y": 0.29, "width": 0.27, "height": 0.15, "shape": "rounded_rectangle"},
-        {"x": 0.67, "y": 0.29, "width": 0.21, "height": 0.19, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.07,
+          "y": 0.07,
+          "width": 0.86,
+          "height": 0.5,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3a0f125fdf455ac6cad39229686182c439bdb94eb1512f40bb1d714b8876378e",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 666,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.17, "y": 0.08, "width": 0.66, "height": 0.17, "shape": "rounded_rectangle"},
-        {"x": 0.38, "y": 0.78, "width": 0.25, "height": 0.14, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.17,
+          "y": 0.08,
+          "width": 0.66,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.38,
+          "y": 0.78,
+          "width": 0.25,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "4cb69a3792e59c6304c7128dc94a9642a0559f095d75f10f6ac1cda4d8a58430",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 670,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.14, "y": 0.42}, {"x": 0.20, "y": 0.24}, {"x": 0.35, "y": 0.13}, {"x": 0.50, "y": 0.10}, {"x": 0.65, "y": 0.13}, {"x": 0.80, "y": 0.24}, {"x": 0.86, "y": 0.42}, {"x": 0.71, "y": 0.39}, {"x": 0.65, "y": 0.29}, {"x": 0.56, "y": 0.24}, {"x": 0.44, "y": 0.24}, {"x": 0.35, "y": 0.29}, {"x": 0.29, "y": 0.39}]},
-        {"x": 0.08, "y": 0.48, "width": 0.12, "height": 0.14, "shape": "rounded_rectangle"},
-        {"x": 0.80, "y": 0.48, "width": 0.12, "height": 0.14, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.14, "y": 0.58}, {"x": 0.20, "y": 0.76}, {"x": 0.35, "y": 0.87}, {"x": 0.50, "y": 0.90}, {"x": 0.65, "y": 0.87}, {"x": 0.80, "y": 0.76}, {"x": 0.86, "y": 0.58}, {"x": 0.71, "y": 0.61}, {"x": 0.65, "y": 0.71}, {"x": 0.56, "y": 0.76}, {"x": 0.44, "y": 0.76}, {"x": 0.35, "y": 0.71}, {"x": 0.29, "y": 0.61}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.14,
+              "y": 0.42
+            },
+            {
+              "x": 0.2,
+              "y": 0.24
+            },
+            {
+              "x": 0.35,
+              "y": 0.13
+            },
+            {
+              "x": 0.5,
+              "y": 0.1
+            },
+            {
+              "x": 0.65,
+              "y": 0.13
+            },
+            {
+              "x": 0.8,
+              "y": 0.24
+            },
+            {
+              "x": 0.86,
+              "y": 0.42
+            },
+            {
+              "x": 0.71,
+              "y": 0.39
+            },
+            {
+              "x": 0.65,
+              "y": 0.29
+            },
+            {
+              "x": 0.56,
+              "y": 0.24
+            },
+            {
+              "x": 0.44,
+              "y": 0.24
+            },
+            {
+              "x": 0.35,
+              "y": 0.29
+            },
+            {
+              "x": 0.29,
+              "y": 0.39
+            }
+          ]
+        },
+        {
+          "x": 0.08,
+          "y": 0.48,
+          "width": 0.12,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.8,
+          "y": 0.48,
+          "width": 0.12,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.14,
+              "y": 0.58
+            },
+            {
+              "x": 0.2,
+              "y": 0.76
+            },
+            {
+              "x": 0.35,
+              "y": 0.87
+            },
+            {
+              "x": 0.5,
+              "y": 0.9
+            },
+            {
+              "x": 0.65,
+              "y": 0.87
+            },
+            {
+              "x": 0.8,
+              "y": 0.76
+            },
+            {
+              "x": 0.86,
+              "y": 0.58
+            },
+            {
+              "x": 0.71,
+              "y": 0.61
+            },
+            {
+              "x": 0.65,
+              "y": 0.71
+            },
+            {
+              "x": 0.56,
+              "y": 0.76
+            },
+            {
+              "x": 0.44,
+              "y": 0.76
+            },
+            {
+              "x": 0.35,
+              "y": 0.71
+            },
+            {
+              "x": 0.29,
+              "y": 0.61
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "6cf50b0c8aa6180729fe147b8c2b26c5f54fb5feb9eb581402f3c6684ef92edd",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 672,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.04, "y": 0.35, "width": 0.92, "height": 0.25, "shape": "rounded_rectangle"},
-        {"x": 0.28, "y": 0.65, "width": 0.13, "height": 0.12, "shape": "rounded_rectangle"},
-        {"x": 0.61, "y": 0.65, "width": 0.13, "height": 0.12, "shape": "rounded_rectangle"},
-        {"x": 0.24, "y": 0.80, "width": 0.53, "height": 0.18, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.04,
+          "y": 0.35,
+          "width": 0.92,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.28,
+          "y": 0.65,
+          "width": 0.13,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.61,
+          "y": 0.65,
+          "width": 0.13,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.24,
+          "y": 0.8,
+          "width": 0.53,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "abc0b2d190af55e7cfe04eeaec1b2a1f1db3ba76099796d890b93394dd9002ef",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 673,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.13, "y": 0.48}, {"x": 0.73, "y": 0.27}, {"x": 0.82, "y": 0.43}, {"x": 0.22, "y": 0.64}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.13,
+              "y": 0.48
+            },
+            {
+              "x": 0.73,
+              "y": 0.27
+            },
+            {
+              "x": 0.82,
+              "y": 0.43
+            },
+            {
+              "x": 0.22,
+              "y": 0.64
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "29e70eca976d94dfbe9b42e0db77f1102871ed7b6dd4439247d93397b370d2f6",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 674,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.31, "y": 0.35, "width": 0.39, "height": 0.29, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.31,
+          "y": 0.35,
+          "width": 0.39,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "e7c0d72919d017eed8190da57bb71f1544faed964d9c5dd88042e57081021d60",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 675,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.05, "y": 0.44}, {"x": 0.11, "y": 0.23}, {"x": 0.28, "y": 0.08}, {"x": 0.50, "y": 0.03}, {"x": 0.72, "y": 0.08}, {"x": 0.89, "y": 0.23}, {"x": 0.95, "y": 0.44}, {"x": 0.81, "y": 0.42}, {"x": 0.75, "y": 0.29}, {"x": 0.64, "y": 0.20}, {"x": 0.50, "y": 0.17}, {"x": 0.36, "y": 0.20}, {"x": 0.25, "y": 0.29}, {"x": 0.19, "y": 0.42}]},
-        {"x": 0.31, "y": 0.27, "width": 0.38, "height": 0.46, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.05, "y": 0.56}, {"x": 0.11, "y": 0.77}, {"x": 0.28, "y": 0.92}, {"x": 0.50, "y": 0.97}, {"x": 0.72, "y": 0.92}, {"x": 0.89, "y": 0.77}, {"x": 0.95, "y": 0.56}, {"x": 0.81, "y": 0.58}, {"x": 0.75, "y": 0.71}, {"x": 0.64, "y": 0.80}, {"x": 0.50, "y": 0.83}, {"x": 0.36, "y": 0.80}, {"x": 0.25, "y": 0.71}, {"x": 0.19, "y": 0.58}]}
-      ]
+        {
+          "x": 0.01,
+          "y": 0.01,
+          "width": 0.98,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.0,
+          "y": 0.2,
+          "width": 0.24,
+          "height": 0.61,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.76,
+          "y": 0.2,
+          "width": 0.24,
+          "height": 0.61,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.01,
+          "y": 0.72,
+          "width": 0.98,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.28,
+          "y": 0.25,
+          "width": 0.44,
+          "height": 0.5,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "4356341627d75b258e1a714bfc30268f1543f57f1920206adc3b723679fb7e67",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 676,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.25, "y": 0.23, "width": 0.18, "height": 0.29, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.17, "y": 0.69}, {"x": 0.69, "y": 0.27}, {"x": 0.81, "y": 0.39}, {"x": 0.29, "y": 0.81}]},
-        {"x": 0.65, "y": 0.58, "width": 0.20, "height": 0.26, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.18,
+          "y": 0.12,
+          "width": 0.3,
+          "height": 0.4,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.1,
+              "y": 0.72
+            },
+            {
+              "x": 0.72,
+              "y": 0.06
+            },
+            {
+              "x": 0.88,
+              "y": 0.23
+            },
+            {
+              "x": 0.26,
+              "y": 0.89
+            }
+          ]
+        },
+        {
+          "x": 0.59,
+          "y": 0.5,
+          "width": 0.3,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "e323d26ce8dee799228da97469fb2928b165bf99f227f03c11bb6d57519c3cb4",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 677,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.06, "y": 0.71}, {"x": 0.18, "y": 0.85}, {"x": 0.36, "y": 0.94}, {"x": 0.64, "y": 0.94}, {"x": 0.82, "y": 0.85}, {"x": 0.94, "y": 0.71}, {"x": 0.83, "y": 0.66}, {"x": 0.72, "y": 0.77}, {"x": 0.59, "y": 0.82}, {"x": 0.41, "y": 0.82}, {"x": 0.28, "y": 0.77}, {"x": 0.17, "y": 0.66}]}
-      ]
+        {
+          "x": 0.03,
+          "y": 0.62,
+          "width": 0.94,
+          "height": 0.37,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "a2a904f8fc7e00f319320e5bbd934b9a495488ea29dc8228a890ad13587add91",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 678,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.04, "y": 0.42}, {"x": 0.10, "y": 0.23}, {"x": 0.28, "y": 0.06}, {"x": 0.52, "y": 0.02}, {"x": 0.51, "y": 0.15}, {"x": 0.34, "y": 0.19}, {"x": 0.21, "y": 0.31}, {"x": 0.16, "y": 0.46}]},
-        {"shape": "polygon", "points": [{"x": 0.49, "y": 0.84}, {"x": 0.66, "y": 0.80}, {"x": 0.79, "y": 0.69}, {"x": 0.85, "y": 0.54}, {"x": 0.97, "y": 0.58}, {"x": 0.91, "y": 0.77}, {"x": 0.73, "y": 0.94}, {"x": 0.49, "y": 0.98}]}
-      ]
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.04,
+              "y": 0.42
+            },
+            {
+              "x": 0.1,
+              "y": 0.23
+            },
+            {
+              "x": 0.28,
+              "y": 0.06
+            },
+            {
+              "x": 0.52,
+              "y": 0.02
+            },
+            {
+              "x": 0.51,
+              "y": 0.15
+            },
+            {
+              "x": 0.34,
+              "y": 0.19
+            },
+            {
+              "x": 0.21,
+              "y": 0.31
+            },
+            {
+              "x": 0.16,
+              "y": 0.46
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.49,
+              "y": 0.84
+            },
+            {
+              "x": 0.66,
+              "y": 0.8
+            },
+            {
+              "x": 0.79,
+              "y": 0.69
+            },
+            {
+              "x": 0.85,
+              "y": 0.54
+            },
+            {
+              "x": 0.97,
+              "y": 0.58
+            },
+            {
+              "x": 0.91,
+              "y": 0.77
+            },
+            {
+              "x": 0.73,
+              "y": 0.94
+            },
+            {
+              "x": 0.49,
+              "y": 0.98
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "03f06171d0e3bdea74b31b70c3b7e74c7df34ce20974f6e97ec4c317dc1a3f8c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 680,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.25, "y": 0.55, "width": 0.52, "height": 0.11, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.25,
+          "y": 0.55,
+          "width": 0.52,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "b126b4871a09f44d45e8c9bc01834a98726d211e10306d4f5bf2fe5a051024de",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 682,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.16, "y": 0.35, "width": 0.69, "height": 0.34, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.16,
+          "y": 0.35,
+          "width": 0.69,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "6c791c2f79e4d19466a1022bb06de116b0172829e9756db96b9980b863a04a6a",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 684,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.11, "y": 0.16, "width": 0.78, "height": 0.23, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.07,
+          "y": 0.05,
+          "width": 0.86,
+          "height": 0.37,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "d0565bf348d591901d99da2a0aad7c8ea7dda81519f996fb831a370bbc927f61",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 712,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.02, "y": 0.50, "width": 0.34, "height": 0.29, "shape": "rounded_rectangle"},
-        {"x": 0.65, "y": 0.50, "width": 0.33, "height": 0.29, "shape": "rounded_rectangle"},
-        {"x": 0.32, "y": 0.69, "width": 0.36, "height": 0.29, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.02,
+          "y": 0.5,
+          "width": 0.34,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.65,
+          "y": 0.5,
+          "width": 0.33,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.32,
+          "y": 0.69,
+          "width": 0.36,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "7506ea0ba753db29912e989b643ce44327d34383a79fdc72bc9cb0b76847ca6c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 718,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.16, "y": 0.19, "width": 0.70, "height": 0.17, "shape": "rounded_rectangle"},
-        {"x": 0.25, "y": 0.73, "width": 0.51, "height": 0.18, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.02,
+          "y": 0.0,
+          "width": 0.96,
+          "height": 0.42,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.7,
+          "width": 0.6,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "0be39ec71ba7c49fe15c7a0f8ad18259a9769661b5c62f9de108e556b95fb06f",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 719,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.15, "y": 0.42}, {"x": 0.20, "y": 0.24}, {"x": 0.35, "y": 0.13}, {"x": 0.52, "y": 0.10}, {"x": 0.69, "y": 0.15}, {"x": 0.81, "y": 0.29}, {"x": 0.84, "y": 0.43}, {"x": 0.70, "y": 0.39}, {"x": 0.66, "y": 0.30}, {"x": 0.56, "y": 0.25}, {"x": 0.43, "y": 0.24}, {"x": 0.32, "y": 0.29}, {"x": 0.28, "y": 0.40}]},
-        {"x": 0.29, "y": 0.32, "width": 0.46, "height": 0.37, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.15, "y": 0.57}, {"x": 0.19, "y": 0.74}, {"x": 0.34, "y": 0.87}, {"x": 0.51, "y": 0.91}, {"x": 0.68, "y": 0.86}, {"x": 0.81, "y": 0.72}, {"x": 0.84, "y": 0.57}, {"x": 0.70, "y": 0.61}, {"x": 0.66, "y": 0.70}, {"x": 0.56, "y": 0.76}, {"x": 0.43, "y": 0.76}, {"x": 0.32, "y": 0.70}, {"x": 0.28, "y": 0.60}]}
-      ]
+        {
+          "x": 0.03,
+          "y": 0.02,
+          "width": 0.94,
+          "height": 0.29,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.0,
+          "y": 0.2,
+          "width": 0.25,
+          "height": 0.62,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.75,
+          "y": 0.2,
+          "width": 0.25,
+          "height": 0.62,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.03,
+          "y": 0.7,
+          "width": 0.94,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.26,
+          "y": 0.28,
+          "width": 0.48,
+          "height": 0.43,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "0775a567ca827f3fda82cc218f7a192cdc8367acefeff214aaf149a6869210e6",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 721,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.29, "y": 0.61, "width": 0.43, "height": 0.22, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.18,
+          "y": 0.34,
+          "width": 0.64,
+          "height": 0.51,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "060fb6df099dba55ce14eef2edb566c63d0cd0886a5a61469c1177bc3e0071e2",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 1044,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.17, "y": 0.06, "width": 0.66, "height": 0.17, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.17,
+          "y": 0.06,
+          "width": 0.66,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "89c2af7d9d37aa21525c3756a14459c696eccbb5ff8c8d38cdee580db1d6aa9c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 1045,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.19, "y": 0.11, "width": 0.63, "height": 0.20, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.19,
+          "y": 0.11,
+          "width": 0.63,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "87fbf04ea6eef83d6c87947356b008f79e0ca47b6e08499f939b768ee3d013ef",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 1076,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.21, "y": 0.02, "width": 0.58, "height": 0.15, "shape": "rounded_rectangle"},
-        {"x": 0.22, "y": 0.84, "width": 0.56, "height": 0.14, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.21,
+          "y": 0.02,
+          "width": 0.58,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.84,
+          "width": 0.56,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "8f7531bad0b34186aaa81e7077514f04c3e9c6de05d4c3ddd82f1998642d6522",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 1903,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.16, "y": 0.27}, {"x": 0.35, "y": 0.21}, {"x": 0.67, "y": 0.21}, {"x": 0.86, "y": 0.29}, {"x": 0.82, "y": 0.38}, {"x": 0.63, "y": 0.33}, {"x": 0.37, "y": 0.33}, {"x": 0.19, "y": 0.37}]},
-        {"shape": "polygon", "points": [{"x": 0.29, "y": 0.54}, {"x": 0.63, "y": 0.43}, {"x": 0.72, "y": 0.55}, {"x": 0.38, "y": 0.68}]}
-      ]
+        {
+          "x": 0.12,
+          "y": 0.23,
+          "width": 0.76,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.24,
+              "y": 0.55
+            },
+            {
+              "x": 0.65,
+              "y": 0.4
+            },
+            {
+              "x": 0.78,
+              "y": 0.58
+            },
+            {
+              "x": 0.36,
+              "y": 0.73
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "327c8bd9f274d60816cdb07a53e7ddd49385f3a3a552f18321b1c57586a0716a",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 1909,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.15, "y": 0.05, "width": 0.71, "height": 0.14, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.1,
+          "y": 0.0,
+          "width": 0.8,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "67fedb6d992b08f5c0bda60dfc52ca6c01b48270e28d033b38f03bfd534635a3",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 1912,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.25, "y": 0.39, "width": 0.51, "height": 0.17, "shape": "rounded_rectangle"},
-        {"x": 0.28, "y": 0.72, "width": 0.44, "height": 0.15, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.18,
+          "y": 0.34,
+          "width": 0.64,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.68,
+          "width": 0.6,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "601291315b8a0f3c8e1971a1cb785d1b4fff823ada0d0ed96d355fcd9f6fb934",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 1915,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.12, "y": 0.32, "width": 0.76, "height": 0.38, "shape": "rounded_rectangle"},
-        {"x": 0.21, "y": 0.73, "width": 0.59, "height": 0.16, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.12,
+          "y": 0.32,
+          "width": 0.76,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.21,
+          "y": 0.73,
+          "width": 0.59,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "ae774fe3e2e4fb21cce13a1780c52e3f2d9692b952b6eb8f9951036006ed3988",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 1920,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.02, "y": 0.52}, {"x": 0.08, "y": 0.78}, {"x": 0.31, "y": 0.96}, {"x": 0.63, "y": 0.99}, {"x": 0.91, "y": 0.82}, {"x": 0.99, "y": 0.54}, {"x": 0.78, "y": 0.57}, {"x": 0.73, "y": 0.70}, {"x": 0.57, "y": 0.79}, {"x": 0.40, "y": 0.77}, {"x": 0.25, "y": 0.67}, {"x": 0.21, "y": 0.55}]}
-      ]
+        {
+          "x": 0.02,
+          "y": 0.46,
+          "width": 0.96,
+          "height": 0.53,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "e53aba17dbfebcac9ffe54d2fad5fdf64e4e9d4134b8001c523ee2f894bb550d",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5335,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.12, "y": 0.45}, {"x": 0.19, "y": 0.28}, {"x": 0.34, "y": 0.18}, {"x": 0.50, "y": 0.15}, {"x": 0.66, "y": 0.18}, {"x": 0.81, "y": 0.28}, {"x": 0.88, "y": 0.45}, {"x": 0.73, "y": 0.42}, {"x": 0.66, "y": 0.33}, {"x": 0.57, "y": 0.29}, {"x": 0.43, "y": 0.29}, {"x": 0.34, "y": 0.33}, {"x": 0.27, "y": 0.42}]},
-        {"x": 0.34, "y": 0.35, "width": 0.22, "height": 0.18, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.12, "y": 0.55}, {"x": 0.19, "y": 0.72}, {"x": 0.34, "y": 0.82}, {"x": 0.50, "y": 0.85}, {"x": 0.66, "y": 0.82}, {"x": 0.81, "y": 0.72}, {"x": 0.88, "y": 0.55}, {"x": 0.73, "y": 0.58}, {"x": 0.66, "y": 0.67}, {"x": 0.57, "y": 0.71}, {"x": 0.43, "y": 0.71}, {"x": 0.34, "y": 0.67}, {"x": 0.27, "y": 0.58}]}
-      ]
+        {
+          "x": 0.07,
+          "y": 0.07,
+          "width": 0.86,
+          "height": 0.34,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.01,
+          "y": 0.29,
+          "width": 0.31,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.68,
+          "y": 0.29,
+          "width": 0.31,
+          "height": 0.45,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.07,
+          "y": 0.63,
+          "width": 0.86,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "c3760d3a19c2b8d008d1f6f87ae79c82a93efcd12dbbc5f952c57bf990c347a2",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5527,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.26, "y": 0.26, "width": 0.48, "height": 0.42, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.26,
+          "y": 0.26,
+          "width": 0.48,
+          "height": 0.42,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "2be4601c8a4bbc8deef82edeb016df35f396824a4eec12c79baace5e95216fa7",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5529,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.23, "y": 0.20, "width": 0.55, "height": 0.17, "shape": "rounded_rectangle"},
-        {"x": 0.23, "y": 0.64, "width": 0.55, "height": 0.16, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.16,
+          "y": 0.14,
+          "width": 0.68,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.16,
+          "y": 0.58,
+          "width": 0.68,
+          "height": 0.28,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "2dee3bfef88d50a2c942dd7616a539ea3054d5e72759065506cd77fe6929f4b1",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5530,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.11, "y": 0.43}, {"x": 0.18, "y": 0.25}, {"x": 0.34, "y": 0.13}, {"x": 0.50, "y": 0.10}, {"x": 0.66, "y": 0.13}, {"x": 0.82, "y": 0.25}, {"x": 0.89, "y": 0.43}, {"x": 0.75, "y": 0.40}, {"x": 0.68, "y": 0.31}, {"x": 0.58, "y": 0.27}, {"x": 0.42, "y": 0.27}, {"x": 0.32, "y": 0.31}, {"x": 0.25, "y": 0.40}]},
-        {"shape": "polygon", "points": [{"x": 0.11, "y": 0.57}, {"x": 0.18, "y": 0.75}, {"x": 0.34, "y": 0.87}, {"x": 0.50, "y": 0.90}, {"x": 0.66, "y": 0.87}, {"x": 0.82, "y": 0.75}, {"x": 0.89, "y": 0.57}, {"x": 0.75, "y": 0.60}, {"x": 0.68, "y": 0.69}, {"x": 0.58, "y": 0.73}, {"x": 0.42, "y": 0.73}, {"x": 0.32, "y": 0.69}, {"x": 0.25, "y": 0.60}]}
-      ]
+        {
+          "x": 0.06,
+          "y": 0.05,
+          "width": 0.88,
+          "height": 0.36,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.01,
+          "y": 0.29,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.69,
+          "y": 0.29,
+          "width": 0.3,
+          "height": 0.44,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.06,
+          "y": 0.63,
+          "width": 0.88,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "426cf57089e608f50a2c92c57731f2522f1db631e0d691bbd29d26cd59671ea6",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5531,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.29, "y": 0.13, "width": 0.43, "height": 0.17, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.19,
+          "y": 0.04,
+          "width": 0.62,
+          "height": 0.33,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "f49aae6c78887a67db42c7475b74af48ebe6e23bdbdb88fa6ddd8dc2b80ef612",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5533,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.30, "y": 0.71, "width": 0.40, "height": 0.15, "shape": "rounded_rectangle"},
-        {"x": 0.39, "y": 0.84, "width": 0.23, "height": 0.08, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.24,
+          "y": 0.66,
+          "width": 0.52,
+          "height": 0.24,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.82,
+          "width": 0.32,
+          "height": 0.12,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "510cf6064d4d5159c60a7718a639c9316c49d21e31dfc1ac7b079e7096f49c6c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5543,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.64, "y": 0.35, "width": 0.22, "height": 0.37, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.64,
+          "y": 0.35,
+          "width": 0.22,
+          "height": 0.37,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "ff9ebe342398452c3ccfce3a9da1e1a79e8f324593d3e7f6a4eb41c8bc7a610b",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5575,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.14, "y": 0.33}, {"x": 0.25, "y": 0.17}, {"x": 0.43, "y": 0.09}, {"x": 0.62, "y": 0.11}, {"x": 0.79, "y": 0.22}, {"x": 0.85, "y": 0.35}, {"x": 0.70, "y": 0.34}, {"x": 0.62, "y": 0.26}, {"x": 0.50, "y": 0.22}, {"x": 0.37, "y": 0.24}, {"x": 0.29, "y": 0.33}]},
-        {"x": 0.31, "y": 0.80, "width": 0.42, "height": 0.15, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.1,
+          "y": 0.02,
+          "width": 0.8,
+          "height": 0.38,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.73,
+          "width": 0.6,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "5a43777408c818ed19387912f69ab51333a3fd92cab0d3b6af3624fa66355da7",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5613,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.28, "y": 0.29, "width": 0.45, "height": 0.13, "shape": "rounded_rectangle"},
-        {"shape": "polygon", "points": [{"x": 0.15, "y": 0.76}, {"x": 0.31, "y": 0.86}, {"x": 0.50, "y": 0.90}, {"x": 0.69, "y": 0.86}, {"x": 0.85, "y": 0.76}, {"x": 0.81, "y": 0.91}, {"x": 0.64, "y": 0.98}, {"x": 0.36, "y": 0.98}, {"x": 0.19, "y": 0.91}]}
-      ]
+        {
+          "x": 0.28,
+          "y": 0.29,
+          "width": 0.45,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.15,
+              "y": 0.76
+            },
+            {
+              "x": 0.31,
+              "y": 0.86
+            },
+            {
+              "x": 0.5,
+              "y": 0.9
+            },
+            {
+              "x": 0.69,
+              "y": 0.86
+            },
+            {
+              "x": 0.85,
+              "y": 0.76
+            },
+            {
+              "x": 0.81,
+              "y": 0.91
+            },
+            {
+              "x": 0.64,
+              "y": 0.98
+            },
+            {
+              "x": 0.36,
+              "y": 0.98
+            },
+            {
+              "x": 0.19,
+              "y": 0.91
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "720018fff2cda7f907c081212fec672282e546df9938d036373cad46e4ac38ec",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5890,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.38, "y": 0.07, "width": 0.25, "height": 0.13, "shape": "rounded_rectangle"},
-        {"x": 0.19, "y": 0.18, "width": 0.63, "height": 0.22, "shape": "rounded_rectangle"},
-        {"x": 0.39, "y": 0.40, "width": 0.23, "height": 0.11, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.38,
+          "y": 0.07,
+          "width": 0.25,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.19,
+          "y": 0.18,
+          "width": 0.63,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.4,
+          "width": 0.23,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3f86950713cc18275f2039057f475b1a29f55a23e9590d0fddaeceb484bd2af7",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 5911,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.27, "y": 0.29, "width": 0.47, "height": 0.24, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.19,
+          "y": 0.15,
+          "width": 0.62,
+          "height": 0.43,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "f3ab91cafeeb0db119c2b04583a04c5184ad1660fea53b2702fe22b0488769f6",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 6618,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.25, "y": 0.34, "width": 0.17, "height": 0.21, "shape": "rounded_rectangle"},
-        {"x": 0.58, "y": 0.34, "width": 0.17, "height": 0.21, "shape": "rounded_rectangle"},
-        {"x": 0.25, "y": 0.58, "width": 0.17, "height": 0.19, "shape": "rounded_rectangle"},
-        {"x": 0.58, "y": 0.58, "width": 0.17, "height": 0.19, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.25,
+          "y": 0.34,
+          "width": 0.17,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.58,
+          "y": 0.34,
+          "width": 0.17,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.25,
+          "y": 0.58,
+          "width": 0.17,
+          "height": 0.19,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.58,
+          "y": 0.58,
+          "width": 0.17,
+          "height": 0.19,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "90fb2a152b6537f66f3b0040ddac53d272f342dc4cee6f5f21f0bb77d0cf3133",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 6806,
       "review_status": "covered",
       "cover_regions": [
-        {"shape": "polygon", "points": [{"x": 0.12, "y": 0.64}, {"x": 0.28, "y": 0.74}, {"x": 0.49, "y": 0.79}, {"x": 0.74, "y": 0.70}, {"x": 0.87, "y": 0.58}, {"x": 0.90, "y": 0.76}, {"x": 0.76, "y": 0.88}, {"x": 0.50, "y": 0.93}, {"x": 0.26, "y": 0.86}]}
-      ]
+        {
+          "x": 0.8,
+          "y": 0.25,
+          "width": 0.17,
+          "height": 0.52,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.08,
+              "y": 0.6
+            },
+            {
+              "x": 0.28,
+              "y": 0.72
+            },
+            {
+              "x": 0.5,
+              "y": 0.78
+            },
+            {
+              "x": 0.76,
+              "y": 0.68
+            },
+            {
+              "x": 0.91,
+              "y": 0.55
+            },
+            {
+              "x": 0.93,
+              "y": 0.8
+            },
+            {
+              "x": 0.76,
+              "y": 0.91
+            },
+            {
+              "x": 0.5,
+              "y": 0.96
+            },
+            {
+              "x": 0.24,
+              "y": 0.89
+            }
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "4f9553d6bc3911e3add9f993ee474613f88b72c63247a3e5c3161292760399f2",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 7397,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.37, "y": 0.19, "width": 0.27, "height": 0.15, "shape": "rounded_rectangle"},
-        {"x": 0.22, "y": 0.32, "width": 0.57, "height": 0.31, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.37,
+          "y": 0.19,
+          "width": 0.27,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.22,
+          "y": 0.32,
+          "width": 0.57,
+          "height": 0.31,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "b905f0a2104ecfc8e8abdf4f08dcbcec733dbee3aa2819736a4f950fdd3c767a",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 7822,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.14, "y": 0.10, "width": 0.72, "height": 0.31, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.14,
+          "y": 0.1,
+          "width": 0.72,
+          "height": 0.31,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "5b7697398045ba352698cb3d5c9cda0cc3f3b69e9c56da60bf4febe05dc251d1",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     },
     {
       "provider_team_id": 9136,
       "review_status": "covered",
       "cover_regions": [
-        {"x": 0.17, "y": 0.26, "width": 0.17, "height": 0.20, "shape": "rounded_rectangle"},
-        {"x": 0.42, "y": 0.16, "width": 0.17, "height": 0.20, "shape": "rounded_rectangle"},
-        {"x": 0.68, "y": 0.26, "width": 0.17, "height": 0.20, "shape": "rounded_rectangle"},
-        {"x": 0.42, "y": 0.66, "width": 0.17, "height": 0.20, "shape": "rounded_rectangle"}
-      ]
+        {
+          "x": 0.12,
+          "y": 0.2,
+          "width": 0.25,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.37,
+          "y": 0.1,
+          "width": 0.26,
+          "height": 0.31,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.63,
+          "y": 0.2,
+          "width": 0.25,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.37,
+          "y": 0.61,
+          "width": 0.26,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "5fe063c8cd5d84a899d00b493cf8ae2e5dee0219cd2bf37cb38022de49e99114",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     }
   ]
 }

@@ -6,11 +6,18 @@ import sys
 from pathlib import Path
 from typing import Any
 
+from PIL import Image
+
 if __package__ in {None, ""}:
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts.prepare_crest_assets import DEFAULT_MANIFEST, DEFAULT_METADATA
-from src.crest_covering import CrestCoverError, load_cover_metadata, region_area
+from src.crest_covering import (
+    CrestCoverError,
+    crest_image_sha256,
+    load_cover_metadata,
+    region_area,
+)
 
 SUSPICIOUS_REGION_AREA = 0.35
 
@@ -31,6 +38,8 @@ def build_cover_report(
             "missing": [],
             "invalid": [f"Could not read manifest: {error}"],
             "suspicious": [],
+            "stale": [],
+            "confidence": {},
         }
     try:
         metadata = load_cover_metadata(metadata_path)
@@ -42,6 +51,8 @@ def build_cover_report(
             "missing": [],
             "invalid": [str(error)],
             "suspicious": [],
+            "stale": [],
+            "confidence": {},
         }
 
     clubs = manifest.get("clubs") if isinstance(manifest, dict) else None
@@ -53,6 +64,8 @@ def build_cover_report(
             "missing": [],
             "invalid": ["Manifest must contain a clubs list"],
             "suspicious": [],
+            "stale": [],
+            "confidence": {},
         }
 
     active: list[str] = []
@@ -60,6 +73,14 @@ def build_cover_report(
     manual_review: list[str] = []
     missing: list[str] = []
     suspicious: list[str] = []
+    stale: list[str] = []
+    confidence: dict[str, list[str]] = {
+        "high": [],
+        "medium": [],
+        "low": [],
+        "unreviewed": [],
+        "legacy_unknown": [],
+    }
     manifest_ids: set[int] = set()
     for index, club in enumerate(clubs):
         if not isinstance(club, dict):
@@ -83,6 +104,21 @@ def build_cover_report(
             not_required.append(label)
         else:
             manual_review.append(label)
+
+        confidence_value = annotation.get("coverage_confidence", "legacy_unknown")
+        confidence[confidence_value].append(label)
+        reviewed_digest = annotation.get("reviewed_crest_sha256")
+        crest_path = club.get("crest")
+        if reviewed_digest is not None and isinstance(crest_path, str):
+            original_path = path.parent / crest_path
+            try:
+                with Image.open(original_path) as opened:
+                    opened.load()
+                    if crest_image_sha256(opened) != reviewed_digest:
+                        stale.append(label)
+            except OSError:
+                # Asset validation reports unreadable originals separately.
+                pass
 
         if club.get("cover_status") != status:
             invalid.append(f"{label}: manifest cover_status does not match metadata")
@@ -117,6 +153,10 @@ def build_cover_report(
         "missing": sorted(missing),
         "invalid": sorted(invalid),
         "suspicious": sorted(suspicious),
+        "stale": sorted(stale),
+        "confidence": {
+            key: sorted(entries) for key, entries in confidence.items() if entries
+        },
     }
 
 
@@ -156,8 +196,12 @@ def main(argv: list[str] | None = None) -> int:
         _print_section("Clubs requiring manual review", report["manual_review"])
         _print_section("Missing annotations", report["missing"])
         _print_section("Invalid metadata or assets", report["invalid"])
+        _print_section("Crests changed since review", report["stale"])
         _print_section("Suspiciously large regions", report["suspicious"])
-    return 1 if report["missing"] or report["invalid"] else 0
+        print("\nCoverage confidence:")
+        for confidence, entries in report["confidence"].items():
+            print(f"  - {confidence}: {len(entries)}")
+    return 1 if report["missing"] or report["invalid"] or report["stale"] else 0
 
 
 if __name__ == "__main__":

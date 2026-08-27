@@ -10,6 +10,7 @@ from PIL import Image
 from scripts.prepare_crest_assets import prepare_crest_assets
 from src.crest_covering import (
     CrestCoverError,
+    crest_image_sha256,
     extract_theme_colors,
     generate_covered_crest,
     validate_cover_regions,
@@ -246,3 +247,55 @@ def test_preparation_stores_manual_override_and_preserves_original_file(
     assert prepared["covered_crest"] != prepared["crest"]
     assert (tmp_path / prepared["covered_crest"]).is_file()
     assert hashlib.sha256(original_path.read_bytes()).hexdigest() == original_digest
+
+
+def test_preparation_rejects_a_crest_changed_since_schema_v2_review(
+    tmp_path: Path,
+) -> None:
+    crest_dir = tmp_path / "crests"
+    crest_dir.mkdir()
+    original_path = crest_dir / "opaque.png"
+    image = Image.new("RGBA", (256, 256), (20, 80, 160, 255))
+    image.save(original_path, format="PNG")
+    manifest_path = tmp_path / "clubs.json"
+    manifest_path.write_text(
+        json.dumps(
+            {
+                "schema_version": 1,
+                "clubs": [
+                    {
+                        "provider_id": 123,
+                        "name": "Changed FC",
+                        "crest": "crests/opaque.png",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    metadata_path = tmp_path / "metadata.json"
+    metadata_path.write_text(
+        json.dumps(
+            {
+                "schema_version": 2,
+                "clubs": [
+                    {
+                        "provider_team_id": 123,
+                        "review_status": "not_required",
+                        "coverage_confidence": "high",
+                        "reviewed_at": "2026-08-27",
+                        "reviewed_crest_sha256": "0" * 64,
+                        "cover_regions": [],
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(
+        CrestCoverError, match="changed since its crest cover was reviewed"
+    ):
+        prepare_crest_assets(manifest_path, metadata_path)
+
+    assert crest_image_sha256(image) != "0" * 64
