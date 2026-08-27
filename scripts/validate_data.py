@@ -30,6 +30,7 @@ EXPECTED_COMPETITIONS = {
     "ligue-1": ("Ligue 1", "FL1"),
     "serie-a": ("Serie A", "SA"),
     "eredivisie": ("Eredivisie", "DED"),
+    "championship": ("Championship", "ELC"),
 }
 CLUB_FIELDS = {
     "id",

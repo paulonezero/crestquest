@@ -43,6 +43,7 @@ def test_state_describes_supported_game_options(client: TestClient) -> None:
         "ligue-1",
         "serie-a",
         "eredivisie",
+        "championship",
     ]
     assert body["supported_durations"] == [30, 60, 90]
     assert body["service"]["status"] == "setup-required"

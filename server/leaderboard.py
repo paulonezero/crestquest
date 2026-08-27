@@ -14,7 +14,12 @@ from server.models import SUPPORTED_DURATIONS, SUPPORTED_SCOPES, LeagueScope
 
 TOP_ENTRY_LIMIT = 10
 
-_CREATE_TABLE_SQL = """
+_SCOPE_CHECK_VALUES = ",\n            ".join(
+    f"'{scope}'" for scope in SUPPORTED_SCOPES
+)
+_DURATION_CHECK_VALUES = ", ".join(str(duration) for duration in SUPPORTED_DURATIONS)
+
+_CREATE_TABLE_SQL = f"""
 CREATE TABLE IF NOT EXISTS leaderboard_entries (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     round_id TEXT NOT NULL,
@@ -28,17 +33,10 @@ CREATE TABLE IF NOT EXISTS leaderboard_entries (
     flawless_multiplier REAL NOT NULL CHECK (flawless_multiplier >= 0),
     scope TEXT NOT NULL CHECK (
         scope IN (
-            'all',
-            'premier-league',
-            'bundesliga',
-            'la-liga',
-            'primeira-liga',
-            'ligue-1',
-            'serie-a',
-            'eredivisie'
+            {_SCOPE_CHECK_VALUES}
         )
     ),
-    duration INTEGER NOT NULL CHECK (duration IN (30, 60, 90)),
+    duration INTEGER NOT NULL CHECK (duration IN ({_DURATION_CHECK_VALUES})),
     submitted_at TEXT NOT NULL
 )
 """
@@ -272,6 +270,34 @@ class SQLiteLeaderboard:
                     WHERE round_id IS NULL OR trim(round_id) = ''
                     """
                 )
+                table_sql_row = connection.execute(
+                    """
+                    SELECT sql
+                    FROM sqlite_master
+                    WHERE type = 'table' AND name = 'leaderboard_entries'
+                    """
+                ).fetchone()
+                table_sql = str(table_sql_row["sql"] or "")
+                if any(f"'{scope}'" not in table_sql for scope in SUPPORTED_SCOPES):
+                    connection.execute(
+                        "DROP INDEX IF EXISTS leaderboard_round_identity"
+                    )
+                    connection.execute("DROP INDEX IF EXISTS leaderboard_board_ranking")
+                    connection.execute(
+                        """
+                        ALTER TABLE leaderboard_entries
+                        RENAME TO leaderboard_entries_legacy
+                        """
+                    )
+                    connection.execute(_CREATE_TABLE_SQL)
+                    connection.execute(
+                        f"""
+                        INSERT INTO leaderboard_entries ({_ENTRY_COLUMNS})
+                        SELECT {_ENTRY_COLUMNS}
+                        FROM leaderboard_entries_legacy
+                        """
+                    )
+                    connection.execute("DROP TABLE leaderboard_entries_legacy")
                 connection.execute(_CREATE_ROUND_ID_INDEX_SQL)
                 connection.execute(_CREATE_RANKING_INDEX_SQL)
         except (OSError, sqlite3.Error) as error:

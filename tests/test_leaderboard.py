@@ -50,7 +50,7 @@ def entry(
     )
 
 
-def test_all_24_scope_and_duration_boards_are_separate(tmp_path: Path) -> None:
+def test_all_27_scope_and_duration_boards_are_separate(tmp_path: Path) -> None:
     leaderboard = SQLiteLeaderboard(tmp_path / "leaderboard.sqlite3")
 
     for index, (scope, duration) in enumerate(
@@ -69,10 +69,10 @@ def test_all_24_scope_and_duration_boards_are_separate(tmp_path: Path) -> None:
         leaderboard.get_top(scope, duration)
         for scope, duration in product(SUPPORTED_SCOPES, SUPPORTED_DURATIONS)
     ]
-    assert len(boards) == 24
+    assert len(boards) == 27
     assert all(len(board) == 1 for board in boards)
     assert {board[0].username for board in boards} == {
-        f"board-{index}" for index in range(24)
+        f"board-{index}" for index in range(27)
     }
 
 
@@ -258,7 +258,9 @@ def test_existing_database_is_migrated_with_unique_round_identities(
         )
 
     leaderboard = SQLiteLeaderboard(database_path)
-    leaderboard.submit(entry("New", round_id="new-round"))
+    leaderboard.submit(
+        entry("New", round_id="new-round", scope="championship")
+    )
 
     with sqlite3.connect(database_path) as connection:
         round_ids = connection.execute(
@@ -269,6 +271,7 @@ def test_existing_database_is_migrated_with_unique_round_identities(
         ).fetchall()
     assert round_ids[0][0].startswith("legacy-")
     assert round_ids[1] == ("new-round",)
+    assert leaderboard.get_top("championship", 30)[0].round_id == "new-round"
     assert any(row[1] == "leaderboard_round_identity" and row[2] for row in indexes)
 
 

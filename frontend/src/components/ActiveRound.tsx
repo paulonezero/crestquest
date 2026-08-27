@@ -24,7 +24,6 @@ interface CorrectFeedback {
   points: number
   basePoints: number
   bonusPoints: number
-  advanceToken: string
 }
 
 type AudioContextConstructor = new () => AudioContext
@@ -75,13 +74,14 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
   const [effectsOn, setEffectsOn] = useState(getEffectsPreference)
   const [advancing, setAdvancing] = useState(false)
   const [expiryRetryTick, setExpiryRetryTick] = useState(0)
-  const advanceTimer = useRef<number | null>(null)
+  const feedbackTimer = useRef<number | null>(null)
   const removalTimer = useRef<number | null>(null)
   const expiryRetryTimer = useRef<number | null>(null)
   const expiryStarted = useRef(false)
   const mounted = useRef(true)
   const answerRefs = useRef(new Map<string, HTMLButtonElement>())
   const pendingFocusToken = useRef<string | null>(null)
+  const autoAdvanceToken = useRef<string | null>(null)
   const reducedMotion = prefersReducedMotion()
 
   const clockSync = useMemo(() => ({
@@ -125,7 +125,7 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
     mounted.current = true
     return () => {
       mounted.current = false
-      if (advanceTimer.current !== null) window.clearTimeout(advanceTimer.current)
+      if (feedbackTimer.current !== null) window.clearTimeout(feedbackTimer.current)
       if (removalTimer.current !== null) window.clearTimeout(removalTimer.current)
       if (expiryRetryTimer.current !== null) window.clearTimeout(expiryRetryTimer.current)
     }
@@ -139,19 +139,19 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
 
   const continueAfter = useCallback(async (advanceToken: string) => {
     if (advancing) return
-    if (advanceTimer.current !== null) {
-      window.clearTimeout(advanceTimer.current)
-      advanceTimer.current = null
-    }
     setAdvancing(true)
     try {
       const nextRound = await advanceRound(advanceToken)
-      if (onRoundChange(nextRound)) setFeedback(null)
+      if (onRoundChange(nextRound)) {
+        setStatus('Choose the club that matches the crest.')
+        if (feedbackTimer.current !== null) window.clearTimeout(feedbackTimer.current)
+        feedbackTimer.current = window.setTimeout(() => setFeedback(null), 3000)
+      }
     } catch (error) {
       if (error instanceof ApiError && error.status === 409) {
         await onConflict()
       } else {
-        setStatus(error instanceof Error ? `${error.message} Use Continue to retry.` : 'Could not advance. Use Continue to retry.')
+        setStatus(error instanceof Error ? `${error.message} Retry the next crest.` : 'Could not load the next crest. Retry to continue.')
       }
     } finally {
       setAdvancing(false)
@@ -159,17 +159,20 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
   }, [advancing, onConflict, onRoundChange])
 
   useEffect(() => {
-    if (!round.awaiting_advance || feedback || advancing) return
-    setStatus(round.reveal ? `Correct answer recorded: ${round.reveal.name}. Continuing…` : 'Correct answer recorded. Continuing…')
-    advanceTimer.current = window.setTimeout(() => void continueAfter(round.advance_token), reducedMotion ? 0 : 650)
-    return () => {
-      if (advanceTimer.current !== null) window.clearTimeout(advanceTimer.current)
-    }
-  }, [advancing, continueAfter, feedback, reducedMotion, round])
+    if (!round.awaiting_advance || advancing || autoAdvanceToken.current === round.advance_token) return
+    autoAdvanceToken.current = round.advance_token
+    setStatus(round.reveal ? `Correct: ${round.reveal.name}. Loading the next crest…` : 'Correct. Loading the next crest…')
+    void continueAfter(round.advance_token)
+  }, [advancing, continueAfter, round])
 
   const choose = useCallback(async (choice: Choice) => {
-    if (isAnswering || feedback || round.awaiting_advance || secondsLeft <= 0 || round.question.removed_answer_tokens.includes(choice.answer_token)) return
+    if (isAnswering || round.awaiting_advance || secondsLeft <= 0 || round.question.removed_answer_tokens.includes(choice.answer_token)) return
     setIsAnswering(true)
+    if (feedbackTimer.current !== null) {
+      window.clearTimeout(feedbackTimer.current)
+      feedbackTimer.current = null
+    }
+    setFeedback(null)
     setStatus(`Checking ${choice.name}…`)
     const answeredQuestion = round.question
 
@@ -180,19 +183,17 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
       if (response.correct && response.reveal && response.state.awaiting_advance) {
         triggerEffect('correct')
         const advanceToken = response.state.advance_token
-        const nextFeedback = {
+        if (feedbackTimer.current !== null) window.clearTimeout(feedbackTimer.current)
+        setFeedback({
           question: answeredQuestion,
           reveal: response.reveal,
           points: response.points_awarded,
           basePoints: response.base_points,
           bonusPoints: response.bonus_points,
-          advanceToken,
-        }
-        setFeedback(nextFeedback)
-        setStatus(`Correct. ${response.reveal.name}, plus ${response.points_awarded} points.`)
-        advanceTimer.current = window.setTimeout(() => {
-          void continueAfter(advanceToken)
-        }, reducedMotion ? 0 : 650)
+        })
+        setStatus(`Correct: ${response.reveal.name}. Loading the next crest…`)
+        autoAdvanceToken.current = advanceToken
+        void continueAfter(advanceToken)
       } else {
         triggerEffect('wrong')
         const wrongIndex = answeredQuestion.choices.findIndex(
@@ -215,7 +216,7 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
     } finally {
       setIsAnswering(false)
     }
-  }, [continueAfter, effectsOn, feedback, isAnswering, onConflict, onRoundChange, reducedMotion, round.awaiting_advance, round.question, secondsLeft])
+  }, [continueAfter, effectsOn, isAnswering, onConflict, onRoundChange, reducedMotion, round.awaiting_advance, round.question, secondsLeft])
 
   const visibleChoices = round.question.choices.filter(
     (choice) => !round.question.removed_answer_tokens.includes(choice.answer_token),
@@ -263,13 +264,10 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
     }
   }
 
-  const displayQuestion = feedback?.question ?? round.question
-  const recoveredReveal = !feedback && round.awaiting_advance ? round.reveal : null
-  const activeReveal = feedback?.reveal ?? recoveredReveal
-  const crestUrl = activeReveal?.crest_url ?? displayQuestion.crest_url
-  const crestSrc = activeReveal
-    ? `${crestUrl}${crestUrl.includes('?') ? '&' : '?'}reveal=${round.revision}`
-    : crestUrl
+  const feedbackCrestUrl = feedback?.reveal.crest_url ?? feedback?.question.crest_url
+  const feedbackCrestSrc = feedbackCrestUrl
+    ? `${feedbackCrestUrl}${feedbackCrestUrl.includes('?') ? '&' : '?'}reveal=${round.revision}`
+    : null
   const progress = Math.max(0, Math.min(100, (secondsLeft / round.duration_seconds) * 100))
 
   return (
@@ -301,63 +299,50 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
         </div>
       </div>
 
-      <div className={`question-card${feedback ? ' question-card--correct' : ''}`}>
+      <div className="question-card">
         <div className="crest-panel">
           <div className="crest-stage">
             <span className="crest-stage__glow" aria-hidden="true" />
             <img
-              key={`${displayQuestion.question_token}-${activeReveal ? 'revealed' : 'covered'}`}
-              src={crestSrc}
+              key={round.question.question_token}
+              src={round.question.crest_url}
               width={256}
               height={256}
-              alt={activeReveal ? `${activeReveal.name} crest` : 'Mystery football club crest'}
+              alt="Mystery football club crest"
             />
           </div>
-          {activeReveal && (
-            <div className="crest-reveal" aria-hidden="true">
-              <span>Correct answer</span>
-              <strong>{activeReveal.name}</strong>
-            </div>
-          )}
         </div>
 
         <div className="round-controls">
           <div className="round-stats" aria-label="Round statistics">
-            <div><span>Question</span><strong>{displayQuestion.round_number}</strong></div>
+            <div><span>Question</span><strong>{round.question.round_number}</strong></div>
             <div><span>Score</span><strong>{round.score.toLocaleString()}</strong></div>
             <div><span>Clubs named</span><strong>{round.correct_answers}</strong></div>
             <div><span>Streak</span><strong>{round.first_attempt_streak}</strong></div>
           </div>
 
-          {feedback ? (
-            <div className="correct-feedback" role="status" aria-live="polite">
-              <span className="feedback-kicker">Correct</span>
-              <h2>{feedback.reveal.name}</h2>
-              <div className="points-breakdown">
-                <strong>+{feedback.points}</strong>
-                <span>{feedback.basePoints} base{feedback.bonusPoints > 0 ? ` + ${feedback.bonusPoints} clean-three bonus` : ''}</span>
+          <div className="answer-area">
+            <div className="answer-heading">
+              <div>
+                <h2>Which club is this?</h2>
+                <p className={`answer-status${feedback ? ' answer-status--correct' : ''}`} role="status" aria-live="polite" aria-atomic="true">
+                  {feedback ? (
+                    <>
+                      <strong>Correct: {feedback.reveal.name}</strong>
+                      <span>+{feedback.points} points · {feedback.basePoints} base{feedback.bonusPoints > 0 ? ` + ${feedback.bonusPoints} clean-three bonus` : ''}</span>
+                    </>
+                  ) : status}
+                </p>
               </div>
-              <button className="button button--primary button--continue" type="button" disabled={advancing} onClick={() => void continueAfter(feedback.advanceToken)}>
-                {advancing ? 'Continuing…' : 'Continue'}
-              </button>
-            </div>
-          ) : recoveredReveal ? (
-            <div className="correct-feedback" role="status" aria-live="polite">
-              <span className="feedback-kicker">Correct answer recorded</span>
-              <h2>{recoveredReveal.name}</h2>
-              <p className="recovered-note">Restoring your round and moving to the next crest…</p>
-            </div>
-          ) : (
-            <div className="answer-area">
-              <div className="answer-heading">
-                <div>
-                  <h2>Which club is this?</h2>
-                  <p className="answer-status" role="status" aria-live="polite" aria-atomic="true">{status}</p>
-                </div>
+              <div className="answer-heading__meta">
                 <span>{round.points_available} points available</span>
+                {round.awaiting_advance && !advancing && (
+                  <button type="button" onClick={() => void continueAfter(round.advance_token)}>Retry next crest</button>
+                )}
               </div>
-              <div className="answer-grid" aria-busy={isAnswering}>
-                {visibleChoices.map((choice, index) => {
+            </div>
+            <div className="answer-grid" aria-busy={isAnswering || advancing}>
+              {visibleChoices.map((choice, index) => {
                   const isWrong = wrongAnswer?.choice.answer_token === choice.answer_token
                   return (
                     <button
@@ -368,7 +353,7 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
                         if (element) answerRefs.current.set(choice.answer_token, element)
                         else answerRefs.current.delete(choice.answer_token)
                       }}
-                      disabled={isAnswering || secondsLeft <= 0 || isWrong}
+                      disabled={isAnswering || advancing || round.awaiting_advance || secondsLeft <= 0 || isWrong}
                       aria-label={choice.name}
                       aria-describedby={`answer-league-${choice.answer_token}`}
                       onClick={() => void choose(choice)}
@@ -386,15 +371,26 @@ export function ActiveRound({ round, onRoundChange, onExpire, onConflict }: Acti
                       {isWrong && <span className="answer-button__wrong" aria-hidden="true">×</span>}
                     </button>
                   )
-                })}
-              </div>
+              })}
             </div>
-          )}
+          </div>
 
-          <div className="round-footer-stats" aria-label="Bonus statistics">
-            <span>Best streak <strong>{round.best_streak}</strong></span>
-            <span>Clean three <strong>{round.clean_three_progress}/3</strong></span>
-            <span>Bonuses <strong>{round.clean_three_bonuses}</strong></span>
+          <div className={`round-footer${feedback ? ' round-footer--feedback' : ''}`}>
+            {feedback && feedbackCrestSrc && (
+              <aside className="recent-answer" aria-label={`Previous correct answer: ${feedback.reveal.name}, ${feedback.points} points`}>
+                <img src={feedbackCrestSrc} width={40} height={40} alt={`${feedback.reveal.name} revealed crest`} />
+                <div className="recent-answer__club">
+                  <span><span aria-hidden="true">✓</span> Correct answer</span>
+                  <strong>{feedback.reveal.name}</strong>
+                </div>
+                <strong className="recent-answer__score">+{feedback.points}</strong>
+              </aside>
+            )}
+            <div className="round-footer-stats" aria-label="Bonus statistics">
+              <span>Best streak <strong>{round.best_streak}</strong></span>
+              <span>Clean three <strong>{round.clean_three_progress}/3</strong></span>
+              <span>Bonuses <strong>{round.clean_three_bonuses}</strong></span>
+            </div>
           </div>
         </div>
       </div>

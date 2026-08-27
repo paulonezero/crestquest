@@ -13,6 +13,7 @@ LeagueScope = Literal[
     "ligue-1",
     "serie-a",
     "eredivisie",
+    "championship",
 ]
 
 SUPPORTED_SCOPES: tuple[LeagueScope, ...] = (
@@ -24,6 +25,7 @@ SUPPORTED_SCOPES: tuple[LeagueScope, ...] = (
     "ligue-1",
     "serie-a",
     "eredivisie",
+    "championship",
 )
 SUPPORTED_DURATIONS: tuple[int, ...] = (30, 60, 90)
 SUPPORTED_COMPETITIONS: dict[str, tuple[str, str]] = {
@@ -34,6 +36,7 @@ SUPPORTED_COMPETITIONS: dict[str, tuple[str, str]] = {
     "ligue-1": ("Ligue 1", "FL1"),
     "serie-a": ("Serie A", "SA"),
     "eredivisie": ("Eredivisie", "DED"),
+    "championship": ("Championship", "ELC"),
 }
 Duration = Literal[30, 60, 90]
 

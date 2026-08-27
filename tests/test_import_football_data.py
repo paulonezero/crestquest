@@ -180,15 +180,16 @@ def test_resolves_all_supported_codes_from_catalogue() -> None:
         ("ligue-1", "FL1"),
         ("serie-a", "SA"),
         ("eredivisie", "DED"),
+        ("championship", "ELC"),
     ]
 
 
 def test_rejects_a_provider_code_that_does_not_match_the_catalogue() -> None:
     catalogue = _catalogue()
-    eredivisie = catalogue["competitions"][-1]
-    eredivisie["code"] = "UNKNOWN"
+    championship = catalogue["competitions"][-1]
+    championship["code"] = "UNKNOWN"
 
-    with pytest.raises(ImportFailure, match="expected 'DED'"):
+    with pytest.raises(ImportFailure, match="expected 'ELC'"):
         resolve_competitions(catalogue)
 
 

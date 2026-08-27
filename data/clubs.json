@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T16:24:17.110318Z",
+  "generated_at": "2026-08-27T15:27:51.224629Z",
   "competitions": [
     {
       "scope": "premier-league",
@@ -42,6 +42,12 @@
       "scope": "eredivisie",
       "name": "Eredivisie",
       "code": "DED",
+      "season": "2026/2027"
+    },
+    {
+      "scope": "championship",
+      "name": "Championship",
+      "code": "ELC",
       "season": "2026/2027"
     }
   ],
@@ -688,6 +694,925 @@
         }
       ],
       "covered_crest": "covered-crests/8635b0782569ad555461ec7d67cd1888.png"
+    },
+    {
+      "id": "club_00bcb2cbd821006775df9a31",
+      "provider_id": 332,
+      "name": "Birmingham City FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/332.png",
+      "crest": "crests/1c5a8ddddc6a19ec616216ec7fdbf124.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#1C2C44"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.18,
+          "y": 0.03,
+          "width": 0.64,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.17,
+          "y": 0.38,
+          "width": 0.66,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.69,
+          "width": 0.64,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/8b407ff6827e37508f6eb86447e29e97.png"
+    },
+    {
+      "id": "club_21345f5bd8087b61d5f3fb53",
+      "provider_id": 59,
+      "name": "Blackburn Rovers FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/59.png",
+      "crest": "crests/fda6df5c124b0886749d34b6ad7cbcea.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#049CE4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.03,
+          "y": 0.04,
+          "width": 0.94,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.01,
+          "y": 0.22,
+          "width": 0.22,
+          "height": 0.6,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.77,
+          "y": 0.22,
+          "width": 0.22,
+          "height": 0.6,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.01,
+          "y": 0.62,
+          "width": 0.25,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.74,
+          "y": 0.62,
+          "width": 0.25,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.02,
+          "y": 0.87,
+          "width": 0.96,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/04f77ce99d0e5303341ca71dbf0bacc5.png"
+    },
+    {
+      "id": "club_7ad31add2f970487f85c687c",
+      "provider_id": 60,
+      "name": "Bolton Wanderers FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/60.png",
+      "crest": "crests/c92c5e2b0efd7ef4162f8e053771520b.png",
+      "theme_colors": {
+        "primary": "#243C7C",
+        "secondary": "#DC0424"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.08,
+          "y": 0.02,
+          "width": 0.84,
+          "height": 0.7,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/927af0731ee4d1a553d228058e03ef3f.png"
+    },
+    {
+      "id": "club_2db5dfe80c7f2729200a703b",
+      "provider_id": 387,
+      "name": "Bristol City FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/387.png",
+      "crest": "crests/625aba5fa823c0dde13cc44c08dfbd22.png",
+      "theme_colors": {
+        "primary": "#E41C24",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.13,
+          "y": 0.04,
+          "width": 0.74,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.74,
+          "width": 0.6,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.37,
+          "width": 0.18,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/b6bf4349d4fdb1f67980491637c002ee.png"
+    },
+    {
+      "id": "club_b420d900cb1cbea573a1e625",
+      "provider_id": 328,
+      "name": "Burnley FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/328.png",
+      "crest": "crests/d075c9ce0b082eac78ebef41faa84614.png",
+      "theme_colors": {
+        "primary": "#8CD4F4",
+        "secondary": "#FCF414"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.16,
+          "y": 0.68,
+          "width": 0.68,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/4e71be784d61c29964f797d9d21cfa0a.png"
+    },
+    {
+      "id": "club_0f85e01ffb9d3b6be2fa1c7e",
+      "provider_id": 715,
+      "name": "Cardiff City FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/715.png",
+      "crest": "crests/e98cbb333f14e27ad95715bc4864df64.png",
+      "theme_colors": {
+        "primary": "#045CAC",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.12,
+          "y": 0.13,
+          "width": 0.76,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/1b7b8919d4366eaec353b8fbc658f7f6.png"
+    },
+    {
+      "id": "club_f8a563145034c35a53302431",
+      "provider_id": 348,
+      "name": "Charlton Athletic FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/348.png",
+      "crest": "crests/a87812847648c3edfa6e2565640bc27a.png",
+      "theme_colors": {
+        "primary": "#241C24",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.18,
+          "y": 0.03,
+          "width": 0.64,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.74,
+          "width": 0.64,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/050550a1639d1195427b486b7ca1758e.png"
+    },
+    {
+      "id": "club_1288a965ea97dd3674e2d641",
+      "provider_id": 342,
+      "name": "Derby County FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/342.png",
+      "crest": "crests/e3ef2744b4ca231dac1f8078318b43ae.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "not_required",
+      "cover_regions": [],
+      "covered_crest": "covered-crests/6faf12ae83208306646559a7348729f6.png"
+    },
+    {
+      "id": "club_110aa040e896edbec198eb4b",
+      "provider_id": 1126,
+      "name": "Lincoln City FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1126.png",
+      "crest": "crests/1a614089064a424cf094939b282968ff.png",
+      "theme_colors": {
+        "primary": "#EC2C34",
+        "secondary": "#C4242C"
+      },
+      "cover_status": "not_required",
+      "cover_regions": [],
+      "covered_crest": "covered-crests/d50aba5d25e1a153880e17230bcacbfc.png"
+    },
+    {
+      "id": "club_58df048618df0d6e11e92c66",
+      "provider_id": 343,
+      "name": "Middlesbrough FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/343.png",
+      "crest": "crests/517552cc4c185d6f694b0c26ecee328f.png",
+      "theme_colors": {
+        "primary": "#E40C1C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.12,
+          "y": 0.04,
+          "width": 0.76,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.0,
+          "y": 0.69,
+          "width": 0.48,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.52,
+          "y": 0.69,
+          "width": 0.48,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.84,
+          "width": 0.32,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/14db6b1e689c7ffc4a19a09b24253133.png"
+    },
+    {
+      "id": "club_fe831bb877ca236b7c553758",
+      "provider_id": 384,
+      "name": "Millwall FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/384.png",
+      "crest": "crests/597973f6a63b2e7cc5ae9fe21fa7451b.png",
+      "theme_colors": {
+        "primary": "#04347C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.03,
+              "y": 0.19
+            },
+            {
+              "x": 0.28,
+              "y": 0.04
+            },
+            {
+              "x": 0.42,
+              "y": 0.18
+            },
+            {
+              "x": 0.19,
+              "y": 0.55
+            },
+            {
+              "x": 0.02,
+              "y": 0.58
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.58,
+              "y": 0.18
+            },
+            {
+              "x": 0.72,
+              "y": 0.04
+            },
+            {
+              "x": 0.97,
+              "y": 0.19
+            },
+            {
+              "x": 0.98,
+              "y": 0.58
+            },
+            {
+              "x": 0.81,
+              "y": 0.55
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.2,
+              "y": 0.01
+            },
+            {
+              "x": 0.8,
+              "y": 0.01
+            },
+            {
+              "x": 0.8,
+              "y": 0.25
+            },
+            {
+              "x": 0.2,
+              "y": 0.25
+            }
+          ]
+        },
+        {
+          "x": 0.34,
+          "y": 0.85,
+          "width": 0.32,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/73cb9547401aa40f9bbcc21e62850540.png"
+    },
+    {
+      "id": "club_42be485b3f9a40f2f802c08d",
+      "provider_id": 68,
+      "name": "Norwich City FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/68.png",
+      "crest": "crests/26808c82fe20fb7d1c1b499942053abf.png",
+      "theme_colors": {
+        "primary": "#04A454",
+        "secondary": "#FCF404"
+      },
+      "cover_status": "not_required",
+      "cover_regions": [],
+      "covered_crest": "covered-crests/57af7a54faf7533c949c9e25f0f84ca6.png"
+    },
+    {
+      "id": "club_8868f57a1c409a3ea12a5710",
+      "provider_id": 325,
+      "name": "Portsmouth FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/325.png",
+      "crest": "crests/afe7ee5a38598fd0b0119f53390632d0.png",
+      "theme_colors": {
+        "primary": "#04148C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.09,
+          "y": 0.14,
+          "width": 0.82,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.05,
+          "y": 0.64,
+          "width": 0.9,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.55,
+          "width": 0.22,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/375ca0313cc1f2420d6a12d37f34423d.png"
+    },
+    {
+      "id": "club_0812d79b0d44bdc1d23f45e1",
+      "provider_id": 1081,
+      "name": "Preston North End FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/1081.png",
+      "crest": "crests/afe91fb0dcbab2a09c341b4b0e13e955.png",
+      "theme_colors": {
+        "primary": "#2C3C84",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.22,
+          "y": 0.42,
+          "width": 0.56,
+          "height": 0.37,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/125bb0529c1aa08cfb9bab8c0195b24e.png"
+    },
+    {
+      "id": "club_32db59bf0bd15ca2adff8773",
+      "provider_id": 69,
+      "name": "Queens Park Rangers FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/69.png",
+      "crest": "crests/15c14277ba479a99798d80334f4e6917.png",
+      "theme_colors": {
+        "primary": "#1C5CA4",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.04,
+          "width": 0.7,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.0,
+              "y": 0.15
+            },
+            {
+              "x": 0.26,
+              "y": 0.15
+            },
+            {
+              "x": 0.26,
+              "y": 0.79
+            },
+            {
+              "x": 0.0,
+              "y": 0.79
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.74,
+              "y": 0.15
+            },
+            {
+              "x": 1.0,
+              "y": 0.15
+            },
+            {
+              "x": 1.0,
+              "y": 0.79
+            },
+            {
+              "x": 0.74,
+              "y": 0.79
+            }
+          ]
+        },
+        {
+          "x": 0.27,
+          "y": 0.27,
+          "width": 0.46,
+          "height": 0.5,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.84,
+          "width": 0.32,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/187cf92e80ba5c3681f1ca8a7f590646.png"
+    },
+    {
+      "id": "club_e0e282bc2c6e063f70251d0d",
+      "provider_id": 356,
+      "name": "Sheffield United FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/356.png",
+      "crest": "crests/624d29c630a0efd6e39ab7121a55a191.png",
+      "theme_colors": {
+        "primary": "#241C1C",
+        "secondary": "#FCFCFC"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.02,
+          "y": 0.02,
+          "width": 0.96,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.0,
+              "y": 0.17
+            },
+            {
+              "x": 0.25,
+              "y": 0.17
+            },
+            {
+              "x": 0.25,
+              "y": 0.65
+            },
+            {
+              "x": 0.0,
+              "y": 0.65
+            }
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.75,
+              "y": 0.17
+            },
+            {
+              "x": 1.0,
+              "y": 0.17
+            },
+            {
+              "x": 1.0,
+              "y": 0.65
+            },
+            {
+              "x": 0.75,
+              "y": 0.65
+            }
+          ]
+        },
+        {
+          "x": 0.34,
+          "y": 0.82,
+          "width": 0.32,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/22a55d114f3bff1298ee16e976f010bf.png"
+    },
+    {
+      "id": "club_fc40499515489a5369a91cca",
+      "provider_id": 340,
+      "name": "Southampton FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/340.png",
+      "crest": "crests/5499d25820dd6e29a6197fbebcc39608.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.02,
+              "y": 0.7
+            },
+            {
+              "x": 0.98,
+              "y": 0.7
+            },
+            {
+              "x": 0.98,
+              "y": 1.0
+            },
+            {
+              "x": 0.02,
+              "y": 1.0
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/d874b33acb186db657b51c191d021a79.png"
+    },
+    {
+      "id": "club_d1743e4e13ca606fb09014b0",
+      "provider_id": 70,
+      "name": "Stoke City FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/70.png",
+      "crest": "crests/3dc126887d0d42ddf5aecdc21f16addb.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#E43C3C"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.25,
+          "y": 0.06,
+          "width": 0.5,
+          "height": 0.26,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.68,
+          "width": 0.22,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.21,
+          "y": 0.79,
+          "width": 0.58,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/e09c91831c7eb7b5ba53bf9f8457af7a.png"
+    },
+    {
+      "id": "club_c783f2f696ec87b9d4d39abf",
+      "provider_id": 72,
+      "name": "Swansea City AFC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/72.png",
+      "crest": "crests/4941439023b45563109a3935bec8b2e8.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#549CD4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.21,
+          "y": 0.04,
+          "width": 0.58,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.05,
+          "y": 0.46,
+          "width": 0.15,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.8,
+          "y": 0.46,
+          "width": 0.15,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.26,
+          "y": 0.81,
+          "width": 0.48,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/1c5d5f868b521297c17eaf0f079a9cc6.png"
+    },
+    {
+      "id": "club_157559bfe95b3e37f7261a31",
+      "provider_id": 346,
+      "name": "Watford FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/346.png",
+      "crest": "crests/77e52dc0ed75d5f51ca90e6a3ad49672.png",
+      "theme_colors": {
+        "primary": "#040404",
+        "secondary": "#FCFC04"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.07,
+          "width": 0.7,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/841556ed1eb3fd6ce3c8c1a2bbda7439.png"
+    },
+    {
+      "id": "club_af80335518fb275ba8f40310",
+      "provider_id": 74,
+      "name": "West Bromwich Albion FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/74.png",
+      "crest": "crests/68709ccc2c5950a8414c74317d5b35d7.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#143474"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.08,
+          "y": 0.05,
+          "width": 0.84,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/df6aec0ab03a54cd082abc952a8ff016.png"
+    },
+    {
+      "id": "club_bb2e55b23062c911261803dd",
+      "provider_id": 563,
+      "name": "West Ham United FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/563.png",
+      "crest": "crests/f258ce828c1def3b1938055523dcc774.png",
+      "theme_colors": {
+        "primary": "#7C2C3C",
+        "secondary": "#2CACE4"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.07,
+          "width": 0.66,
+          "height": 0.24,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.79,
+          "width": 0.32,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "covered_crest": "covered-crests/6a65503247ec46deb27ace5f54691e8f.png"
+    },
+    {
+      "id": "club_96e3ced9bd41f9c7e6d5012a",
+      "provider_id": 76,
+      "name": "Wolverhampton Wanderers FC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/76.png",
+      "crest": "crests/84fb81cadb946e600d47aba84b4eb833.png",
+      "theme_colors": {
+        "primary": "#F4AC04",
+        "secondary": "#040404"
+      },
+      "cover_status": "not_required",
+      "cover_regions": [],
+      "covered_crest": "covered-crests/4152ed07929623fe5ae11f11d340ac9e.png"
+    },
+    {
+      "id": "club_60c08f30520aee55572aff69",
+      "provider_id": 404,
+      "name": "Wrexham AFC",
+      "scope": "championship",
+      "league": "Championship",
+      "season": "2026/2027",
+      "source_url": "https://crests.football-data.org/404.png",
+      "crest": "crests/b0d443c811be89150a6258ba757b5708.png",
+      "theme_colors": {
+        "primary": "#FCFCFC",
+        "secondary": "#040404"
+      },
+      "cover_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {
+              "x": 0.02,
+              "y": 0.68
+            },
+            {
+              "x": 0.98,
+              "y": 0.68
+            },
+            {
+              "x": 0.98,
+              "y": 1.0
+            },
+            {
+              "x": 0.02,
+              "y": 1.0
+            }
+          ]
+        }
+      ],
+      "covered_crest": "covered-crests/3c7585912264d8536c370e83c155a7da.png"
     },
     {
       "id": "club_7253de52cc10ce915213cf8b",

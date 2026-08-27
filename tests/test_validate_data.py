@@ -122,8 +122,8 @@ def test_requires_exact_supported_competition_set(tmp_path: Path) -> None:
 
     errors = validate_data(manifest_path)
 
-    assert any("exactly 7 entries" in error for error in errors)
-    assert any("missing competition scope: eredivisie" in error for error in errors)
+    assert any("exactly 8 entries" in error for error in errors)
+    assert any("missing competition scope: championship" in error for error in errors)
     assert any("has no matching competition" in error for error in errors)
 
 

@@ -1,19 +1,19 @@
 # Crest Quest
 
-Crest Quest is a server-authoritative football crest guessing game built with React, Vite, FastAPI, SQLite, and packaged football data. Players choose one of seven leagues—or All Leagues—and a 30, 60, or 90-second round.
+Crest Quest is a server-authoritative football crest guessing game built with React, Vite, FastAPI, SQLite, and packaged football data. Players choose one of eight leagues—or All Leagues—and a 30, 60, or 90-second round.
 
 The original implementation plan is in [`writing-block.md`](writing-block.md).
 
 ## Features
 
-- Seven supported leagues plus All Leagues
+- Eight supported leagues plus All Leagues
 - 30, 60, and 90-second server-controlled rounds
 - Four opaque answer choices with wrong-answer removal
 - 3/2/1/0 attempt scoring, first-attempt streaks, repeated clean-three bonuses, and flawless 2× rounds
 - No target repetition until the selected target pool is exhausted
 - Opaque question and answer tokens; correct answers and provider IDs remain server-side
 - Covered and original crest assets served statefully through `/api/questions/{opaque_token}/crest`
-- 24 independent persistent top-10 leaderboards
+- 27 independent persistent top-10 leaderboards
 - Retryable failed leaderboard submissions
 - Responsive phone, tablet, and desktop UI
 - Keyboard answers, screen-reader announcements, reduced-motion support, and optional sound/haptics
@@ -57,7 +57,7 @@ make validate-data
 The importer:
 
 1. Retrieves the football-data.org competition catalogue.
-2. Verifies all seven competition codes against the accessible live catalogue.
+2. Verifies all eight competition codes against the accessible live catalogue.
 3. Retrieves each competition's current season and current teams.
 4. Downloads or reuses cached source crests.
 5. Centers each crest on a transparent 256×256 RGBA PNG without stretching it.
@@ -112,7 +112,7 @@ npm run test:e2e:webkit --prefix frontend
 npm run build --prefix frontend
 ```
 
-The suite covers scoring, streaks, bonuses, expiry, target/distractor selection, importer retries and resumability, asset validation, API answer-leak prevention, token reuse, all 24 leaderboard partitions, ranking tie-breakers, SQLite persistence, failed writes, keyboard behavior, accessibility, and responsive viewport smoke tests.
+The suite covers scoring, streaks, bonuses, expiry, target/distractor selection, importer retries and resumability, asset validation, API answer-leak prevention, token reuse, all 27 leaderboard partitions, ranking tie-breakers, SQLite persistence, failed writes, keyboard behavior, accessibility, and responsive viewport smoke tests.
 
 The Playwright suite uses WebKit with touch input and checks the complete active-round layout at the supported iPad and iPhone viewport matrix. Install its browser runtime once with `npm exec --prefix frontend playwright install webkit`. Browser-test screenshots are written to `var/screenshots/responsive/`.
 

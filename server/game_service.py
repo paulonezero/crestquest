@@ -173,8 +173,8 @@ class GameService:
                 }
                 if set(competitions) != set(SUPPORTED_COMPETITIONS):
                     raise ClubDataError(
-                        "The catalog must contain exactly the seven supported "
-                        "competitions."
+                        "The catalog must contain exactly "
+                        f"{len(SUPPORTED_COMPETITIONS)} supported competitions."
                     )
                 for scope, (
                     expected_name,

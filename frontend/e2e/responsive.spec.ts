@@ -28,7 +28,7 @@ const SCREENSHOT_VIEWPORTS = new Map([
   ['844x390', 'iphone-landscape'],
 ])
 
-const scopes = ['all', 'premier-league', 'bundesliga', 'la-liga', 'primeira-liga', 'ligue-1', 'serie-a', 'eredivisie']
+const scopes = ['all', 'premier-league', 'bundesliga', 'la-liga', 'primeira-liga', 'ligue-1', 'serie-a', 'eredivisie', 'championship']
 const durations = [30, 60, 90]
 const service = { status: 'ready', data_ready: true, leaderboard_ready: true, detail: null }
 
@@ -418,18 +418,22 @@ async function assertActiveLayout(page: Page, viewport: Viewport, answerNames: s
   expect(imageLoaded, `${viewportKey(viewport)}: crest mock should decode`).toBe(true)
 }
 
-async function assertRevealLayout(page: Page, viewport: Viewport) {
-  await assertNoPageOverflow(page, viewport, 'correct reveal')
-  await assertInsideViewport(page.getByRole('progressbar', { name: 'Round time remaining' }), viewport, 'timer during reveal')
-  await assertInsideViewport(page.getByRole('img', { name: 'Barcelona crest' }), viewport, 'revealed crest')
-  await assertInsideViewport(page.locator('[aria-label="Round statistics"]'), viewport, 'statistics during reveal')
-  await assertInsideViewport(page.getByRole('heading', { name: 'Barcelona', exact: true }), viewport, 'correct club heading')
-  await assertInsideViewport(page.getByText('+125', { exact: true }), viewport, 'points awarded')
-  const continueBox = await assertInsideViewport(page.getByRole('button', { name: /Continu/ }), viewport, 'continue target')
-  if (continueBox.width < 44 || continueBox.height < 44) {
-    throw new Error(`${viewportKey(viewport)}: Continue target is smaller than 44x44: ${JSON.stringify(continueBox)}`)
+async function assertCorrectFeedbackLayout(page: Page, viewport: Viewport) {
+  await assertNoPageOverflow(page, viewport, 'correct feedback')
+  await assertInsideViewport(page.getByRole('progressbar', { name: 'Round time remaining' }), viewport, 'timer during correct feedback')
+  await assertInsideViewport(page.getByRole('img', { name: 'Mystery football club crest' }), viewport, 'next covered crest')
+  await assertInsideViewport(page.locator('[aria-label="Round statistics"]'), viewport, 'statistics during correct feedback')
+  await assertInsideViewport(page.getByRole('heading', { name: 'Which club is this?' }), viewport, 'next question heading')
+  await assertInsideViewport(page.getByText('Correct: Barcelona', { exact: true }), viewport, 'correct club feedback')
+  await assertInsideViewport(page.getByText(/\+125 points/), viewport, 'points breakdown')
+  await assertInsideViewport(page.getByRole('img', { name: 'Barcelona revealed crest' }), viewport, 'previous revealed crest')
+  await assertInsideViewport(page.locator('[aria-label="Previous correct answer: Barcelona, 125 points"]'), viewport, 'previous answer card')
+  await assertInsideViewport(page.getByText('+125', { exact: true }), viewport, 'previous answer score')
+  const retryBox = await assertInsideViewport(page.getByRole('button', { name: 'Retry next crest' }), viewport, 'advance retry target')
+  if (retryBox.width < 44 || retryBox.height < 44) {
+    throw new Error(`${viewportKey(viewport)}: Advance retry target is smaller than 44x44: ${JSON.stringify(retryBox)}`)
   }
-}
+} 
 
 test.beforeAll(async () => {
   await mkdir(SCREENSHOT_DIR, { recursive: true })
@@ -468,16 +472,14 @@ for (const viewport of VIEWPORTS) {
       if (screenshotDevice) await screenshot(page, screenshotDevice, 'wrong-answer')
 
       await page.getByRole('button', { name: 'Barcelona', exact: true }).tap()
-      await expect(page.getByRole('heading', { name: 'Barcelona', exact: true })).toBeVisible()
-      await assertRevealLayout(page, viewport)
+      await expect.poll(() => api.counters.advanceRequests).toBe(1)
+      await assertCorrectFeedbackLayout(page, viewport)
 
       if (screenshotDevice) {
-        await expect.poll(() => api.counters.advanceRequests).toBe(1)
-        await expect(page.getByRole('button', { name: 'Continue' })).toBeEnabled()
-        await screenshot(page, screenshotDevice, 'correct-reveal')
+        await screenshot(page, screenshotDevice, 'correct-feedback')
 
         api.allowAdvance({ expireSoon: true })
-        await page.getByRole('button', { name: 'Continue' }).tap()
+        await page.getByRole('button', { name: 'Retry next crest' }).tap()
         await expect(page.getByRole('button', { name: 'Ajax', exact: true })).toBeVisible()
         await expect(page.getByRole('heading', { name: 'Quest complete.' }), 'timer expiry should route to the result').toBeVisible({ timeout: 5_000 })
         await assertNoHorizontalOverflow(page, viewport, 'result')

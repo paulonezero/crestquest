@@ -4,7 +4,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App, { shouldAcceptRound } from './App'
 import type { ActiveRound, ExpiredRound, GameState } from './api'
 
-const scopes = ['all', 'premier-league', 'bundesliga', 'la-liga', 'primeira-liga', 'ligue-1', 'serie-a', 'eredivisie']
+const scopes = ['all', 'premier-league', 'bundesliga', 'la-liga', 'primeira-liga', 'ligue-1', 'serie-a', 'eredivisie', 'championship']
 const durations = [30, 60, 90]
 const readyService = { status: 'ready' as const, data_ready: true, leaderboard_ready: true, detail: null }
 
@@ -122,8 +122,9 @@ describe('Crest Quest frontend', () => {
     await user.click(screen.getByRole('button', { name: /continue/i }))
 
     expect(await screen.findByRole('heading', { name: 'Welcome, Arden.' })).toBeInTheDocument()
-    expect(screen.getAllByRole('radio')).toHaveLength(11)
+    expect(screen.getAllByRole('radio')).toHaveLength(12)
     expect(screen.getByRole('radio', { name: 'Eredivisie' })).toBeInTheDocument()
+    expect(screen.getByRole('radio', { name: 'Championship' })).toBeInTheDocument()
     expect(screen.getByRole('radio', { name: /90 seconds/i })).toBeInTheDocument()
     expect(fetchMock).toHaveBeenLastCalledWith('/api/player', expect.objectContaining({
       method: 'PUT',
@@ -227,7 +228,7 @@ describe('Crest Quest frontend', () => {
     })))
   })
 
-  it('keeps the old crest visible for correct feedback, then advances', async () => {
+  it('shows correct feedback without delaying the next question', async () => {
     const user = userEvent.setup()
     const initial = activeRound()
     const nextQuestion = question('question-next', 2)
@@ -262,20 +263,22 @@ describe('Crest Quest frontend', () => {
     expect(coveredCrest).toHaveAttribute('height', '256')
     await user.click(screen.getByRole('button', { name: 'Arsenal' }))
 
-    expect(await screen.findByRole('heading', { name: 'Arsenal' })).toBeInTheDocument()
-    const revealedCrest = screen.getByRole('img', { name: 'Arsenal crest' })
-    expect(revealedCrest).toHaveAttribute(
-      'src',
-      '/api/questions/question-old/crest?reveal=1',
-    )
-    expect(revealedCrest).toHaveAttribute('width', '256')
-    expect(revealedCrest).toHaveAttribute('height', '256')
-    expect(screen.getByText('+125')).toBeInTheDocument()
+    expect(await screen.findByText('Correct: Arsenal', { exact: true })).toBeInTheDocument()
+    expect(screen.getByText(/\+125 points/)).toBeInTheDocument()
 
     await waitFor(() => expect(fetchMock).toHaveBeenLastCalledWith('/api/round/advance', expect.objectContaining({
       body: JSON.stringify({ advance_token: 'advance-1' }),
-    })), { timeout: 1400 })
-    expect(await screen.findByRole('button', { name: 'Chelsea' })).toBeInTheDocument()
+    })))
+    const nextCrest = screen.getByRole('img', { name: 'Mystery football club crest' })
+    expect(nextCrest).toHaveAttribute('src', '/api/questions/question-next/crest')
+    expect(nextCrest).toHaveAttribute('width', '256')
+    expect(nextCrest).toHaveAttribute('height', '256')
+    const revealedCrest = screen.getByRole('img', { name: 'Arsenal revealed crest' })
+    expect(revealedCrest).toHaveAttribute('src', '/api/questions/question-old/crest?reveal=3')
+    expect(screen.getByLabelText('Previous correct answer: Arsenal, 125 points')).toBeInTheDocument()
+    expect(screen.getByText('+125', { exact: true })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Chelsea' })).toBeEnabled()
+    expect(screen.getByText('Correct: Arsenal', { exact: true })).toBeInTheDocument()
   })
 
   it('recovers awaiting-advance state with its required advance token', async () => {
@@ -290,7 +293,8 @@ describe('Crest Quest frontend', () => {
 
     render(<App />)
 
-    expect(await screen.findByRole('heading', { name: 'Arsenal' })).toBeInTheDocument()
+    expect(await screen.findByRole('img', { name: 'Mystery football club crest' })).toHaveAttribute('src', '/api/questions/question-old/crest')
+    expect(screen.queryByRole('img', { name: 'Arsenal crest' })).not.toBeInTheDocument()
     await waitFor(() => expect(fetchMock).toHaveBeenLastCalledWith('/api/round/advance', expect.objectContaining({
       body: JSON.stringify({ advance_token: 'recovered-advance' }),
     })), { timeout: 1400 })
@@ -401,7 +405,6 @@ describe('Crest Quest frontend', () => {
 
     render(<App />)
     fireEvent.click(await screen.findByRole('button', { name: 'Arsenal' }))
-    fireEvent.click(await screen.findByRole('button', { name: 'Continue' }))
     await waitFor(() => {
       expect(fetchMock.mock.calls.some(([url]) => url === '/api/round/expire')).toBe(true)
       expect(fetchMock.mock.calls.some(([url]) => url === '/api/round/advance')).toBe(true)

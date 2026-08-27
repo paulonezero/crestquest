@@ -326,13 +326,13 @@ Add automated tests for:
 
 The implementation is complete when:
 
-- All seven supported leagues contain their current clubs and valid crests.
+- All eight supported leagues contain their current clubs and valid crests.
 - Players can select All Leagues or one league.
 - Players can select 30, 60 or 90 seconds.
 - Every question displays one crest and four answers.
 - All scoring and bonus rules work correctly.
 - Correct answers cannot be discovered from the pre-answer API response.
-- All 24 leaderboards work independently.
+- All 27 leaderboards work independently.
 - Leaderboard data survives a deployment restart.
 - The game works well on phone, tablet and desktop.
 - The football-data.org API key remains server-side and secret.

@@ -101,6 +101,13 @@ COMPETITION_SPECS = (
         "Netherlands",
         ("Eredivisie",),
     ),
+    CompetitionSpec(
+        "championship",
+        "Championship",
+        "ELC",
+        "England",
+        ("Championship",),
+    ),
 )
 
 

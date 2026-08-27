@@ -7,6 +7,7 @@ const SCOPE_NAMES: Record<string, string> = {
   'ligue-1': 'Ligue 1',
   'serie-a': 'Serie A',
   eredivisie: 'Eredivisie',
+  championship: 'Championship',
 }
 
 export function scopeName(scope: string): string {

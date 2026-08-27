@@ -3529,6 +3529,595 @@
       "reviewed_crest_sha256": "5fe063c8cd5d84a899d00b493cf8ae2e5dee0219cd2bf37cb38022de49e99114",
       "coverage_confidence": "high",
       "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 59,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.03,
+          "y": 0.04,
+          "width": 0.94,
+          "height": 0.3,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.01,
+          "y": 0.22,
+          "width": 0.22,
+          "height": 0.6,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.77,
+          "y": 0.22,
+          "width": 0.22,
+          "height": 0.6,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.01,
+          "y": 0.62,
+          "width": 0.25,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.74,
+          "y": 0.62,
+          "width": 0.25,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.02,
+          "y": 0.87,
+          "width": 0.96,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "058875274d8f84f50cc6f3dd69d121090ee8c9f397d74b309bb339e70d0fdc24",
+      "coverage_confidence": "medium",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 60,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.08,
+          "y": 0.02,
+          "width": 0.84,
+          "height": 0.7,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "fbbd6f9275fda9ebf82d1b07ad70f239807f223a1add582cce62c323e4a64476",
+      "coverage_confidence": "low",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 68,
+      "review_status": "not_required",
+      "cover_regions": [],
+      "reviewed_crest_sha256": "8796f6ec11642dca85099a12edfbbddb5b05214e79b503c65bfa61bc80431310",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 69,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.04,
+          "width": 0.7,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {"x": 0.0, "y": 0.15},
+            {"x": 0.26, "y": 0.15},
+            {"x": 0.26, "y": 0.79},
+            {"x": 0.0, "y": 0.79}
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {"x": 0.74, "y": 0.15},
+            {"x": 1.0, "y": 0.15},
+            {"x": 1.0, "y": 0.79},
+            {"x": 0.74, "y": 0.79}
+          ]
+        },
+        {
+          "x": 0.27,
+          "y": 0.27,
+          "width": 0.46,
+          "height": 0.5,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.84,
+          "width": 0.32,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "f8dc3b084caa87f3f79884a33c5f001e6e8d68ba1343987893c4eaa637443b29",
+      "coverage_confidence": "low",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 70,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.25,
+          "y": 0.06,
+          "width": 0.5,
+          "height": 0.26,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.68,
+          "width": 0.22,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.21,
+          "y": 0.79,
+          "width": 0.58,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "b1fa5390a7886dbf33eea877b19883a3a45492f5e7fb4744e4fb5e86e43731b0",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 72,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.21,
+          "y": 0.04,
+          "width": 0.58,
+          "height": 0.17,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.05,
+          "y": 0.46,
+          "width": 0.15,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.8,
+          "y": 0.46,
+          "width": 0.15,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.26,
+          "y": 0.81,
+          "width": 0.48,
+          "height": 0.15,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "1d3ef5d371f0ecea07434580db9ad1bfde54b8848db7c35f6036fb369e937bdb",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 74,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.08,
+          "y": 0.05,
+          "width": 0.84,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "cc4c7c45c9008822237f3a43b3525cfafdd27b2724331b9cc9135183ea3bd5d1",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 76,
+      "review_status": "not_required",
+      "cover_regions": [],
+      "reviewed_crest_sha256": "d1161ecc80c5cf21e6c16de757be8947a8a208a77d4af10241b896a16037a852",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 325,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.09,
+          "y": 0.14,
+          "width": 0.82,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.05,
+          "y": 0.64,
+          "width": 0.9,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.39,
+          "y": 0.55,
+          "width": 0.22,
+          "height": 0.11,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "d9d5a11b28de5918c573a40795df77377f7b7fe17d4053c10a79a27752075b0f",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 328,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.16,
+          "y": 0.68,
+          "width": 0.68,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "7e3c1664df91c5f5b7c07ee60342445935afac05fa55ce85671e03c9c0c12ea0",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 332,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.18,
+          "y": 0.03,
+          "width": 0.64,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.17,
+          "y": 0.38,
+          "width": 0.66,
+          "height": 0.18,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.69,
+          "width": 0.64,
+          "height": 0.21,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "d41996ac4535b26153607b45ff163fc78d29d25ce0fa51f5814087c711f6b11c",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 340,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {"x": 0.02, "y": 0.7},
+            {"x": 0.98, "y": 0.7},
+            {"x": 0.98, "y": 1.0},
+            {"x": 0.02, "y": 1.0}
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "7d4734176a63872889dffe31fd6a474d7c6efa5b4b14f2799b31f6290e908765",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 342,
+      "review_status": "not_required",
+      "cover_regions": [],
+      "reviewed_crest_sha256": "2418d194e78cdf267d778b270fc865f946ed2a4a39b3357657702cc397c9a5d4",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 343,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.12,
+          "y": 0.04,
+          "width": 0.76,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.0,
+          "y": 0.69,
+          "width": 0.48,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.52,
+          "y": 0.69,
+          "width": 0.48,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.84,
+          "width": 0.32,
+          "height": 0.14,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "e53a586c5526e27ec18c2be198eacfeb43af8541377d1e585f4e041040c3ea87",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 346,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.15,
+          "y": 0.07,
+          "width": 0.7,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "39bb87be2d5a678c4103dfad7a5dfce94e612464ebe35126930405bd633a64ef",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 348,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.18,
+          "y": 0.03,
+          "width": 0.64,
+          "height": 0.23,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.74,
+          "width": 0.64,
+          "height": 0.22,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "3a3ffb6a138d7d014b72c1420f5c9c7374480b6074eede85b62889d07f52c2d7",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 356,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.02,
+          "y": 0.02,
+          "width": 0.96,
+          "height": 0.32,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {"x": 0.0, "y": 0.17},
+            {"x": 0.25, "y": 0.17},
+            {"x": 0.25, "y": 0.65},
+            {"x": 0.0, "y": 0.65}
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {"x": 0.75, "y": 0.17},
+            {"x": 1.0, "y": 0.17},
+            {"x": 1.0, "y": 0.65},
+            {"x": 0.75, "y": 0.65}
+          ]
+        },
+        {
+          "x": 0.34,
+          "y": 0.82,
+          "width": 0.32,
+          "height": 0.16,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "48ec988440fe9d8fa0dc935b59c2d926367c98902073308be1e6812b23ac5e1d",
+      "coverage_confidence": "medium",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 384,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {"x": 0.03, "y": 0.19},
+            {"x": 0.28, "y": 0.04},
+            {"x": 0.42, "y": 0.18},
+            {"x": 0.19, "y": 0.55},
+            {"x": 0.02, "y": 0.58}
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {"x": 0.58, "y": 0.18},
+            {"x": 0.72, "y": 0.04},
+            {"x": 0.97, "y": 0.19},
+            {"x": 0.98, "y": 0.58},
+            {"x": 0.81, "y": 0.55}
+          ]
+        },
+        {
+          "shape": "polygon",
+          "points": [
+            {"x": 0.2, "y": 0.01},
+            {"x": 0.8, "y": 0.01},
+            {"x": 0.8, "y": 0.25},
+            {"x": 0.2, "y": 0.25}
+          ]
+        },
+        {
+          "x": 0.34,
+          "y": 0.85,
+          "width": 0.32,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "f55fdaf35464f8b5b4d479a0d08447d32d1bb22773480a586beb80f4a27f541c",
+      "coverage_confidence": "medium",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 387,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.13,
+          "y": 0.04,
+          "width": 0.74,
+          "height": 0.25,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.2,
+          "y": 0.74,
+          "width": 0.6,
+          "height": 0.2,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.18,
+          "y": 0.37,
+          "width": 0.18,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "2034c933499b6c51b404890c09ac7b931b14baba980e894d0c952c161b318693",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 404,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "shape": "polygon",
+          "points": [
+            {"x": 0.02, "y": 0.68},
+            {"x": 0.98, "y": 0.68},
+            {"x": 0.98, "y": 1.0},
+            {"x": 0.02, "y": 1.0}
+          ]
+        }
+      ],
+      "reviewed_crest_sha256": "7fb5d524a6232dec149d7758db15cd2ccb701b6b26329d6b437bfe163e26a617",
+      "coverage_confidence": "medium",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 563,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.17,
+          "y": 0.07,
+          "width": 0.66,
+          "height": 0.24,
+          "shape": "rounded_rectangle"
+        },
+        {
+          "x": 0.34,
+          "y": 0.79,
+          "width": 0.32,
+          "height": 0.13,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "1fedb6ca85a7235739f29305201643f737f663dad499add593ef9e1f2a2acb88",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 715,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.12,
+          "y": 0.13,
+          "width": 0.76,
+          "height": 0.27,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "b0edfc9fd3aa4ecb6edaaabc33a6619faac01dbf3cc5ac7ad3550f08fd36b943",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 1081,
+      "review_status": "covered",
+      "cover_regions": [
+        {
+          "x": 0.22,
+          "y": 0.42,
+          "width": 0.56,
+          "height": 0.37,
+          "shape": "rounded_rectangle"
+        }
+      ],
+      "reviewed_crest_sha256": "ab1ebfa8be073cf27a5d5acfd8454f7df3da74e678f53deed05ae06c6daa0ea2",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "provider_team_id": 1126,
+      "review_status": "not_required",
+      "cover_regions": [],
+      "reviewed_crest_sha256": "523a624c2addde4be4dab7baef8ad2d6d0b2caa9f8b46eb783124d1e7df8aac0",
+      "coverage_confidence": "high",
+      "reviewed_at": "2026-08-27"
     }
   ]
 }
