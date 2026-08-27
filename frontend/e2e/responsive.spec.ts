@@ -348,12 +348,18 @@ async function assertNoPageOverflow(page: Page, viewport: { width: number; heigh
     innerHeight: window.innerHeight,
     scrollX: window.scrollX,
     scrollY: window.scrollY,
+    documentScrollLeft: document.documentElement.scrollLeft,
+    documentScrollTop: document.documentElement.scrollTop,
+    bodyScrollLeft: document.body.scrollLeft,
+    bodyScrollTop: document.body.scrollTop,
     documentClientWidth: document.documentElement.clientWidth,
     documentClientHeight: document.documentElement.clientHeight,
     documentScrollWidth: document.documentElement.scrollWidth,
     documentScrollHeight: document.documentElement.scrollHeight,
     bodyScrollWidth: document.body.scrollWidth,
     bodyScrollHeight: document.body.scrollHeight,
+    appScrollLeft: document.querySelector('.app-shell')?.scrollLeft ?? 0,
+    appScrollTop: document.querySelector('.app-shell')?.scrollTop ?? 0,
     visualViewport: window.visualViewport ? {
       width: window.visualViewport.width,
       height: window.visualViewport.height,
@@ -371,6 +377,12 @@ async function assertNoPageOverflow(page: Page, viewport: { width: number; heigh
     || measurements.bodyScrollHeight > measurements.innerHeight
     || measurements.scrollX !== 0
     || measurements.scrollY !== 0
+    || measurements.documentScrollLeft !== 0
+    || measurements.documentScrollTop !== 0
+    || measurements.bodyScrollLeft !== 0
+    || measurements.bodyScrollTop !== 0
+    || measurements.appScrollLeft !== 0
+    || measurements.appScrollTop !== 0
     || (measurements.visualViewport !== null && (
       measurements.visualViewport.offsetLeft !== 0
       || measurements.visualViewport.offsetTop !== 0
@@ -509,6 +521,7 @@ test('first round resets setup scroll before locking the game viewport', async (
   await page.getByRole('button', { name: /Start quest/i }).tap()
 
   await expect(page.getByRole('heading', { name: 'Name that crest' })).toBeVisible()
+  await expect(page.locator('.app-shell--game')).toHaveCSS('overflow-x', 'clip')
   await assertActiveLayout(page, viewport, firstChoices.map((choice) => choice.name))
 })
 

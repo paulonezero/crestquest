@@ -177,11 +177,17 @@ describe('Crest Quest frontend', () => {
 
     await user.click(await screen.findByRole('radio', { name: 'Premier League' }))
     await user.click(screen.getByRole('radio', { name: /30 seconds/i }))
+    const appShell = document.querySelector<HTMLElement>('.app-shell')
+    if (!appShell) throw new Error('App shell was not rendered')
+    appShell.scrollLeft = 36
+    appShell.scrollTop = 423
     await user.click(screen.getByRole('button', { name: /start quest/i }))
 
     expect(await screen.findByRole('heading', { name: 'Name that crest' })).toBeInTheDocument()
     expect(screen.getByRole('img', { name: 'Mystery football club crest' })).toHaveAttribute('src', '/api/questions/question-old/crest')
     expect(window.scrollTo).toHaveBeenCalledWith(0, 0)
+    expect(appShell.scrollLeft).toBe(0)
+    expect(appShell.scrollTop).toBe(0)
     expect(fetchMock).toHaveBeenLastCalledWith('/api/round/start', expect.objectContaining({
       method: 'POST',
       body: JSON.stringify({ scope: 'premier-league', duration: 30 }),

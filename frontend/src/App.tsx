@@ -39,10 +39,14 @@ function isAbortError(error: unknown): boolean {
   return error instanceof Error && error.name === 'AbortError'
 }
 
-function resetPageScroll() {
+function resetPageScroll(container?: HTMLElement | null) {
   window.scrollTo(0, 0)
   document.documentElement.scrollTop = 0
   document.body.scrollTop = 0
+  if (container) {
+    container.scrollLeft = 0
+    container.scrollTop = 0
+  }
 }
 
 type RoundSource = 'action' | 'snapshot' | 'start'
@@ -65,6 +69,7 @@ export default function App() {
   const [usernameInitial, setUsernameInitial] = useState('')
   const roundRef = useRef<GameRound | null>(null)
   const stateRef = useRef<GameState | null>(null)
+  const appShellRef = useRef<HTMLDivElement>(null)
 
   const routeAcceptedState = useCallback((next: GameState, autoOpenLeaderboard = true) => {
     if (next.service.status === 'setup-required') {
@@ -132,7 +137,7 @@ export default function App() {
   async function beginRound(scope: string, duration: number) {
     const round = await startRound(scope, duration)
     if (document.activeElement instanceof HTMLElement) document.activeElement.blur()
-    resetPageScroll()
+    resetPageScroll(appShellRef.current)
     updateRound(round, 'start')
   }
 
@@ -203,13 +208,13 @@ export default function App() {
   const isGame = view.kind === 'active'
 
   useLayoutEffect(() => {
-    if (isGame) resetPageScroll()
+    if (isGame) resetPageScroll(appShellRef.current)
     document.body.classList.toggle('is-playing', isGame)
     return () => document.body.classList.remove('is-playing')
   }, [isGame])
 
   return (
-    <div className={`app-shell${isGame ? ' app-shell--game' : ''}`}>
+    <div ref={appShellRef} className={`app-shell${isGame ? ' app-shell--game' : ''}`}>
       <div className="ambient ambient--one" aria-hidden="true" />
       <div className="ambient ambient--two" aria-hidden="true" />
 
